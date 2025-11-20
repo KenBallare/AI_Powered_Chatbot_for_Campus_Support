@@ -1,0 +1,11 @@
+{
+  "name": "PvBuddy",
+  "description": "AI-Powered Chatbot for Campus Support",
+  "version": "2.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "PvBuddy2.0.png"
+  }
+}
