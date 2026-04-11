@@ -1,0 +1,1820 @@
+[
+  {
+    "intent": "class_registration_overview",
+    "question": "How do I register for classes at PVAMU?",
+    "answer": "You register for classes through PantherTracks. Log in via PVPlace, open PantherTracks, and go to the Registration section to search for and add courses to your schedule.",
+    "tags": ["academics", "classes", "registration", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "add_drop_classes",
+    "question": "How do I add or drop a class?",
+    "answer": "You can add or drop classes in PantherTracks during the registration and add/drop periods. After logging in, go to the Registration menu, select the appropriate term, and use the Add/Drop Classes option to update your schedule.",
+    "tags": ["academics", "add", "drop", "classes", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "class_schedule_view",
+    "question": "Where can I see my class schedule?",
+    "answer": "You can view your class schedule in PantherTracks under the Student tab. Once you select the current term, your enrolled courses, meeting times, and locations will be displayed.",
+    "tags": ["academics", "schedule", "classes", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_calendar",
+    "question": "Where can I find the academic calendar?",
+    "answer": "The academic calendar is available on the PVAMU website under the Office of the Registrar section. It lists important dates such as the start and end of classes, holidays, and add/drop and withdrawal deadlines.",
+    "tags": ["academics", "calendar", "registrar", "dates"],
+    "embedding": []
+  },
+  {
+    "intent": "degree_plan_information",
+    "question": "How do I see my degree plan?",
+    "answer": "You can review your degree plan in PantherTracks using the Degree Evaluation or Degree Works tools, if available for your program. Your academic advisor can also help you interpret your degree plan and choose appropriate courses.",
+    "tags": ["academics", "degree plan", "panthertracks", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "full_time_status",
+    "question": "How many hours do I need to be considered full-time?",
+    "answer": "For most undergraduate students at PVAMU, full-time status is 12 or more credit hours in a fall or spring semester. Graduate students typically need at least 9 credit hours, but you should confirm with your program or the Office of the Registrar.",
+    "tags": ["academics", "full-time", "credit hours", "registrar"],
+    "embedding": []
+  },
+  {
+    "intent": "gpa_calculation",
+    "question": "How is my GPA calculated?",
+    "answer": "Your GPA at PVAMU is calculated by dividing the total number of quality points earned by the total number of GPA credit hours attempted. Each letter grade corresponds to a specific number of quality points per credit hour, as outlined in the university catalog.",
+    "tags": ["academics", "gpa", "grades", "catalog"],
+    "embedding": []
+  },
+  {
+    "intent": "repeat_course_policy",
+    "question": "Can I repeat a course to improve my grade?",
+    "answer": "PVAMU allows students to repeat certain courses, but there are limits on how how many times a course can be repeated and how it affects your GPA. You should review the course repeat policy in the university catalog and consult with your academic advisor before repeating a class.",
+    "tags": ["academics", "repeat", "grades", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_probation",
+    "question": "What happens if I am placed on academic probation?",
+    "answer": "If you are placed on academic probation at PVAMU, it means your GPA has fallen below the minimum required standard. You may be limited in the number of hours you can take and will be expected to improve your academic performance; details are outlined in the university catalog and you should meet with your advisor.",
+    "tags": ["academics", "probation", "gpa", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_suspension",
+    "question": "What is academic suspension?",
+    "answer": "Academic suspension occurs when a student does not meet the conditions of academic probation or falls significantly below the required GPA. Suspended students may be required to sit out for a term or more, and must follow PVAMU’s reinstatement procedures to return.",
+    "tags": ["academics", "suspension", "gpa", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "tutoring_services",
+    "question": "Does PVAMU offer tutoring for classes?",
+    "answer": "Yes, PVAMU offers tutoring through various academic support centers, such as the Academic Support Center and department-based tutoring labs. These services provide help in subjects like math, science, writing, and more at no additional cost to students.",
+    "tags": ["academics", "tutoring", "support", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "online_classes_info",
+    "question": "How do online classes work at PVAMU?",
+    "answer": "Online classes at PVAMU are typically delivered through Canvas. Instructors post lectures, assignments, quizzes, and announcements there, and you are expected to log in regularly, participate in discussions, and submit work by the posted deadlines.",
+    "tags": ["academics", "online", "canvas", "courses"],
+    "embedding": []
+  },
+  {
+    "intent": "canvas_access",
+    "question": "How do I access my courses in Canvas?",
+    "answer": "You can access Canvas by logging into PVPlace and selecting the Canvas link, or by going directly to the Canvas login page and using your PVAMU credentials. Once logged in, your current courses will appear on your dashboard.",
+    "tags": ["academics", "canvas", "pvplace", "online"],
+    "embedding": []
+  },
+  {
+    "intent": "class_attendance_policy",
+    "question": "What is the attendance policy for classes?",
+    "answer": "Attendance policies at PVAMU may vary by instructor and course, but regular attendance is generally expected. Many instructors include attendance and participation as part of your grade, and excessive absences can negatively affect your performance.",
+    "tags": ["academics", "attendance", "policy", "classes"],
+    "embedding": []
+  },
+  {
+    "intent": "syllabus_access",
+    "question": "Where can I find the syllabus for my class?",
+    "answer": "Most instructors post the course syllabus in Canvas under the Syllabus or Files section. If you do not see it, you can email your instructor or check your PVAMU email for any attachments sent at the beginning of the term.",
+    "tags": ["academics", "syllabus", "canvas", "courses"],
+    "embedding": []
+  },
+  {
+    "intent": "major_change_process",
+    "question": "How do I change my major?",
+    "answer": "To change your major at PVAMU, you typically need to meet with an academic advisor in the department you wish to join and complete a change-of-major form. The request must be approved and processed by the Office of the Registrar before it becomes official.",
+    "tags": ["academics", "major", "change", "registrar", "advising"],
+    "embedding": []
+  },
+  {
+    "intent": "minor_declaration",
+    "question": "How do I declare a minor?",
+    "answer": "You can declare a minor by consulting with your academic advisor and the department offering the minor. They will help you complete any required forms and ensure the minor is added to your academic record through the Office of the Registrar.",
+    "tags": ["academics", "minor", "advisor", "registrar"],
+    "embedding": []
+  },
+  {
+    "intent": "withdraw_from_course",
+    "question": "How do I withdraw from a course?",
+    "answer": "To withdraw from a course, you must follow PVAMU’s official withdrawal process, which usually involves submitting a withdrawal request through PantherTracks or the Office of the Registrar. Be sure to check the withdrawal deadline and talk with your advisor and financial aid, as withdrawing can affect your progress and aid eligibility.",
+    "tags": ["academics", "withdraw", "registrar", "financial aid"],
+    "embedding": []
+  },
+  {
+    "intent": "final_exam_schedule",
+    "question": "Where can I find the final exam schedule?",
+    "answer": "The final exam schedule is typically posted by the Office of the Registrar on the PVAMU website. Some instructors may also share specific exam dates and times in the syllabus or in Canvas.",
+    "tags": ["academics", "final exams", "registrar", "schedule"],
+    "embedding": []
+  },
+  {
+    "intent": "transcript_request_academics",
+    "question": "How do I request an official transcript?",
+    "answer": "You can request an official transcript through the Office of the Registrar, often via an online request system linked from the PVAMU website. There may be a processing fee, and you can choose to have the transcript sent electronically or by mail.",
+    "tags": ["academics", "transcript", "registrar", "records"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "find_academic_advisor",
+    "question": "How do I find out who my academic advisor is?",
+    "answer": "You can usually see your assigned academic advisor in PantherTracks or PVPlace under your student information. If it is not listed, contact your department office or the University College advising center for assistance.",
+    "tags": ["advising", "advisor", "panthertracks", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "schedule_advising_appointment",
+    "question": "How do I schedule an appointment with my advisor?",
+    "answer": "Many PVAMU advisors use online scheduling tools or email to set up appointments. Check your department’s website or contact your advisor directly via PVAMU email to request a meeting time.",
+    "tags": ["advising", "appointment", "advisor", "email"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_required_before_registration",
+    "question": "Do I need to see my advisor before I can register for classes?",
+    "answer": "Some programs at PVAMU require students to meet with an advisor before registering, especially new students or those on academic probation. If you have an advising hold, you must complete an advising session before the hold is removed.",
+    "tags": ["advising", "registration", "hold", "probation"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_hold_explanation",
+    "question": "What is an advising hold and how do I remove it?",
+    "answer": "An advising hold is placed on your account when you are required to meet with an academic advisor before registering for classes. To remove it, schedule and complete an advising session; your advisor will then release the hold in the system.",
+    "tags": ["advising", "hold", "registration", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "graduation_check_advising",
+    "question": "How do I know if I am on track to graduate?",
+    "answer": "Your academic advisor can review your degree plan and completed coursework to confirm your progress toward graduation. You can also use degree evaluation tools in PantherTracks to see which requirements you have met and which are still outstanding.",
+    "tags": ["advising", "graduation", "degree plan", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "change_major_with_advisor",
+    "question": "Should I talk to my advisor before changing my major?",
+    "answer": "Yes, it is strongly recommended that you meet with your current advisor and an advisor in the new department before changing your major. They can explain how the change will affect your graduation timeline, financial aid, and course planning.",
+    "tags": ["advising", "major change", "advisor", "planning"],
+    "embedding": []
+  },
+  {
+    "intent": "undeclared_student_advising",
+    "question": "Who advises undeclared or undecided students?",
+    "answer": "Undeclared or undecided students at PVAMU are often advised through University College or a central advising office. You can check the PVAMU website or contact the advising center to find out who is assigned to you.",
+    "tags": ["advising", "undeclared", "university college", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "transfer_credit_advising",
+    "question": "Who can help me understand how my transfer credits apply?",
+    "answer": "Your academic advisor and the Office of the Registrar can help you understand how transfer credits are evaluated and applied to your degree plan. Bring your unofficial or official transcripts so they can review your coursework in detail.",
+    "tags": ["advising", "transfer", "credits", "registrar"],
+    "embedding": []
+  },
+  {
+    "intent": "probation_advising_meeting",
+    "question": "Do I have to meet with an advisor if I am on academic probation?",
+    "answer": "Students on academic probation are usually required to meet with an advisor to create a plan for improving their academic performance. This meeting may be necessary to remove holds and to ensure you are enrolling in appropriate courses.",
+    "tags": ["advising", "probation", "hold", "plan"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_for_new_students",
+    "question": "Do new students have to attend advising before their first semester?",
+    "answer": "New PVAMU students typically participate in orientation and advising sessions before their first semester. During these sessions, advisors help you select courses, understand degree requirements, and get familiar with PantherTracks and PVPlace.",
+    "tags": ["advising", "new students", "orientation", "registration"],
+    "embedding": []
+  },
+  {
+    "intent": "preprofessional_advising",
+    "question": "Is there advising for pre-med, pre-law, or other pre-professional tracks?",
+    "answer": "Yes, PVAMU offers specialized advising for some pre-professional tracks such as pre-med and pre-law. You can ask your primary advisor or check the PVAMU website for information on designated pre-professional advisors and resources.",
+    "tags": ["advising", "pre-med", "pre-law", "pre-professional"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_for_online_students",
+    "question": "How do online or distance students get advising?",
+    "answer": "Online and distance students can usually meet with advisors via email, phone, or virtual appointments. Check your department’s advising page or contact the advising office to learn how to schedule remote advising sessions.",
+    "tags": ["advising", "online", "distance", "virtual"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_before_withdrawal",
+    "question": "Should I talk to an advisor before withdrawing from a class?",
+    "answer": "Yes, it is a good idea to speak with your advisor before withdrawing from a class. They can explain how the withdrawal may affect your degree progress, financial aid, and any prerequisites for future courses.",
+    "tags": ["advising", "withdraw", "classes", "financial aid"],
+    "embedding": []
+  },
+  {
+    "intent": "career_planning_with_advisor",
+    "question": "Can my academic advisor help with career planning?",
+    "answer": "Academic advisors can help you understand how your major connects to different career paths and may refer you to the PVAMU Career Services office for more specialized career counseling, resume help, and internship opportunities.",
+    "tags": ["advising", "career", "planning", "career services"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_email_response_time",
+    "question": "How long does it usually take for an advisor to respond to email?",
+    "answer": "Response times can vary, but many advisors aim to reply within a few business days, especially during peak registration periods. If you have an urgent issue, you may want to call the department office or visit during posted advising hours.",
+    "tags": ["advising", "email", "response", "timing"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_for_graduating_seniors",
+    "question": "Do graduating seniors need a special advising appointment?",
+    "answer": "Graduating seniors are strongly encouraged to meet with their advisor for a final graduation check. This appointment helps confirm that all degree requirements will be met and that your graduation application is submitted correctly.",
+    "tags": ["advising", "graduation", "seniors", "degree check"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_for_double_major",
+    "question": "How does advising work if I have a double major?",
+    "answer": "If you have a double major, you may have advisors in both departments. It’s important to communicate with each advisor to ensure you are meeting the requirements for both programs and staying on track for graduation.",
+    "tags": ["advising", "double major", "departments", "requirements"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_for_minors",
+    "question": "Who advises me about my minor?",
+    "answer": "Questions about your minor are usually handled by advisors in the department that offers the minor. Your primary major advisor can also help coordinate how your minor fits into your overall degree plan.",
+    "tags": ["advising", "minor", "advisor", "degree plan"],
+    "embedding": []
+  },
+  {
+    "intent": "walk_in_advising",
+    "question": "Does PVAMU offer walk-in advising?",
+    "answer": "Some departments and advising centers at PVAMU offer walk-in advising hours, especially during peak times like registration. Check your department’s website or contact the advising office to see if walk-in times are available.",
+    "tags": ["advising", "walk-in", "hours", "registration"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_contact_info",
+    "question": "Where can I find contact information for advising offices?",
+    "answer": "You can find advising office contact information on the PVAMU website under your college or department’s advising page. Many offices list email addresses, phone numbers, and office locations for advisors and support staff.",
+    "tags": ["advising", "contact", "office", "website"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "admissions_requirements",
+    "question": "What are the admission requirements?",
+    "answer": "Admission requirements at PVAMU vary by program, but generally include an online application, official transcripts, and standardized test scores if required. Some programs may also require letters of recommendation, essays, or additional materials.",
+    "tags": ["admissions", "requirements", "apply"],
+    "embedding": []
+  },
+  {
+    "intent": "application_status",
+    "question": "How do I check my application status?",
+    "answer": "You can check your application status by logging into the PVAMU admissions portal using the credentials you created when you applied. The portal will show any missing documents and the current status of your application.",
+    "tags": ["admissions", "status", "portal"],
+    "embedding": []
+  },
+  {
+    "intent": "application_deadlines",
+    "question": "What are the application deadlines?",
+    "answer": "Application deadlines depend on the term and program you are applying to. PVAMU posts priority and final deadlines for fall, spring, and summer on the Admissions section of the university website.",
+    "tags": ["admissions", "deadlines", "apply", "dates"],
+    "embedding": []
+  },
+  {
+    "intent": "freshman_requirements",
+    "question": "What are the requirements for incoming freshmen?",
+    "answer": "Incoming freshmen typically must submit a completed application, official high school transcripts, and standardized test scores if required. Minimum GPA and test score expectations are listed on the PVAMU Admissions website.",
+    "tags": ["admissions", "freshman", "requirements", "high school"],
+    "embedding": []
+  },
+  {
+    "intent": "transfer_requirements",
+    "question": "What are the requirements for transfer students?",
+    "answer": "Transfer students must submit official transcripts from all colleges or universities attended and meet PVAMU’s transfer GPA requirements. Some programs may have additional criteria, so it’s important to review the transfer admissions page.",
+    "tags": ["admissions", "transfer", "requirements", "transcripts"],
+    "embedding": []
+  },
+  {
+    "intent": "international_requirements",
+    "question": "What are the admission requirements for international students?",
+    "answer": "International students must meet general admission requirements and provide additional documentation such as proof of English proficiency, evaluated transcripts, and financial support forms. Detailed information is available on the PVAMU International Admissions page.",
+    "tags": ["admissions", "international", "requirements", "english"],
+    "embedding": []
+  },
+  {
+    "intent": "readmission_process",
+    "question": "How do I apply for readmission if I left PVAMU?",
+    "answer": "Students who have previously attended PVAMU and wish to return may need to submit a readmission application. The process and requirements depend on how long you have been away and your academic standing; details are provided by the Office of Admissions and the Registrar.",
+    "tags": ["admissions", "readmission", "return", "registrar"],
+    "embedding": []
+  },
+  {
+    "intent": "application_fee",
+    "question": "Is there an application fee and how do I pay it?",
+    "answer": "PVAMU typically charges a non-refundable application fee, which can be paid online when you submit your application. Some students may qualify for fee waivers based on financial need or participation in certain programs.",
+    "tags": ["admissions", "application fee", "payment", "waiver"],
+    "embedding": []
+  },
+  {
+    "intent": "fee_waiver",
+    "question": "Can I get an application fee waiver?",
+    "answer": "Some applicants may be eligible for an application fee waiver based on financial need or participation in specific college access programs. Check the PVAMU Admissions website or contact the admissions office to see if you qualify and how to submit documentation.",
+    "tags": ["admissions", "fee waiver", "application", "financial"],
+    "embedding": []
+  },
+  {
+    "intent": "send_transcripts",
+    "question": "How do I send my transcripts to PVAMU?",
+    "answer": "Official transcripts should be sent directly from your high school or previous college to PVAMU, either electronically through approved services or by mail. The Admissions website lists the correct mailing address and electronic delivery options.",
+    "tags": ["admissions", "transcripts", "official", "mail"],
+    "embedding": []
+  },
+  {
+    "intent": "test_scores_submission",
+    "question": "How do I submit my SAT or ACT scores?",
+    "answer": "You can request that your SAT or ACT scores be sent directly to PVAMU using the university’s school code when you register for the test or through the testing agency’s score reporting service. Check the Admissions website for the correct school codes.",
+    "tags": ["admissions", "SAT", "ACT", "scores"],
+    "embedding": []
+  },
+  {
+    "intent": "admissions_contact",
+    "question": "How can I contact the Office of Admissions?",
+    "answer": "You can contact the PVAMU Office of Admissions through the contact information listed on the university website, which typically includes phone, email, and office location. They can help with questions about applications, documents, and requirements.",
+    "tags": ["admissions", "contact", "office", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_tours",
+    "question": "Does PVAMU offer campus tours for prospective students?",
+    "answer": "Yes, PVAMU offers campus tours for prospective students and their families. You can usually register for a tour online through the Admissions or Campus Visit page on the PVAMU website.",
+    "tags": ["admissions", "campus tour", "visit", "prospective"],
+    "embedding": []
+  },
+  {
+    "intent": "decision_timeline",
+    "question": "How long does it take to receive an admissions decision?",
+    "answer": "The time it takes to receive an admissions decision can vary depending on the time of year and the completeness of your application. Once all required documents are received, PVAMU typically reviews applications within a few weeks.",
+    "tags": ["admissions", "decision", "timeline", "status"],
+    "embedding": []
+  },
+  {
+    "intent": "acceptance_packet",
+    "question": "What happens after I am admitted?",
+    "answer": "After you are admitted to PVAMU, you will receive information about next steps such as confirming your enrollment, applying for housing, attending orientation, and registering for classes. Be sure to check your email and the admitted student portal regularly.",
+    "tags": ["admissions", "admitted", "next steps", "orientation"],
+    "embedding": []
+  },
+  {
+    "intent": "residency_status",
+    "question": "How is my residency status determined for tuition purposes?",
+    "answer": "Residency status for tuition purposes is determined based on Texas state guidelines and the information you provide on your application and supporting documents. If you have questions or believe your status is incorrect, contact the Office of Admissions or the Registrar.",
+    "tags": ["admissions", "residency", "tuition", "in-state"],
+    "embedding": []
+  },
+  {
+    "intent": "deferral_request",
+    "question": "Can I defer my admission to a later term?",
+    "answer": "In some cases, PVAMU may allow admitted students to defer their admission to a later term. You will need to contact the Office of Admissions to ask about deferral policies and any required forms or deadlines.",
+    "tags": ["admissions", "deferral", "admitted", "later term"],
+    "embedding": []
+  },
+  {
+    "intent": "dual_credit_info",
+    "question": "Does PVAMU accept dual credit or AP credit?",
+    "answer": "PVAMU may award credit for approved dual credit courses and qualifying AP exam scores. The university catalog and Admissions website provide details on score requirements and how credits are applied.",
+    "tags": ["admissions", "dual credit", "AP", "credit"],
+    "embedding": []
+  },
+  {
+    "intent": "orientation_requirement",
+    "question": "Is new student orientation required?",
+    "answer": "New student orientation is typically required for incoming freshmen and strongly encouraged for transfer students. Orientation helps you learn about PVAMU resources, meet advisors, and register for classes.",
+    "tags": ["admissions", "orientation", "new students", "required"],
+    "embedding": []
+  },
+  {
+    "intent": "scholarship_consideration_admissions",
+    "question": "Will I be considered for scholarships when I apply?",
+    "answer": "Some PVAMU scholarships automatically consider admitted students based on their application and academic record, while others require a separate scholarship application. Check the Scholarships and Financial Aid pages for details and deadlines.",
+    "tags": ["admissions", "scholarships", "financial aid", "apply"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "fafsa_overview",
+    "question": "What is the FAFSA and why do I need it?",
+    "answer": "The FAFSA is the Free Application for Federal Student Aid, and it determines your eligibility for federal grants, loans, and work-study. PVAMU uses your FAFSA information to build your financial aid package each year.",
+    "tags": ["financial aid", "fafsa", "grants", "loans"],
+    "embedding": []
+  },
+  {
+    "intent": "fafsa_deadline",
+    "question": "When is the FAFSA deadline for PVAMU?",
+    "answer": "PVAMU encourages students to submit the FAFSA as early as possible after it opens on October 1. Priority deadlines are posted on the PVAMU Financial Aid website and can affect your eligibility for certain grants.",
+    "tags": ["financial aid", "fafsa", "deadline", "priority"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_status",
+    "question": "How do I check my financial aid status?",
+    "answer": "You can check your financial aid status in PVPlace under the Financial Aid tab. There you’ll see missing documents, award amounts, and any actions you need to complete.",
+    "tags": ["financial aid", "status", "pvplace", "awards"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_disbursement",
+    "question": "When will my financial aid be disbursed?",
+    "answer": "Financial aid is typically disbursed after the semester begins and your enrollment is confirmed. PVAMU posts disbursement dates each term, and funds are applied directly to your student account before any refunds are issued.",
+    "tags": ["financial aid", "disbursement", "refund", "billing"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_refund",
+    "question": "How do I get my financial aid refund?",
+    "answer": "If your financial aid exceeds your charges, PVAMU issues a refund through BankMobile. You must select a refund preference in BankMobile to receive your funds electronically or by mail.",
+    "tags": ["financial aid", "refund", "bankmobile", "billing"],
+    "embedding": []
+  },
+  {
+    "intent": "sap_policy",
+    "question": "What is Satisfactory Academic Progress (SAP)?",
+    "answer": "SAP is a federal requirement that ensures students are making progress toward their degree. PVAMU reviews your GPA, completion rate, and maximum time frame each year to determine your eligibility for financial aid.",
+    "tags": ["financial aid", "sap", "gpa", "progress"],
+    "embedding": []
+  },
+  {
+    "intent": "sap_appeal",
+    "question": "How do I submit a SAP appeal?",
+    "answer": "If you lose financial aid eligibility due to SAP, you may submit an appeal through the PVAMU Financial Aid portal. Appeals typically require a written explanation and supporting documentation.",
+    "tags": ["financial aid", "sap", "appeal", "eligibility"],
+    "embedding": []
+  },
+  {
+    "intent": "verification_process",
+    "question": "What is financial aid verification?",
+    "answer": "Verification is a process where PVAMU confirms the accuracy of your FAFSA information. You may be asked to submit tax documents, household information, or other forms before your aid can be awarded.",
+    "tags": ["financial aid", "verification", "fafsa", "documents"],
+    "embedding": []
+  },
+  {
+    "intent": "missing_documents",
+    "question": "How do I submit missing financial aid documents?",
+    "answer": "You can upload most financial aid documents through the PVAMU Financial Aid portal in PVPlace. Some forms may need to be submitted in person or by email, depending on the requirement.",
+    "tags": ["financial aid", "documents", "pvplace", "upload"],
+    "embedding": []
+  },
+  {
+    "intent": "scholarship_overview",
+    "question": "What scholarships does PVAMU offer?",
+    "answer": "PVAMU offers a variety of scholarships, including merit-based, departmental, and need-based awards. Some scholarships are automatic based on your application, while others require a separate application.",
+    "tags": ["financial aid", "scholarships", "awards", "merit"],
+    "embedding": []
+  },
+  {
+    "intent": "scholarship_application",
+    "question": "How do I apply for PVAMU scholarships?",
+    "answer": "Many PVAMU scholarships are available through the university’s scholarship portal, where you can submit applications and upload required documents. Deadlines vary, so check the portal regularly.",
+    "tags": ["financial aid", "scholarships", "apply", "portal"],
+    "embedding": []
+  },
+  {
+    "intent": "external_scholarships",
+    "question": "Can I use outside scholarships at PVAMU?",
+    "answer": "Yes, PVAMU accepts external scholarships from organizations outside the university. You may need to submit award letters or checks to Student Financial Services so the funds can be applied to your account.",
+    "tags": ["financial aid", "scholarships", "external", "billing"],
+    "embedding": []
+  },
+  {
+    "intent": "loan_acceptance",
+    "question": "How do I accept or decline my student loans?",
+    "answer": "You can accept, reduce, or decline your federal student loans in PVPlace under the Financial Aid section. First-time borrowers must also complete Entrance Counseling and a Master Promissory Note.",
+    "tags": ["financial aid", "loans", "pvplace", "counseling"],
+    "embedding": []
+  },
+  {
+    "intent": "loan_counseling",
+    "question": "What is loan entrance counseling?",
+    "answer": "Entrance counseling is a federal requirement for first-time loan borrowers. It explains your rights and responsibilities as a borrower and must be completed online before PVAMU can disburse your loans.",
+    "tags": ["financial aid", "loans", "counseling", "requirements"],
+    "embedding": []
+  },
+  {
+    "intent": "parent_plus_loans",
+    "question": "How do Parent PLUS Loans work?",
+    "answer": "Parent PLUS Loans allow parents of dependent students to borrow funds to help cover educational costs. Parents must apply through the federal student aid website, and approved loans are added to the student’s PVAMU account.",
+    "tags": ["financial aid", "loans", "parent plus", "billing"],
+    "embedding": []
+  },
+  {
+    "intent": "work_study_info",
+    "question": "How does work-study work at PVAMU?",
+    "answer": "Work-study provides part-time jobs for eligible students, allowing them to earn money while enrolled. You must indicate interest on the FAFSA and apply for available positions through PVAMU’s student employment system.",
+    "tags": ["financial aid", "work-study", "employment", "jobs"],
+    "embedding": []
+  },
+  {
+    "intent": "aid_for_summer",
+    "question": "Can I get financial aid for summer classes?",
+    "answer": "Summer financial aid is available for eligible students, but it often depends on how much aid you used during the fall and spring. PVAMU posts summer aid requirements and application steps each year.",
+    "tags": ["financial aid", "summer", "aid", "eligibility"],
+    "embedding": []
+  },
+  {
+    "intent": "dependency_override",
+    "question": "Can I request a dependency override?",
+    "answer": "In special circumstances, PVAMU may consider a dependency override for students who cannot provide parental information. You must submit documentation explaining your situation, and approval is not guaranteed.",
+    "tags": ["financial aid", "dependency", "override", "fafsa"],
+    "embedding": []
+  },
+  {
+    "intent": "cost_of_attendance",
+    "question": "What is the cost of attendance at PVAMU?",
+    "answer": "The cost of attendance includes tuition, fees, housing, meals, books, and personal expenses. PVAMU publishes estimated costs each year to help students plan and determine financial aid eligibility.",
+    "tags": ["financial aid", "cost", "tuition", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_contact",
+    "question": "How do I contact the Financial Aid Office?",
+    "answer": "You can contact PVAMU’s Office of Student Financial Aid through the information listed on the university website. They can help with FAFSA questions, award packages, verification, and more.",
+    "tags": ["financial aid", "contact", "office", "help"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "tuition_payment_overview",
+    "question": "How do I pay my tuition at PVAMU?",
+    "answer": "You can pay your tuition through PVPlace by selecting the Student Financial Services or Billing section. Payments can be made online using a debit card, credit card, or electronic check.",
+    "tags": ["billing", "tuition", "payment", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "payment_deadline",
+    "question": "When are tuition payment deadlines?",
+    "answer": "Payment deadlines vary by semester and are posted on the PVAMU Student Financial Services website. Missing a deadline may result in late fees or being dropped from your classes.",
+    "tags": ["billing", "deadline", "tuition", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "payment_plan_info",
+    "question": "Does PVAMU offer payment plans?",
+    "answer": "Yes, PVAMU offers installment payment plans that allow you to spread your tuition and fee payments across the semester. You can enroll in a plan through PVPlace under the Billing or Student Financial Services section.",
+    "tags": ["billing", "payment plan", "installment", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "late_fee_policy",
+    "question": "What happens if I miss a payment deadline?",
+    "answer": "If you miss a payment deadline, PVAMU may apply a late fee to your account and place a hold that prevents registration or transcript requests. Continued non-payment may result in being dropped from classes.",
+    "tags": ["billing", "late fee", "hold", "payment"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_hold",
+    "question": "What is a billing hold and how do I remove it?",
+    "answer": "A billing hold is placed when you have an outstanding balance on your student account. To remove it, you must pay the balance or set up a payment plan through PVPlace.",
+    "tags": ["billing", "hold", "payment", "balance"],
+    "embedding": []
+  },
+  {
+    "intent": "refund_timeline",
+    "question": "When will I receive my refund?",
+    "answer": "Refunds are issued after financial aid is disbursed and your account shows a credit balance. PVAMU processes refunds through BankMobile, and the timing depends on the refund preference you selected.",
+    "tags": ["billing", "refund", "bankmobile", "financial aid"],
+    "embedding": []
+  },
+  {
+    "intent": "bankmobile_setup",
+    "question": "How do I set up my BankMobile refund preference?",
+    "answer": "You will receive a BankMobile activation email or letter with instructions on creating an account. Once logged in, you can choose how you want to receive refunds, such as direct deposit or a mailed check.",
+    "tags": ["billing", "bankmobile", "refund", "setup"],
+    "embedding": []
+  },
+  {
+    "intent": "charges_explanation",
+    "question": "How can I see a breakdown of my charges?",
+    "answer": "You can view a detailed breakdown of your tuition, fees, housing, and other charges in PVPlace under the Student Financial Services or Billing section. Each charge is itemized for transparency.",
+    "tags": ["billing", "charges", "tuition", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_charges",
+    "question": "Where do housing charges appear on my bill?",
+    "answer": "Housing charges appear on your student account along with tuition and fees. They are listed under the same billing section in PVPlace and must be paid by the semester deadlines.",
+    "tags": ["billing", "housing", "charges", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "meal_plan_charges",
+    "question": "How do meal plan charges work?",
+    "answer": "Meal plan charges are added to your student account each semester if you select or are required to have a meal plan. These charges appear in PVPlace and must be paid by the billing deadlines.",
+    "tags": ["billing", "meal plan", "charges", "dining"],
+    "embedding": []
+  },
+  {
+    "intent": "third_party_payments",
+    "question": "Can a third party pay my bill?",
+    "answer": "Yes, third-party sponsors such as employers or scholarship organizations can pay your bill. You may need to submit authorization forms or documentation to Student Financial Services.",
+    "tags": ["billing", "third party", "payment", "sponsor"],
+    "embedding": []
+  },
+  {
+    "intent": "waiver_requests",
+    "question": "How do I request a fee waiver?",
+    "answer": "Some fees may be eligible for waivers based on specific circumstances. You can submit a waiver request through Student Financial Services, along with any required documentation.",
+    "tags": ["billing", "waiver", "fees", "request"],
+    "embedding": []
+  },
+  {
+    "intent": "returned_payment",
+    "question": "What happens if my payment is returned?",
+    "answer": "Returned payments may result in additional fees and a temporary hold on your account. You will need to resolve the issue and submit a new payment to clear the hold.",
+    "tags": ["billing", "returned payment", "hold", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "tuition_adjustment",
+    "question": "Will my tuition change if I add or drop classes?",
+    "answer": "Yes, adding or dropping classes can change your total tuition and fees. PVPlace updates your account automatically when your enrollment changes.",
+    "tags": ["billing", "tuition", "add drop", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "out_of_state_tuition",
+    "question": "Why am I being charged out-of-state tuition?",
+    "answer": "Out-of-state tuition is charged based on your residency classification. If you believe your residency status is incorrect, contact the Office of Admissions or the Registrar to review your documentation.",
+    "tags": ["billing", "tuition", "residency", "out-of-state"],
+    "embedding": []
+  },
+  {
+    "intent": "payment_methods",
+    "question": "What payment methods does PVAMU accept?",
+    "answer": "PVAMU accepts credit cards, debit cards, and electronic checks for online payments. Some in-person payments may also be accepted depending on office availability.",
+    "tags": ["billing", "payment", "methods", "online"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_contact",
+    "question": "How do I contact Student Financial Services?",
+    "answer": "You can contact Student Financial Services using the information listed on the PVAMU website. They can help with billing questions, payment plans, refunds, and account holds.",
+    "tags": ["billing", "contact", "financial services", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "tax_form_1098t",
+    "question": "How do I get my 1098-T tax form?",
+    "answer": "Your 1098-T form is available electronically through PVPlace each year. This form reports tuition payments and is used when filing federal taxes.",
+    "tags": ["billing", "1098-T", "tax", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "bookstore_charges",
+    "question": "Can bookstore purchases be charged to my student account?",
+    "answer": "Some bookstore purchases may be charged to your student account if you have available financial aid or bookstore credit. Check with the PVAMU Bookstore for eligibility and limits.",
+    "tags": ["billing", "bookstore", "charges", "financial aid"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_statement",
+    "question": "Where can I download my billing statement?",
+    "answer": "You can download your billing statement in PVPlace under the Student Financial Services or Billing section. Statements show all charges, payments, and refunds for the term.",
+    "tags": ["billing", "statement", "pvplace", "charges"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "housing_application_process",
+    "question": "How do I apply for on-campus housing at PVAMU?",
+    "answer": "You can apply for on-campus housing through the PVAMU Housing Portal, which is accessible through PVPlace. The application includes selecting your preferred residence hall, completing required forms, and paying the housing application fee.",
+    "tags": ["housing", "application", "pvplace", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_deadlines",
+    "question": "When are the housing application deadlines?",
+    "answer": "Housing deadlines vary by semester and are posted on the PVAMU Housing website. Applying early increases your chances of getting your preferred residence hall and room type.",
+    "tags": ["housing", "deadlines", "application", "residence"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_assignments",
+    "question": "When will I receive my housing assignment?",
+    "answer": "Housing assignments are typically released during the summer for fall residents and a few weeks before the spring semester for new spring residents. You can view your assignment in the Housing Portal once it becomes available.",
+    "tags": ["housing", "assignments", "portal", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "move_in_dates",
+    "question": "When is move-in day at PVAMU?",
+    "answer": "Move-in dates are posted each semester on the PVAMU Housing website and are also emailed to students. Dates may vary depending on your classification, housing location, or participation in early programs.",
+    "tags": ["housing", "move-in", "dates", "residence"],
+    "embedding": []
+  },
+  {
+    "intent": "move_in_requirements",
+    "question": "What do I need to bring for move-in?",
+    "answer": "PVAMU provides a list of recommended items on the Housing website, including bedding, toiletries, cleaning supplies, and personal items. Some items, such as candles and hot plates, are prohibited for safety reasons.",
+    "tags": ["housing", "move-in", "packing", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_costs",
+    "question": "How much does on-campus housing cost?",
+    "answer": "Housing costs vary by residence hall and room type. PVAMU posts updated housing rates each academic year on the Housing website, and charges appear on your student account in PVPlace.",
+    "tags": ["housing", "cost", "rates", "billing"],
+    "embedding": []
+  },
+  {
+    "intent": "meal_plan_requirements",
+    "question": "Do I need a meal plan if I live on campus?",
+    "answer": "Most on-campus residents, especially freshmen, are required to have a meal plan. Meal plan options and requirements are listed on the PVAMU Dining Services website.",
+    "tags": ["housing", "meal plan", "dining", "requirements"],
+    "embedding": []
+  },
+  {
+    "intent": "maintenance_request",
+    "question": "How do I submit a maintenance request?",
+    "answer": "You can submit maintenance requests through the PVAMU Housing Portal or by contacting your residence hall’s front desk. Maintenance staff will address issues based on urgency and availability.",
+    "tags": ["housing", "maintenance", "request", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "room_change_request",
+    "question": "Can I request a room change?",
+    "answer": "Room change requests are typically allowed after the first few weeks of the semester. You must submit a request through the Housing Portal and follow the approval process outlined by PVAMU Housing.",
+    "tags": ["housing", "room change", "residence", "portal"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_cancellation",
+    "question": "How do I cancel my housing contract?",
+    "answer": "Housing contract cancellations must be submitted through the Housing Portal and may be subject to fees depending on the timing. Review the cancellation policy on the PVAMU Housing website before submitting a request.",
+    "tags": ["housing", "cancellation", "contract", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "freshman_housing_requirement",
+    "question": "Are freshmen required to live on campus?",
+    "answer": "PVAMU requires most first-year students to live on campus unless they meet specific exemption criteria. Exemptions may include living with a parent or guardian within a certain distance from campus.",
+    "tags": ["housing", "freshmen", "requirement", "exemption"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_exemptions",
+    "question": "How do I request a housing exemption?",
+    "answer": "You can request a housing exemption through the Housing Portal by submitting the required documentation. Exemptions are reviewed by PVAMU Housing and approval is not guaranteed.",
+    "tags": ["housing", "exemption", "request", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "visitor_policy",
+    "question": "What is the visitor policy for residence halls?",
+    "answer": "PVAMU’s visitor policy outlines when and how guests may enter residence halls. Visitors must follow check-in procedures, and overnight guests may be restricted depending on the hall.",
+    "tags": ["housing", "visitors", "policy", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "laundry_services",
+    "question": "Are laundry facilities available in the residence halls?",
+    "answer": "Yes, most PVAMU residence halls include on-site laundry facilities for student use. Some halls may require a laundry card or accept digital payment methods.",
+    "tags": ["housing", "laundry", "residence halls", "amenities"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_safety",
+    "question": "What safety measures are in place in the residence halls?",
+    "answer": "PVAMU residence halls include controlled access, security cameras, and regular patrols by campus police. Students are encouraged to keep their doors locked and report any concerns to Housing staff.",
+    "tags": ["housing", "safety", "security", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_amenities",
+    "question": "What amenities are included in on-campus housing?",
+    "answer": "Amenities vary by residence hall but may include study lounges, computer labs, laundry rooms, and community kitchens. Each hall’s amenities are listed on the PVAMU Housing website.",
+    "tags": ["housing", "amenities", "residence halls", "features"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_front_desk",
+    "question": "What services does the residence hall front desk provide?",
+    "answer": "Front desks assist with lockouts, maintenance requests, mail pickup, and general questions. Hours and services may vary by residence hall.",
+    "tags": ["housing", "front desk", "services", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_lockout",
+    "question": "What should I do if I get locked out of my room?",
+    "answer": "If you are locked out, visit your residence hall’s front desk or contact Housing staff for assistance. Some halls may charge a small fee for repeated lockouts.",
+    "tags": ["housing", "lockout", "front desk", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_mail",
+    "question": "How do I receive mail and packages on campus?",
+    "answer": "Mail and packages are typically delivered to your residence hall’s front desk or designated mailroom. You will receive a notification when your package is ready for pickup.",
+    "tags": ["housing", "mail", "packages", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_contact",
+    "question": "How do I contact PVAMU Housing?",
+    "answer": "You can contact PVAMU Housing through the information listed on the Housing website, including email, phone, and office location. They can help with applications, assignments, and general housing questions.",
+    "tags": ["housing", "contact", "office", "help"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "password_reset",
+    "question": "How do I reset my PVAMU password?",
+    "answer": "You can reset your PVAMU password using the Password Reset tool linked on the PVAMU website or through PVPlace. You’ll need to verify your identity using your recovery email or security questions before creating a new password.",
+    "tags": ["it", "password", "reset", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "wifi_connection",
+    "question": "How do I connect to WiFi on campus?",
+    "answer": "PVAMU students connect to the WiFi network named PVAMU-WiFi using their PVAMU username and password. If you have trouble connecting, you can forget the network and reconnect or contact the IT Helpdesk for assistance.",
+    "tags": ["it", "wifi", "internet", "network"],
+    "embedding": []
+  },
+  {
+    "intent": "email_access",
+    "question": "How do I access my PVAMU email?",
+    "answer": "You can access your PVAMU email through Office 365 by logging in with your PVAMU credentials. Email is also accessible through PVPlace under the Student tab.",
+    "tags": ["it", "email", "office365", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "email_setup_phone",
+    "question": "How do I set up PVAMU email on my phone?",
+    "answer": "You can add your PVAMU email to your phone by using the Outlook app or your device’s built-in mail app. Use your full PVAMU email address and password, and select Office 365 as the account type.",
+    "tags": ["it", "email", "phone", "setup"],
+    "embedding": []
+  },
+  {
+    "intent": "canvas_login_help",
+    "question": "I can’t log into Canvas. What should I do?",
+    "answer": "If you can’t log into Canvas, first make sure your PVAMU password is working in PVPlace. If your password works elsewhere but not in Canvas, try clearing your browser cache or switching browsers. The IT Helpdesk can assist if the issue continues.",
+    "tags": ["it", "canvas", "login", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "software_access",
+    "question": "Does PVAMU provide free software for students?",
+    "answer": "PVAMU students have access to software such as Microsoft Office 365 at no additional cost. Some departments also provide specialized software through campus licenses or virtual labs.",
+    "tags": ["it", "software", "office365", "free"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_on_campus",
+    "question": "Where can I print documents on campus?",
+    "answer": "Printing is available in several computer labs, including the John B. Coleman Library and departmental labs. Some locations may require Panther Dollars or a print quota.",
+    "tags": ["it", "printing", "labs", "library"],
+    "embedding": []
+  },
+  {
+    "intent": "vpn_access",
+    "question": "How do I access the PVAMU VPN?",
+    "answer": "Some academic programs require VPN access for remote tools or servers. You can download the VPN client from the PVAMU IT website and log in using your PVAMU credentials.",
+    "tags": ["it", "vpn", "remote access", "software"],
+    "embedding": []
+  },
+  {
+    "intent": "computer_lab_hours",
+    "question": "What are the hours for campus computer labs?",
+    "answer": "Computer lab hours vary by location, but many labs in the library and academic buildings offer extended hours during the semester. Check the PVAMU website or posted signs for the most current schedule.",
+    "tags": ["it", "computer lab", "hours", "library"],
+    "embedding": []
+  },
+  {
+    "intent": "account_locked",
+    "question": "What should I do if my account is locked?",
+    "answer": "If your PVAMU account becomes locked due to too many login attempts, you can unlock it using the Password Reset tool. If the issue persists, contact the IT Helpdesk for manual assistance.",
+    "tags": ["it", "account", "locked", "password"],
+    "embedding": []
+  },
+  {
+    "intent": "duo_setup",
+    "question": "How do I set up Duo two-factor authentication?",
+    "answer": "PVAMU uses Duo for added account security. You can enroll your device by following the setup instructions sent to your PVAMU email or by visiting the Duo enrollment page through PVPlace.",
+    "tags": ["it", "duo", "authentication", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "duo_troubleshooting",
+    "question": "Duo isn’t sending me a code. What should I do?",
+    "answer": "If Duo isn’t sending a code, try opening the Duo Mobile app and using the generated passcode instead. You can also check your device’s internet connection or contact the IT Helpdesk to update your enrolled device.",
+    "tags": ["it", "duo", "troubleshooting", "authentication"],
+    "embedding": []
+  },
+  {
+    "intent": "malware_protection",
+    "question": "Does PVAMU offer antivirus or malware protection?",
+    "answer": "PVAMU recommends that students use reputable antivirus software on their personal devices. Some departments may provide additional security tools depending on program requirements.",
+    "tags": ["it", "antivirus", "security", "malware"],
+    "embedding": []
+  },
+  {
+    "intent": "tech_support_contact",
+    "question": "How do I contact the IT Helpdesk?",
+    "answer": "You can contact the PVAMU IT Helpdesk through the information listed on the university website. They assist with password issues, WiFi problems, software access, and general technical support.",
+    "tags": ["it", "helpdesk", "contact", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "wifi_troubleshooting",
+    "question": "What should I do if the WiFi keeps disconnecting?",
+    "answer": "If the WiFi disconnects frequently, try forgetting the PVAMU-WiFi network and reconnecting. You can also restart your device or move closer to an access point. The IT Helpdesk can help if the issue continues.",
+    "tags": ["it", "wifi", "troubleshooting", "internet"],
+    "embedding": []
+  },
+  {
+    "intent": "canvas_notifications",
+    "question": "How do I manage Canvas notifications?",
+    "answer": "You can manage Canvas notifications by opening your Canvas account settings and adjusting your preferences. You can choose how often you receive alerts for assignments, grades, and announcements.",
+    "tags": ["it", "canvas", "notifications", "settings"],
+    "embedding": []
+  },
+  {
+    "intent": "pvplace_help",
+    "question": "PVPlace isn’t loading. What should I do?",
+    "answer": "If PVPlace isn’t loading, try clearing your browser cache or switching to a different browser. You can also check the PVAMU IT status page for outages or contact the Helpdesk for support.",
+    "tags": ["it", "pvplace", "troubleshooting", "login"],
+    "embedding": []
+  },
+  {
+    "intent": "computer_requirements",
+    "question": "What kind of computer do I need for PVAMU classes?",
+    "answer": "Most PVAMU programs recommend a laptop with updated operating systems and sufficient storage for coursework. Some majors, such as engineering or architecture, may require more powerful hardware.",
+    "tags": ["it", "computer", "requirements", "hardware"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_troubleshooting",
+    "question": "My document won’t print on campus. What should I do?",
+    "answer": "If your document won’t print, make sure you’re connected to the correct printer and that your print quota or Panther Dollars are sufficient. Restarting the print job or switching computers may also help.",
+    "tags": ["it", "printing", "troubleshooting", "labs"],
+    "embedding": []
+  },
+  {
+    "intent": "software_troubleshooting",
+    "question": "A program I need for class isn’t working. Who can help?",
+    "answer": "If a required program isn’t working, you can contact the IT Helpdesk or your academic department for support. Some software issues may require reinstalling the program or accessing it through a virtual lab.",
+    "tags": ["it", "software", "troubleshooting", "helpdesk"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "library_hours",
+    "question": "What are the hours for the John B. Coleman Library?",
+    "answer": "The John B. Coleman Library offers extended hours during the fall and spring semesters, including late-night study hours. Exact hours vary by term and are posted on the PVAMU Library website.",
+    "tags": ["library", "hours", "coleman", "study"],
+    "embedding": []
+  },
+  {
+    "intent": "library_location",
+    "question": "Where is the library located on campus?",
+    "answer": "The John B. Coleman Library is located in the center of campus near the Memorial Student Center. It’s easily accessible from most academic buildings and residence halls.",
+    "tags": ["library", "location", "campus", "coleman"],
+    "embedding": []
+  },
+  {
+    "intent": "study_rooms",
+    "question": "How do I reserve a study room in the library?",
+    "answer": "You can reserve study rooms through the PVAMU Library website using the online reservation system. Rooms are available for individual or group study and must be booked in advance.",
+    "tags": ["library", "study rooms", "reservation", "coleman"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_services",
+    "question": "Does the library offer printing services?",
+    "answer": "Yes, the library provides printing, copying, and scanning services for students. You may need Panther Dollars or a print quota depending on the machine and location.",
+    "tags": ["library", "printing", "copying", "scanning"],
+    "embedding": []
+  },
+  {
+    "intent": "research_help",
+    "question": "How can I get help with research or finding sources?",
+    "answer": "PVAMU librarians offer research assistance through in-person help, email, and virtual consultations. You can also use the Ask‑A‑Librarian service on the library website for quick questions.",
+    "tags": ["library", "research", "help", "librarian"],
+    "embedding": []
+  },
+  {
+    "intent": "database_access",
+    "question": "How do I access online databases and journals?",
+    "answer": "You can access PVAMU’s online databases through the Library’s website by logging in with your PVAMU credentials. Databases include JSTOR, EBSCOhost, ProQuest, and many subject‑specific resources.",
+    "tags": ["library", "databases", "journals", "online"],
+    "embedding": []
+  },
+  {
+    "intent": "off_campus_access",
+    "question": "Can I access library resources off campus?",
+    "answer": "Yes, most online library resources are available off campus. You simply log in with your PVAMU credentials when prompted to authenticate.",
+    "tags": ["library", "off campus", "access", "online"],
+    "embedding": []
+  },
+  {
+    "intent": "book_checkout",
+    "question": "How do I check out books from the library?",
+    "answer": "To check out books, bring them to the circulation desk along with your Panther ID. Loan periods vary depending on the item type and your student classification.",
+    "tags": ["library", "checkout", "books", "circulation"],
+    "embedding": []
+  },
+  {
+    "intent": "renew_books",
+    "question": "Can I renew my library books online?",
+    "answer": "Yes, you can renew books through your library account on the PVAMU Library website. Renewals depend on whether the item has been requested by another user.",
+    "tags": ["library", "renew", "books", "account"],
+    "embedding": []
+  },
+  {
+    "intent": "overdue_fines",
+    "question": "What happens if my library books are overdue?",
+    "answer": "Overdue items may result in fines or holds on your student account. Returning items promptly or renewing them online helps you avoid penalties.",
+    "tags": ["library", "overdue", "fines", "books"],
+    "embedding": []
+  },
+  {
+    "intent": "interlibrary_loan",
+    "question": "Does PVAMU offer interlibrary loan services?",
+    "answer": "Yes, the library offers interlibrary loan services for materials not available in the PVAMU collection. You can submit a request through the library website, and staff will locate the item from another institution.",
+    "tags": ["library", "interlibrary loan", "ILL", "resources"],
+    "embedding": []
+  },
+  {
+    "intent": "library_tutoring",
+    "question": "Does the library offer tutoring?",
+    "answer": "Some tutoring services and academic support programs hold sessions inside the library, especially in designated study areas. Check the library or Academic Support Center schedule for availability.",
+    "tags": ["library", "tutoring", "support", "study"],
+    "embedding": []
+  },
+  {
+    "intent": "computer_access",
+    "question": "Are computers available for student use in the library?",
+    "answer": "Yes, the library provides computer workstations for student use on multiple floors. These computers include internet access, printing options, and academic software.",
+    "tags": ["library", "computers", "workstations", "technology"],
+    "embedding": []
+  },
+  {
+    "intent": "quiet_study_areas",
+    "question": "Does the library have quiet study areas?",
+    "answer": "The John B. Coleman Library includes designated quiet zones for focused study. These areas are marked with signage and are typically located on upper floors.",
+    "tags": ["library", "quiet study", "coleman", "study"],
+    "embedding": []
+  },
+  {
+    "intent": "group_study_spaces",
+    "question": "Are there group study spaces in the library?",
+    "answer": "Yes, the library offers group study rooms and collaborative spaces equipped with whiteboards and tables. Reservations may be required depending on the room.",
+    "tags": ["library", "group study", "rooms", "collaboration"],
+    "embedding": []
+  },
+  {
+    "intent": "library_events",
+    "question": "Does the library host workshops or events?",
+    "answer": "The library regularly hosts workshops on research skills, citation tools, and academic success. Event schedules are posted on the library website and around the building.",
+    "tags": ["library", "events", "workshops", "research"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_cost",
+    "question": "How much does printing cost in the library?",
+    "answer": "Printing costs vary depending on whether you print in black‑and‑white or color. Prices are posted near the printers, and charges are deducted from your Panther Dollars or print quota.",
+    "tags": ["library", "printing", "cost", "panther dollars"],
+    "embedding": []
+  },
+  {
+    "intent": "library_contact",
+    "question": "How do I contact the library?",
+    "answer": "You can contact the John B. Coleman Library through the information listed on the PVAMU Library website. Librarians can assist with research help, account issues, and general questions.",
+    "tags": ["library", "contact", "coleman", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "library_floor_map",
+    "question": "Where can I find a map of the library?",
+    "answer": "Floor maps of the John B. Coleman Library are available on the library website and posted near the entrances. These maps show study areas, computer labs, collections, and service desks.",
+    "tags": ["library", "map", "coleman", "floors"],
+    "embedding": []
+  },
+  {
+    "intent": "library_accessibility",
+    "question": "Does the library offer accessibility accommodations?",
+    "answer": "Yes, the library provides accessibility features such as elevators, adaptive technology, and assistance from staff. Students needing accommodations can also work with Disability Services for additional support.",
+    "tags": ["library", "accessibility", "disability services", "support"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "parking_permit_purchase",
+    "question": "How do I purchase a parking permit at PVAMU?",
+    "answer": "You can purchase a parking permit through the PVAMU Parking Services portal, which is accessible through PVPlace. After logging in, select the permit type you need and complete the online payment process.",
+    "tags": ["parking", "permit", "pvplace", "purchase"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_permit_types",
+    "question": "What types of parking permits are available?",
+    "answer": "PVAMU offers several types of parking permits, including student, commuter, residential, and reserved permits. Each permit type has designated parking zones across campus.",
+    "tags": ["parking", "permit", "types", "zones"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_permit_pickup",
+    "question": "Where do I pick up my parking permit?",
+    "answer": "Most parking permits are now digital, but if a physical permit is required, you can pick it up at the Parking Services office. Check your confirmation email for specific instructions.",
+    "tags": ["parking", "permit", "pickup", "parking services"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_map",
+    "question": "Where can I find a campus parking map?",
+    "answer": "A campus parking map is available on the PVAMU Parking Services website. The map shows all parking zones, shuttle stops, and restricted areas.",
+    "tags": ["parking", "map", "zones", "campus"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_zones_explanation",
+    "question": "What do the different parking zones mean?",
+    "answer": "Parking zones indicate where specific permit holders may park. For example, residential permits are valid in housing lots, while commuter permits are valid in designated commuter areas.",
+    "tags": ["parking", "zones", "permits", "rules"],
+    "embedding": []
+  },
+  {
+    "intent": "visitor_parking",
+    "question": "Where can visitors park on campus?",
+    "answer": "Visitors can park in designated visitor parking areas or purchase a temporary permit from Parking Services. Visitor parking locations are marked on the campus parking map.",
+    "tags": ["parking", "visitor", "temporary permit", "campus"],
+    "embedding": []
+  },
+  {
+    "intent": "temporary_parking_permit",
+    "question": "How do I get a temporary parking permit?",
+    "answer": "Temporary permits can be purchased through the Parking Services portal or at the Parking Services office. These permits are valid for short-term parking needs.",
+    "tags": ["parking", "temporary permit", "parking services", "short term"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_citations",
+    "question": "What should I do if I receive a parking citation?",
+    "answer": "If you receive a citation, you can view the details and pay it through the Parking Services portal. You may also appeal the citation if you believe it was issued in error.",
+    "tags": ["parking", "citation", "ticket", "appeal"],
+    "embedding": []
+  },
+  {
+    "intent": "citation_payment",
+    "question": "How do I pay a parking citation?",
+    "answer": "Parking citations can be paid online through the Parking Services portal using a debit or credit card. Payments must be made by the deadline to avoid additional fees.",
+    "tags": ["parking", "citation", "payment", "portal"],
+    "embedding": []
+  },
+  {
+    "intent": "citation_appeal",
+    "question": "How do I appeal a parking citation?",
+    "answer": "You can submit a citation appeal through the Parking Services portal by providing a written explanation and any supporting documentation. Appeals are reviewed by the Parking Appeals Committee.",
+    "tags": ["parking", "citation", "appeal", "committee"],
+    "embedding": []
+  },
+  {
+    "intent": "shuttle_schedule",
+    "question": "Where can I find the Panther Shuttle schedule?",
+    "answer": "The Panther Shuttle schedule is posted on the PVAMU Transportation Services website. It includes route maps, stop locations, and operating hours.",
+    "tags": ["parking", "shuttle", "transportation", "schedule"],
+    "embedding": []
+  },
+  {
+    "intent": "shuttle_routes",
+    "question": "What routes does the Panther Shuttle run?",
+    "answer": "The Panther Shuttle operates several routes connecting residence halls, academic buildings, and major campus locations. Route maps and stop lists are available on the Transportation Services website.",
+    "tags": ["parking", "shuttle", "routes", "transportation"],
+    "embedding": []
+  },
+  {
+    "intent": "shuttle_cost",
+    "question": "Is the Panther Shuttle free for students?",
+    "answer": "Yes, the Panther Shuttle is free for all PVAMU students. Simply board at any designated shuttle stop on campus.",
+    "tags": ["parking", "shuttle", "free", "transportation"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_enforcement_hours",
+    "question": "When is parking enforcement active on campus?",
+    "answer": "Parking enforcement is active during posted hours, typically Monday through Friday. Signs in each lot indicate enforcement times and permit requirements.",
+    "tags": ["parking", "enforcement", "hours", "rules"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_after_hours",
+    "question": "Can I park anywhere after hours?",
+    "answer": "Some parking zones may be open after enforcement hours, but restrictions still apply in reserved or restricted areas. Always check posted signs before parking.",
+    "tags": ["parking", "after hours", "rules", "zones"],
+    "embedding": []
+  },
+  {
+    "intent": "handicap_parking",
+    "question": "How does handicap parking work on campus?",
+    "answer": "Handicap parking spaces require a valid state-issued handicap placard or license plate. These spaces are located near major buildings and are enforced at all times.",
+    "tags": ["parking", "handicap", "accessible", "rules"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_lot_closures",
+    "question": "How do I know if a parking lot is closed?",
+    "answer": "Parking lot closures are announced through campus email and posted on the Parking Services website. Signs may also be placed at lot entrances during construction or events.",
+    "tags": ["parking", "closures", "lots", "announcements"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_services_contact",
+    "question": "How do I contact Parking Services?",
+    "answer": "You can contact Parking Services using the information listed on the PVAMU website. They can help with permits, citations, shuttle information, and general parking questions.",
+    "tags": ["parking", "contact", "parking services", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "parking_faq",
+    "question": "Where can I find answers to common parking questions?",
+    "answer": "Parking Services maintains a detailed FAQ section on their website that covers permits, citations, shuttle routes, and parking rules. It’s a great resource for quick answers.",
+    "tags": ["parking", "faq", "parking services", "information"],
+    "embedding": []
+  },
+  {
+    "intent": "event_parking",
+    "question": "How does parking work during campus events?",
+    "answer": "During major events, certain lots may be reserved or temporarily closed. Event parking instructions are posted in advance on the Parking Services website and sent through campus email.",
+    "tags": ["parking", "events", "lots", "closures"],
+    "embedding": []
+  }
+   ,
+  {
+    "intent": "transcript_request",
+    "question": "How do I request an official transcript from PVAMU?",
+    "answer": "You can request an official transcript through the Office of the Registrar using the online transcript request system linked on the PVAMU website. Transcripts can be sent electronically or by mail, and processing fees may apply.",
+    "tags": ["registrar", "transcript", "official", "records"],
+    "embedding": []
+  },
+  {
+    "intent": "unofficial_transcript",
+    "question": "Where can I view my unofficial transcript?",
+    "answer": "You can view and download your unofficial transcript in PantherTracks under the Student Records section. This version is free and available anytime.",
+    "tags": ["registrar", "transcript", "unofficial", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "enrollment_verification",
+    "question": "How do I get an enrollment verification letter?",
+    "answer": "Enrollment verification can be requested through the Registrar’s Office or accessed instantly through the National Student Clearinghouse link in PVPlace. This document confirms your enrollment status for employers, insurance, or scholarships.",
+    "tags": ["registrar", "enrollment", "verification", "clearinghouse"],
+    "embedding": []
+  },
+  {
+    "intent": "degree_verification",
+    "question": "How can someone verify my degree?",
+    "answer": "Degree verification is handled through the National Student Clearinghouse, which provides official confirmation of PVAMU degrees. Employers and agencies can request verification directly through their website.",
+    "tags": ["registrar", "degree", "verification", "clearinghouse"],
+    "embedding": []
+  },
+  {
+    "intent": "graduation_application",
+    "question": "How do I apply for graduation?",
+    "answer": "You can apply for graduation through PantherTracks by completing the Graduation Application form. Be sure to submit it before the posted deadline and review your degree audit with your advisor.",
+    "tags": ["registrar", "graduation", "application", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "graduation_deadlines",
+    "question": "When are the graduation application deadlines?",
+    "answer": "Graduation application deadlines are posted each semester on the Registrar’s website. Missing the deadline may delay your graduation to a future term.",
+    "tags": ["registrar", "graduation", "deadlines", "application"],
+    "embedding": []
+  },
+  {
+    "intent": "degree_audit",
+    "question": "How do I check my degree audit?",
+    "answer": "You can check your degree audit in PantherTracks using the Degree Evaluation tool. It shows which requirements you’ve completed and what still remains for graduation.",
+    "tags": ["registrar", "degree audit", "panthertracks", "graduation"],
+    "embedding": []
+  },
+  {
+    "intent": "major_change_registrar",
+    "question": "How do I officially change my major?",
+    "answer": "To change your major, you must complete a Change of Major form and submit it through your academic department. Once approved, the Registrar’s Office updates your student record.",
+    "tags": ["registrar", "major change", "records", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "name_change",
+    "question": "How do I change my name in PVAMU records?",
+    "answer": "Name changes require legal documentation such as a court order, marriage certificate, or updated ID. Submit the required documents to the Registrar’s Office for processing.",
+    "tags": ["registrar", "name change", "records", "documentation"],
+    "embedding": []
+  },
+  {
+    "intent": "address_change",
+    "question": "How do I update my address?",
+    "answer": "You can update your address in PVPlace under the Personal Information section. Keeping your address current ensures you receive important university communications.",
+    "tags": ["registrar", "address", "records", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "registration_dates",
+    "question": "Where can I find registration dates?",
+    "answer": "Registration dates are listed on the Academic Calendar posted by the Registrar’s Office. The calendar includes priority registration, add/drop periods, and other important deadlines.",
+    "tags": ["registrar", "registration", "dates", "calendar"],
+    "embedding": []
+  },
+  {
+    "intent": "withdrawal_process",
+    "question": "How do I withdraw from the university?",
+    "answer": "Withdrawing from PVAMU requires completing the official withdrawal process through the Registrar’s Office. You may also need to speak with Financial Aid and Housing depending on your situation.",
+    "tags": ["registrar", "withdrawal", "university", "process"],
+    "embedding": []
+  },
+  {
+    "intent": "course_withdrawal_deadline",
+    "question": "What is the deadline to withdraw from a course?",
+    "answer": "Course withdrawal deadlines are listed on the Academic Calendar. Withdrawing after the deadline may not be allowed and can affect your academic standing or financial aid.",
+    "tags": ["registrar", "withdrawal", "course", "deadline"],
+    "embedding": []
+  },
+  {
+    "intent": "residency_classification",
+    "question": "How is residency for tuition determined?",
+    "answer": "Residency classification is based on Texas state guidelines and the information you provide on your application. If you believe your residency status is incorrect, you can submit additional documentation to the Registrar’s Office.",
+    "tags": ["registrar", "residency", "tuition", "classification"],
+    "embedding": []
+  },
+  {
+    "intent": "transfer_credit_evaluation",
+    "question": "How are transfer credits evaluated?",
+    "answer": "Transfer credits are evaluated by the Registrar’s Office based on course equivalencies and departmental approval. You can view your evaluated credits in PantherTracks once processing is complete.",
+    "tags": ["registrar", "transfer", "credits", "evaluation"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_calendar_registrar",
+    "question": "Where can I find the academic calendar?",
+    "answer": "The academic calendar is available on the Registrar’s website and includes important dates such as registration periods, holidays, and exam schedules.",
+    "tags": ["registrar", "calendar", "dates", "academic"],
+    "embedding": []
+  },
+  {
+    "intent": "class_roster",
+    "question": "How do instructors access class rosters?",
+    "answer": "Instructors can access class rosters through PantherTracks under the Faculty Services section. Rosters update automatically as students add or drop courses.",
+    "tags": ["registrar", "roster", "faculty", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "grade_posting",
+    "question": "When are final grades posted?",
+    "answer": "Final grades are posted in PantherTracks after the end of the semester once instructors submit them. Students can view grades under the Student Records section.",
+    "tags": ["registrar", "grades", "posting", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "diploma_mail",
+    "question": "When will I receive my diploma?",
+    "answer": "Diplomas are typically mailed several weeks after final grades are processed and degree requirements are verified. Make sure your mailing address is updated in PVPlace.",
+    "tags": ["registrar", "diploma", "graduation", "mail"],
+    "embedding": []
+  },
+  {
+    "intent": "registrar_contact",
+    "question": "How do I contact the Office of the Registrar?",
+    "answer": "You can contact the Registrar’s Office using the information listed on the PVAMU website. They assist with transcripts, registration, graduation, and student records.",
+    "tags": ["registrar", "contact", "office", "help"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "student_organizations_overview",
+    "question": "What student organizations are available at PVAMU?",
+    "answer": "PVAMU offers over 150 student organizations, including academic clubs, cultural groups, service organizations, and special‑interest clubs. You can browse the full list on the Student Activities website or at the annual Organization Fair.",
+    "tags": ["campus life", "organizations", "clubs", "student activities"],
+    "embedding": []
+  },
+  {
+    "intent": "join_student_org",
+    "question": "How do I join a student organization?",
+    "answer": "Most organizations allow students to join by attending meetings or signing up at campus events. Contact information for each group is listed on the Student Activities website.",
+    "tags": ["campus life", "join", "organizations", "clubs"],
+    "embedding": []
+  },
+  {
+    "intent": "greek_life_overview",
+    "question": "Does PVAMU have Greek Life?",
+    "answer": "Yes, PVAMU has active fraternities and sororities that are part of the National Pan‑Hellenic Council, IFC, and other councils. Each organization has its own membership requirements and intake process.",
+    "tags": ["campus life", "greek life", "fraternities", "sororities"],
+    "embedding": []
+  },
+  {
+    "intent": "greek_life_intake",
+    "question": "How do I join a fraternity or sorority?",
+    "answer": "Membership intake varies by organization, but most require a minimum GPA, community involvement, and attendance at informational meetings. Details are posted by the Office of Student Engagement.",
+    "tags": ["campus life", "greek life", "intake", "membership"],
+    "embedding": []
+  },
+  {
+    "intent": "rec_center_hours",
+    "question": "What are the hours for the Recreation Center?",
+    "answer": "The Recreation Center offers extended hours during the semester, including evenings and weekends. Current hours are posted on the PVAMU Rec Sports website.",
+    "tags": ["campus life", "recreation center", "hours", "fitness"],
+    "embedding": []
+  },
+  {
+    "intent": "rec_center_membership",
+    "question": "Do I need a membership to use the Rec Center?",
+    "answer": "PVAMU students have automatic access to the Recreation Center with their Panther ID. Some specialized classes or services may require additional fees.",
+    "tags": ["campus life", "rec center", "membership", "fitness"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_events",
+    "question": "How can I find out about campus events?",
+    "answer": "Campus events are posted on the PVAMU Events Calendar, social media pages, and flyers around campus. Many student organizations also promote events through GroupMe and email.",
+    "tags": ["campus life", "events", "calendar", "activities"],
+    "embedding": []
+  },
+  {
+    "intent": "homecoming_info",
+    "question": "What happens during PVAMU Homecoming?",
+    "answer": "Homecoming includes a week of events such as concerts, tailgates, step shows, and the football game. The full schedule is posted each fall by Student Activities.",
+    "tags": ["campus life", "homecoming", "events", "traditions"],
+    "embedding": []
+  },
+  {
+    "intent": "student_center_services",
+    "question": "What services are available in the Memorial Student Center?",
+    "answer": "The MSC includes dining options, meeting rooms, lounges, and student organization offices. It’s a central hub for campus life and events.",
+    "tags": ["campus life", "msc", "student center", "services"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_dining_options",
+    "question": "What dining options are available on campus?",
+    "answer": "PVAMU offers several dining locations including the MSC Cafeteria, retail dining spots, and grab‑and‑go options. Hours and menus are posted on the Dining Services website.",
+    "tags": ["campus life", "dining", "food", "msc"],
+    "embedding": []
+  },
+  {
+    "intent": "meal_plan_changes",
+    "question": "Can I change my meal plan?",
+    "answer": "Meal plan changes are allowed during the first weeks of the semester. You can request a change through Dining Services or the Housing Portal depending on your classification.",
+    "tags": ["campus life", "meal plan", "dining", "housing"],
+    "embedding": []
+  },
+  {
+    "intent": "student_leadership_programs",
+    "question": "Does PVAMU offer leadership programs?",
+    "answer": "Yes, PVAMU offers leadership development programs through Student Activities, including workshops, retreats, and leadership certificates.",
+    "tags": ["campus life", "leadership", "programs", "activities"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_organizations_fair",
+    "question": "What is the Organization Fair?",
+    "answer": "The Organization Fair is held each semester and allows students to meet representatives from student organizations. It’s a great way to explore clubs and get involved.",
+    "tags": ["campus life", "organization fair", "clubs", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "student_media",
+    "question": "Does PVAMU have student media?",
+    "answer": "Yes, PVAMU has student media including The Panther newspaper, radio programs, and digital media groups. Students can join by contacting the media advisors.",
+    "tags": ["campus life", "media", "newspaper", "radio"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_traditions",
+    "question": "What are some PVAMU traditions?",
+    "answer": "PVAMU traditions include Homecoming, Pantherland, the Marching Storm, and the annual Ring Ceremony. These events celebrate school spirit and community.",
+    "tags": ["campus life", "traditions", "events", "pvamu"],
+    "embedding": []
+  },
+  {
+    "intent": "student_volunteering",
+    "question": "How can I volunteer on campus?",
+    "answer": "PVAMU offers volunteer opportunities through service organizations and community outreach programs. Many events are posted on the Student Activities website.",
+    "tags": ["campus life", "volunteering", "service", "activities"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_recreation_sports",
+    "question": "What intramural sports are available?",
+    "answer": "Intramural sports include basketball, flag football, volleyball, soccer, and more. Students can register teams through the Rec Sports portal.",
+    "tags": ["campus life", "intramurals", "sports", "recreation"],
+    "embedding": []
+  },
+  {
+    "intent": "student_health_events",
+    "question": "Does PVAMU host health and wellness events?",
+    "answer": "Yes, the Owens‑Franklin Health Center and Rec Sports host wellness workshops, fitness classes, and health screenings throughout the year.",
+    "tags": ["campus life", "health", "wellness", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_life_contact",
+    "question": "How do I contact Student Activities?",
+    "answer": "You can contact Student Activities using the information on the PVAMU website. They assist with organizations, events, leadership programs, and campus engagement.",
+    "tags": ["campus life", "contact", "student activities", "help"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "career_services_overview",
+    "question": "What does Career Services offer?",
+    "answer": "PVAMU Career Services provides resume reviews, mock interviews, career counseling, job search assistance, and employer networking events. Their goal is to support students in preparing for internships and full‑time careers.",
+    "tags": ["career", "services", "jobs", "internships"],
+    "embedding": []
+  },
+  {
+    "intent": "resume_review",
+    "question": "How can I get my resume reviewed?",
+    "answer": "You can submit your resume through the Career Services portal or schedule an appointment with a career advisor. Walk‑in hours are also available during peak recruiting seasons.",
+    "tags": ["career", "resume", "review", "advising"],
+    "embedding": []
+  },
+  {
+    "intent": "internship_search",
+    "question": "How do I find internships?",
+    "answer": "Internships are posted on Handshake, PVAMU’s career platform. You can filter opportunities by major, location, and employer, and Career Services can help you refine your search.",
+    "tags": ["career", "internships", "handshake", "jobs"],
+    "embedding": []
+  },
+  {
+    "intent": "job_fairs",
+    "question": "Does PVAMU host job fairs?",
+    "answer": "Yes, PVAMU hosts career fairs each semester featuring employers from various industries. Students can register through Handshake and view the list of participating companies.",
+    "tags": ["career", "job fair", "employers", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "mock_interviews",
+    "question": "Can I schedule a mock interview?",
+    "answer": "Career Services offers mock interviews to help students practice and build confidence. You can schedule one through the Career Services office or Handshake.",
+    "tags": ["career", "mock interview", "practice", "advising"],
+    "embedding": []
+  },
+  {
+    "intent": "career_counseling",
+    "question": "Does PVAMU offer career counseling?",
+    "answer": "Yes, career advisors provide one‑on‑one counseling to help you explore majors, career paths, and job search strategies. Appointments can be scheduled online.",
+    "tags": ["career", "counseling", "advising", "planning"],
+    "embedding": []
+  },
+  {
+    "intent": "linkedin_help",
+    "question": "Can someone help me build my LinkedIn profile?",
+    "answer": "Career Services offers LinkedIn workshops and one‑on‑one assistance to help you create a strong professional profile. They can also help you connect with employers and alumni.",
+    "tags": ["career", "linkedin", "profile", "professional"],
+    "embedding": []
+  },
+  {
+    "intent": "career_assessments",
+    "question": "Are career assessments available?",
+    "answer": "PVAMU offers career assessments that help you identify strengths, interests, and potential career paths. You can request an assessment through Career Services.",
+    "tags": ["career", "assessment", "interests", "planning"],
+    "embedding": []
+  },
+  {
+    "intent": "dress_for_success",
+    "question": "Does PVAMU offer help with professional attire?",
+    "answer": "Some Career Services events include access to professional clothing resources or pop‑up closets. These programs help students prepare for interviews and career fairs.",
+    "tags": ["career", "attire", "professional", "interview"],
+    "embedding": []
+  },
+  {
+    "intent": "graduate_school_help",
+    "question": "Can Career Services help with graduate school applications?",
+    "answer": "Yes, Career Services can assist with personal statements, CVs, and application strategies. They also host graduate school information sessions throughout the year.",
+    "tags": ["career", "graduate school", "applications", "cv"],
+    "embedding": []
+  },
+  {
+    "intent": "employer_info_sessions",
+    "question": "What are employer information sessions?",
+    "answer": "Employer information sessions allow companies to present opportunities and meet students. These sessions are posted on Handshake and often include Q&A time.",
+    "tags": ["career", "employers", "sessions", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "handshake_access",
+    "question": "How do I access Handshake?",
+    "answer": "You can access Handshake through the PVAMU Career Services website or by logging in with your PVAMU credentials. Your profile helps match you with relevant opportunities.",
+    "tags": ["career", "handshake", "jobs", "internships"],
+    "embedding": []
+  },
+  {
+    "intent": "salary_negotiation",
+    "question": "Does PVAMU offer salary negotiation help?",
+    "answer": "Career advisors can help you understand job offers and prepare for salary negotiations. Workshops on negotiation strategies are offered each semester.",
+    "tags": ["career", "salary", "negotiation", "offers"],
+    "embedding": []
+  },
+  {
+    "intent": "career_workshops",
+    "question": "What workshops does Career Services offer?",
+    "answer": "Workshops cover topics such as resume writing, interviewing, networking, and professional etiquette. The schedule is posted on the Career Services website and Handshake.",
+    "tags": ["career", "workshops", "resume", "interview"],
+    "embedding": []
+  },
+  {
+    "intent": "on_campus_jobs",
+    "question": "How do I find on‑campus jobs?",
+    "answer": "On‑campus jobs are posted on Handshake and include positions in departments, labs, and student services. Some roles may require work‑study eligibility.",
+    "tags": ["career", "on campus", "jobs", "work study"],
+    "embedding": []
+  },
+  {
+    "intent": "career_faq",
+    "question": "Where can I find answers to common career questions?",
+    "answer": "Career Services maintains an FAQ section on their website covering resumes, interviews, Handshake, and employer events. It’s a helpful starting point for quick questions.",
+    "tags": ["career", "faq", "services", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "career_services_contact",
+    "question": "How do I contact Career Services?",
+    "answer": "You can contact Career Services using the information listed on the PVAMU website. They assist with resumes, internships, job searches, and career planning.",
+    "tags": ["career", "contact", "services", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "internship_credit",
+    "question": "Can I earn academic credit for an internship?",
+    "answer": "Some PVAMU programs allow students to earn academic credit for approved internships. Check with your academic advisor or department for eligibility and requirements.",
+    "tags": ["career", "internship", "credit", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "alumni_networking",
+    "question": "Does PVAMU offer alumni networking opportunities?",
+    "answer": "Yes, Career Services and Alumni Affairs host networking events that connect students with PVAMU alumni in various industries. These events are posted on Handshake and the university website.",
+    "tags": ["career", "alumni", "networking", "events"],
+    "embedding": []
+  }
+  ,
+  {
+    "intent": "campus_police_overview",
+    "question": "What does PVAMU Campus Police do?",
+    "answer": "PVAMU Campus Police provides 24/7 patrols, emergency response, crime prevention programs, and general safety services for the university community. They work to keep campus secure and assist students whenever needed.",
+    "tags": ["safety", "police", "overview", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_police_contact",
+    "question": "How do I contact PVAMU Campus Police?",
+    "answer": "You can contact PVAMU Campus Police using the phone numbers listed on the university’s Campus Safety website. They are available around the clock for emergencies and general assistance.",
+    "tags": ["safety", "police", "contact", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "emergency_call",
+    "question": "Who do I call in an emergency on campus?",
+    "answer": "In an emergency, call 911 or the PVAMU Campus Police emergency line. Campus Police can respond quickly to incidents occurring on university property.",
+    "tags": ["safety", "emergency", "police", "911"],
+    "embedding": []
+  },
+  {
+    "intent": "non_emergency_call",
+    "question": "Is there a non-emergency number for Campus Police?",
+    "answer": "Yes, PVAMU Campus Police maintains a non-emergency line for reporting concerns, asking questions, or requesting assistance that does not require immediate response.",
+    "tags": ["safety", "police", "non emergency", "contact"],
+    "embedding": []
+  },
+  {
+    "intent": "crime_reporting",
+    "question": "How do I report a crime on campus?",
+    "answer": "You can report a crime directly to PVAMU Campus Police by phone, in person, or through online reporting options if available. Providing as much detail as possible helps officers respond effectively.",
+    "tags": ["safety", "crime", "report", "police"],
+    "embedding": []
+  },
+  {
+    "intent": "anonymous_reporting",
+    "question": "Can I report a crime anonymously?",
+    "answer": "PVAMU may offer anonymous reporting options through online forms or tip lines. These allow you to share information without revealing your identity.",
+    "tags": ["safety", "anonymous", "report", "crime"],
+    "embedding": []
+  },
+  {
+    "intent": "lost_and_found",
+    "question": "Where is the campus lost and found?",
+    "answer": "Lost and found items are handled by PVAMU Campus Police. You can visit their office or call to check whether your item has been turned in.",
+    "tags": ["safety", "lost and found", "police", "items"],
+    "embedding": []
+  },
+  {
+    "intent": "safety_escort",
+    "question": "Does PVAMU offer safety escort services?",
+    "answer": "Yes, Campus Police provides safety escorts for students walking on campus at night. You can request an escort by calling the non-emergency line.",
+    "tags": ["safety", "escort", "police", "night"],
+    "embedding": []
+  },
+  {
+    "intent": "emergency_alerts",
+    "question": "How do I receive emergency alerts from PVAMU?",
+    "answer": "PVAMU uses an emergency alert system that sends notifications via text, email, and phone. Students are automatically enrolled using their university contact information.",
+    "tags": ["safety", "alerts", "emergency", "notifications"],
+    "embedding": []
+  },
+  {
+    "intent": "weather_alerts",
+    "question": "Does PVAMU send weather alerts?",
+    "answer": "Yes, severe weather alerts are sent through the same emergency notification system used for safety messages. These alerts help keep the campus community informed during hazardous conditions.",
+    "tags": ["safety", "weather", "alerts", "emergency"],
+    "embedding": []
+  },
+  {
+    "intent": "blue_light_phones",
+    "question": "What are the blue emergency phones on campus?",
+    "answer": "Blue emergency phones are located throughout campus and connect directly to Campus Police when activated. They provide a quick way to request help if you feel unsafe.",
+    "tags": ["safety", "blue lights", "emergency phones", "police"],
+    "embedding": []
+  },
+  {
+    "intent": "self_defense_classes",
+    "question": "Does PVAMU offer self-defense classes?",
+    "answer": "Campus Police and student organizations occasionally host self-defense workshops. These classes teach basic safety techniques and are announced through campus event channels.",
+    "tags": ["safety", "self defense", "workshops", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_safety_tips",
+    "question": "What are some general safety tips for students?",
+    "answer": "PVAMU encourages students to stay aware of their surroundings, walk in groups at night, lock their doors, and report suspicious activity. Using the safety escort service is also recommended.",
+    "tags": ["safety", "tips", "students", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "building_access",
+    "question": "How does building access work on campus?",
+    "answer": "Many campus buildings require Panther ID access after hours for security. Access levels vary by building and student classification.",
+    "tags": ["safety", "building access", "ID", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "fire_safety",
+    "question": "What should I do if a fire alarm goes off?",
+    "answer": "If a fire alarm sounds, evacuate the building immediately using the nearest exit. Do not use elevators, and wait for Campus Police or emergency personnel to give the all-clear.",
+    "tags": ["safety", "fire", "evacuation", "emergency"],
+    "embedding": []
+  },
+  {
+    "intent": "active_shooter_guidance",
+    "question": "What should I do in an active shooter situation?",
+    "answer": "PVAMU follows the national 'Run, Hide, Fight' guidance. Run if you can safely escape, hide if escape is not possible, and fight only as a last resort. Emergency alerts will provide updates during such events.",
+    "tags": ["safety", "active shooter", "emergency", "guidance"],
+    "embedding": []
+  },
+  {
+    "intent": "mental_health_crisis",
+    "question": "Who should I contact during a mental health crisis?",
+    "answer": "For immediate danger, contact 911 or Campus Police. For non-emergency mental health support, PVAMU Counseling Services can provide assistance and connect you with resources.",
+    "tags": ["safety", "mental health", "crisis", "counseling"],
+    "embedding": []
+  },
+  {
+    "intent": "sexual_misconduct_reporting",
+    "question": "How do I report sexual misconduct or harassment?",
+    "answer": "Reports of sexual misconduct can be made to PVAMU’s Title IX Office or Campus Police. The university provides confidential resources and support services for students.",
+    "tags": ["safety", "title ix", "misconduct", "report"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_safety_programs",
+    "question": "Does PVAMU offer safety education programs?",
+    "answer": "Yes, Campus Police and Student Affairs host safety workshops on topics like personal safety, alcohol awareness, and emergency preparedness. These programs are offered throughout the year.",
+    "tags": ["safety", "programs", "education", "workshops"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_safety_contact",
+    "question": "How do I contact the Campus Safety Office?",
+    "answer": "You can contact the Campus Safety Office using the information listed on the PVAMU website. They provide resources, training, and support for campus-wide safety initiatives.",
+    "tags": ["safety", "contact", "office", "help"],
+    "embedding": []
+  }
+]

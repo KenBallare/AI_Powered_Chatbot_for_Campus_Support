@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PvBuddy 2.0 – Campus Support Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="popup-body">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="PvBuddy.png" alt="PvBuddy Logo" width="50" height="75">
+      <h2>Chatting with PvBuddy</h2>
+    </div>
+
+    <!-- Chat Window -->
+    <div id="chat-window"></div>
+
+    <!-- Quick Action Buttons -->
+    <div class="quick-actions">
+      <button class="quick-btn" data-msg="I need help with classes. How do I register, add or drop courses, and find the course schedule?">
+        Classes
+      </button>
+
+      <button class="quick-btn" data-msg="I need advising help. How do I contact my academic advisor and schedule an appointment?">
+        Advising
+      </button>
+
+      <button class="quick-btn" data-msg="I need library help. What are the library hours?">
+        Library
+      </button>
+
+      <button class="quick-btn" data-msg="How do I contact IT Support?">
+        IT Support
+      </button>
+    </div>
+
+    <!-- Input Row -->
+    <div class="input-row">
+      <input 
+        type="text" 
+        id="user-input" 
+        placeholder="Type your message here..."
+        autocomplete="off"
+      >
+      <button id="send-btn">Send</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

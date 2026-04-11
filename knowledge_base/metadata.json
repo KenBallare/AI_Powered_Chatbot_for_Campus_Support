@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "last_updated": "2026-03-25",
+    "domains": {
+        "academics": 20,
+        "admissions": 20,
+        "advising": 20,
+        "billing": 20,
+        "campus_life": 19,
+        "campus_safety": 20,
+        "career_services": 19,
+        "financial_aid": 20,
+        "housing": 20,
+        "it_helpdesk": 20,
+        "library": 20,
+        "parking": 20,
+        "registrar": 20
+    },
+    "total_entries": 258
+}
