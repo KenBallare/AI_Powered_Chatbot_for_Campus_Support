@@ -14,6 +14,20 @@
     "embedding": []
   },
   {
+    "intent": "housing_portal_access",
+    "question": "Where do I access the housing portal?",
+    "answer": "Students can access the housing portal through PVPlace or through the official PVAMU Housing website. The portal is used for applications, housing status, and other residence-related processes. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "portal", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_deadline",
+    "question": "When is the housing application deadline?",
+    "answer": "Housing deadlines may vary by semester and housing cycle. Students should submit applications as early as possible and review the official housing website for current dates. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "deadline", "application"],
+    "embedding": []
+  },
+  {
     "intent": "housing_office_location",
     "question": "Where is the housing office located?",
     "answer": "The Housing Office assists students with residence hall assignments and housing support. Office locations may change, so students should check the official PVAMU Housing website for the most accurate information. Visit: https://www.pvamu.edu/housing/",
@@ -39,6 +53,125 @@
     "question": "How do I check housing availability?",
     "answer": "Housing availability can be checked through the PVAMU Housing Portal or by contacting the Housing Office directly. Availability may depend on application deadlines and available space. For more information, visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "availability", "portal"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_assignments",
+    "question": "When will I get my housing assignment?",
+    "answer": "Housing assignment timelines may vary depending on the semester and application cycle. Students should monitor the housing portal and official housing communications for assignment updates. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "assignment", "room"],
+    "embedding": []
+  },
+  {
+    "intent": "roommate_info",
+    "question": "How do I find out who my roommate is?",
+    "answer": "Roommate information, if available, may be posted through the housing portal after assignments are finalized. Students should check the portal regularly for updates and housing details.",
+    "tags": ["housing", "roommate", "assignment"],
+    "embedding": []
+  },
+  {
+    "intent": "room_change_request",
+    "question": "How do I request a room change?",
+    "answer": "Students who need a room change should follow the housing office process for room change requests. Approval may depend on availability, timing, and housing policies. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "room change", "request"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_cost",
+    "question": "How much does housing cost?",
+    "answer": "Housing costs vary depending on the residence hall, room type, and semester. Students should review the official housing website for the most current rates and housing fees. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "cost", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "meal_plan_requirement",
+    "question": "Do I need a meal plan if I live on campus?",
+    "answer": "Meal plan requirements may depend on housing status, student classification, and residence hall policies. Students should review housing and dining information for the most current rules.",
+    "tags": ["housing", "meal plan", "dining"],
+    "embedding": []
+  },
+  {
+    "intent": "move_in_dates",
+    "question": "When is move-in day?",
+    "answer": "Move-in dates vary by semester and residence hall assignment. Students should check official housing communications and the housing website for move-in schedules and instructions. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "move in", "dates"],
+    "embedding": []
+  },
+  {
+    "intent": "move_in_requirements",
+    "question": "What do I need for move-in?",
+    "answer": "Move-in requirements may include check-in documents, identification, and compliance with housing procedures. Students should review official move-in instructions before arriving on campus.",
+    "tags": ["housing", "move in", "requirements"],
+    "embedding": []
+  },
+  {
+    "intent": "maintenance_request",
+    "question": "How do I submit a maintenance request?",
+    "answer": "Students can usually submit maintenance requests through housing systems or by contacting residence hall staff. Reporting issues quickly helps ensure that room problems are addressed in a timely manner.",
+    "tags": ["housing", "maintenance", "request"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_cancellation",
+    "question": "How do I cancel my housing application or contract?",
+    "answer": "Housing cancellations may require students to follow official procedures and deadlines established by the housing office. Fees or penalties may apply depending on timing and policy. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "cancel", "contract"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_exemption",
+    "question": "Can I get an exemption from living on campus?",
+    "answer": "Housing exemptions may be available for students who meet certain criteria. Approval depends on university policy and supporting documentation. Students should review exemption requirements with the housing office.",
+    "tags": ["housing", "exemption", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_guest_policy",
+    "question": "What is the guest policy in residence halls?",
+    "answer": "Guest policies in residence halls are determined by housing rules and may vary depending on the hall and semester. Students should review official residence hall policies for current guidelines.",
+    "tags": ["housing", "guest", "policy"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_help_general",
+    "question": "Who can help me with housing questions?",
+    "answer": "Students can contact PVAMU Housing for help with applications, room assignments, residence hall concerns, and housing policies. Visit: https://www.pvamu.edu/housing/",
+    "tags": ["housing", "help", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "laundry_info",
+    "question": "Do residence halls have laundry rooms?",
+    "answer": "Residence hall amenities, including laundry access, may vary depending on the building. Students should review housing information or ask residence hall staff for specific details.",
+    "tags": ["housing", "laundry", "amenities"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_mail",
+    "question": "How do I get mail and packages in the dorms?",
+    "answer": "Mail and package procedures vary by residence hall. Students should check housing guidelines or ask residence hall staff about delivery, pickup, and package notifications.",
+    "tags": ["housing", "mail", "packages"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_safety",
+    "question": "What safety measures are in the residence halls?",
+    "answer": "Residence hall safety measures may include staff supervision, controlled access, and campus safety support. Students should review housing information and campus safety resources for details.",
+    "tags": ["housing", "safety", "residence halls"],
+    "embedding": []
+  },
+  {
+    "intent": "early_move_in",
+    "question": "Can I move in early?",
+    "answer": "Early move-in availability depends on housing policy, semester scheduling, and approval processes. Students should contact the housing office to ask about early arrival options.",
+    "tags": ["housing", "early move in", "arrival"],
+    "embedding": []
+  },
+  {
+    "intent": "housing_waitlist",
+    "question": "Is there a waitlist for housing?",
+    "answer": "Housing waitlist availability may depend on demand and space limitations. Students should check the housing portal or contact the housing office for the most current information.",
+    "tags": ["housing", "waitlist", "availability"],
     "embedding": []
   }
 ]
