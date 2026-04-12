@@ -7,6 +7,13 @@
     "embedding": []
   },
   {
+    "intent": "class_registration_steps",
+    "question": "What are the steps to register for classes?",
+    "answer": "Students typically register for classes by logging into PVPlace, opening PantherTracks, selecting the correct term, and adding courses through the registration section. Course availability may vary by term and classification. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "registration", "steps", "panthertracks"],
+    "embedding": []
+  },
+  {
     "intent": "class_schedule_view",
     "question": "Where can I see my class schedule?",
     "answer": "Students can view their class schedule in PantherTracks after logging into PVPlace. The system allows students to see enrolled courses, class times, and locations. Schedule availability may depend on registration status. Access it here: https://pvplace.pvamu.edu/",
@@ -14,10 +21,24 @@
     "embedding": []
   },
   {
+    "intent": "class_schedule_print",
+    "question": "How do I print my class schedule?",
+    "answer": "Students can usually print or save their class schedule after viewing it in PantherTracks. Printing options may depend on the browser or device being used. Access PantherTracks here: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "schedule", "print", "panthertracks"],
+    "embedding": []
+  },
+  {
     "intent": "drop_class",
     "question": "How do I drop a class?",
     "answer": "Students can drop a class through PantherTracks by accessing the registration section and selecting the option to drop courses. Deadlines may apply, and dropping a class could affect academic standing or financial aid. For access, visit: https://pvplace.pvamu.edu/",
     "tags": ["classes", "drop", "courses"],
+    "embedding": []
+  },
+  {
+    "intent": "add_class",
+    "question": "How do I add a class?",
+    "answer": "Students can add classes through PantherTracks during the registration or add/drop period. Class availability may depend on seat openings, restrictions, and deadlines. Access the system here: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "add", "registration", "panthertracks"],
     "embedding": []
   },
   {
@@ -35,10 +56,17 @@
     "embedding": []
   },
   {
-    "intent": "change_major",
-    "question": "How do I change my major?",
-    "answer": "Students can change their major by contacting their academic advisor and completing the required forms or approval process. Requirements may vary by department. For more information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["academics", "major", "change"],
+    "intent": "waitlist_info",
+    "question": "Does PVAMU have a class waitlist?",
+    "answer": "Waitlist availability depends on the course and registration system settings for a given term. Students should check PantherTracks or contact their academic advisor for the most accurate information. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "waitlist", "registration"],
+    "embedding": []
+  },
+  {
+    "intent": "class_availability",
+    "question": "How do I know if a class is full?",
+    "answer": "Students can view course availability in PantherTracks during registration. The system may show whether seats are open, closed, or restricted. For access, visit: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "availability", "full", "registration"],
     "embedding": []
   },
   {
@@ -46,6 +74,104 @@
     "question": "Who do I contact about my degree plan?",
     "answer": "Students should contact their academic advisor for help with their degree plan. Advisors assist with course selection, graduation requirements, and academic progress. To find your advisor, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["academics", "degree", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "degree_audit",
+    "question": "How do I check my degree progress?",
+    "answer": "Students can review their academic progress using degree evaluation tools in PantherTracks, if available for their program. Academic advisors can also help explain remaining requirements. Access PantherTracks here: https://pvplace.pvamu.edu/",
+    "tags": ["academics", "degree", "progress", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "change_major",
+    "question": "How do I change my major?",
+    "answer": "Students can change their major by contacting their academic advisor and completing the required forms or approval process. Requirements may vary by department. For more information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
+    "tags": ["academics", "major", "change"],
+    "embedding": []
+  },
+  {
+    "intent": "change_minor",
+    "question": "How do I add or change a minor?",
+    "answer": "Students who want to add or change a minor should contact their academic advisor or the department offering the minor. The process may require approval and updated academic planning. Advisor information is available here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
+    "tags": ["academics", "minor", "advisor", "change"],
+    "embedding": []
+  },
+  {
+    "intent": "class_format",
+    "question": "How do I know if a class is online or in person?",
+    "answer": "Students can usually view class format details in PantherTracks when reviewing course information during registration. Delivery format may vary by semester and section. Access PantherTracks here: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "online", "in person", "format"],
+    "embedding": []
+  },
+  {
+    "intent": "course_prerequisites",
+    "question": "How do I check prerequisites for a class?",
+    "answer": "Students can review course prerequisites through the course listing in PantherTracks or by consulting the academic catalog for program requirements. Academic advisors can also help confirm eligibility. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "prerequisites", "courses"],
+    "embedding": []
+  },
+  {
+    "intent": "withdraw_class",
+    "question": "How do I withdraw from a class?",
+    "answer": "Students may be able to withdraw from a class by following the official withdrawal process through PantherTracks or the Registrar’s Office. Withdrawal deadlines may affect academic standing or financial aid. For more information, visit: https://www.pvamu.edu/registrar/",
+    "tags": ["classes", "withdraw", "registrar"],
+    "embedding": []
+  },
+  {
+    "intent": "final_exam_info",
+    "question": "Where can I find final exam information?",
+    "answer": "Final exam schedules and course-specific exam details may be available through the academic calendar, PantherTracks, or directly from instructors. Students should confirm exam dates with their course information. Visit: https://www.pvamu.edu/registrar/academic-calendars/",
+    "tags": ["academics", "final exams", "schedule"],
+    "embedding": []
+  },
+  {
+    "intent": "attendance_policy",
+    "question": "What is the attendance policy for classes?",
+    "answer": "Attendance policies may vary by instructor and course, so students should review the course syllabus carefully. Instructors may include attendance as part of the course grade or participation requirements. Students should contact their instructor for course-specific policies.",
+    "tags": ["classes", "attendance", "policy", "syllabus"],
+    "embedding": []
+  },
+  {
+    "intent": "syllabus_access",
+    "question": "Where can I find my course syllabus?",
+    "answer": "Students can usually find course syllabi in Canvas or through course materials provided by the instructor. If the syllabus is not posted, students should contact the instructor directly. Canvas access is typically available through PVPlace.",
+    "tags": ["classes", "syllabus", "canvas", "instructor"],
+    "embedding": []
+  },
+  {
+    "intent": "canvas_course_access",
+    "question": "How do I access my classes in Canvas?",
+    "answer": "Students can access their courses in Canvas through PVPlace or the university’s learning management system. Canvas is commonly used for assignments, grades, and course content. Access begins once courses are published by instructors. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "canvas", "online", "courses"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_help",
+    "question": "Where can I get academic help for my classes?",
+    "answer": "Students can get academic help through tutoring, academic support services, instructors, and academic advisors. Support options may vary by subject and department. Students should also check with their college or academic success resources for assistance.",
+    "tags": ["academics", "help", "tutoring", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "full_time_status",
+    "question": "How many hours do I need to be full-time?",
+    "answer": "Full-time enrollment requirements may vary by student level and program, but many undergraduate students are considered full-time at 12 credit hours. Students should confirm enrollment requirements with their advisor or registrar. Visit: https://www.pvamu.edu/registrar/",
+    "tags": ["academics", "full time", "hours", "credits"],
+    "embedding": []
+  },
+  {
+    "intent": "gpa_info",
+    "question": "How can I check my GPA?",
+    "answer": "Students can usually view their GPA in PantherTracks through their academic records or student profile. GPA information may update after grades are officially posted. Access PantherTracks here: https://pvplace.pvamu.edu/",
+    "tags": ["academics", "gpa", "grades", "panthertracks"],
+    "embedding": []
+  },
+  {
+    "intent": "class_location_info",
+    "question": "How do I find where my class is located?",
+    "answer": "Students can usually find class locations in PantherTracks when viewing their course schedule. Building and room details may also appear in course materials or instructor communications. Access the schedule system here: https://pvplace.pvamu.edu/",
+    "tags": ["classes", "location", "schedule", "room"],
     "embedding": []
   }
 ]
