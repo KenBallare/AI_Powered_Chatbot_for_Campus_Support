@@ -1,37 +1,142 @@
 [
   {
-    "intent": "career_services_help",
-    "question": "What does Career Services help with?",
-    "answer": "Career Services helps students with career development, including resume building, job search strategies, internships, and interview preparation. Students can use these services to prepare for careers after graduation. For more information, visit: https://www.pvamu.edu/careerservices/",
-    "tags": ["career", "services", "jobs", "help"],
+    "intent": "career_services_info",
+    "question": "What does career services do?",
+    "answer": "Career Services helps students with career planning, job search strategies, resume building, interview preparation, and internships. Students can access resources and support through the Career Services office. Visit: https://www.pvamu.edu/careerservices/",
+    "tags": ["career", "services", "jobs", "support"],
     "embedding": []
   },
   {
     "intent": "resume_help",
-    "question": "Can I get help with my resume?",
-    "answer": "Yes, Career Services offers resume assistance, including reviews and feedback to help students improve their resumes. Students can schedule appointments or access resources online. Visit: https://www.pvamu.edu/careerservices/",
+    "question": "Can someone help me with my resume?",
+    "answer": "Yes, Career Services offers resume reviews and assistance to help students create strong resumes. Students can schedule appointments or access resources online. Visit: https://www.pvamu.edu/careerservices/",
     "tags": ["career", "resume", "help"],
     "embedding": []
   },
   {
-    "intent": "internship_help",
-    "question": "How do I find internships?",
-    "answer": "Students can find internships through Career Services, which provides job listings, internship opportunities, and career resources. Students are encouraged to check regularly and attend career events. Visit: https://www.pvamu.edu/careerservices/",
-    "tags": ["career", "internship", "jobs"],
-    "embedding": []
-  },
-  {
-    "intent": "career_appointments",
-    "question": "How do I schedule a career services appointment?",
-    "answer": "Students can schedule appointments with Career Services through their official website or career platform. Appointments are available for resume reviews, career advising, and job preparation. Visit: https://www.pvamu.edu/careerservices/",
-    "tags": ["career", "appointment", "services"],
+    "intent": "mock_interviews",
+    "question": "Does PVAMU offer mock interviews?",
+    "answer": "Career Services may offer mock interviews to help students prepare for job interviews. Students can practice and receive feedback to improve their interview skills.",
+    "tags": ["career", "interviews", "practice"],
     "embedding": []
   },
   {
     "intent": "job_search_help",
-    "question": "Can Career Services help me find a job?",
-    "answer": "Yes, Career Services provides job search assistance, including job listings, networking opportunities, and career counseling. Students can access resources and support to help them secure employment. Visit: https://www.pvamu.edu/careerservices/",
-    "tags": ["career", "jobs", "help"],
+    "question": "How can I find a job as a student?",
+    "answer": "Students can find job opportunities through Career Services, campus job boards, and employer networking events. Career Services provides guidance on job search strategies and applications.",
+    "tags": ["career", "jobs", "search"],
+    "embedding": []
+  },
+  {
+    "intent": "internships_info",
+    "question": "How do I find internships?",
+    "answer": "Students can find internships through Career Services, job portals, employer partnerships, and networking events. Career Services can assist with searching and applying for internships.",
+    "tags": ["career", "internships"],
+    "embedding": []
+  },
+  {
+    "intent": "career_fairs",
+    "question": "Does PVAMU have career fairs?",
+    "answer": "Yes, PVAMU may host career fairs where students can meet employers, learn about opportunities, and network. Event schedules are typically shared through Career Services announcements.",
+    "tags": ["career", "career fairs", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "career_portal",
+    "question": "Is there a job portal for students?",
+    "answer": "Students may access job portals or career platforms provided by the university to search for jobs and internships. Career Services can provide access and guidance on using these platforms.",
+    "tags": ["career", "portal", "jobs"],
+    "embedding": []
+  },
+  {
+    "intent": "career_advising",
+    "question": "Can I talk to someone about my career path?",
+    "answer": "Yes, Career Services offers career advising to help students explore career paths, set goals, and plan for the future. Students can schedule appointments with advisors.",
+    "tags": ["career", "advising", "planning"],
+    "embedding": []
+  },
+  {
+    "intent": "cover_letter_help",
+    "question": "Can Career Services help with cover letters?",
+    "answer": "Yes, Career Services can help students write and improve cover letters for job and internship applications.",
+    "tags": ["career", "cover letter"],
+    "embedding": []
+  },
+  {
+    "intent": "linkedin_help",
+    "question": "Can I get help with my LinkedIn profile?",
+    "answer": "Career Services may offer guidance on building and improving LinkedIn profiles to help students connect with employers and showcase their experience.",
+    "tags": ["career", "linkedin", "networking"],
+    "embedding": []
+  },
+  {
+    "intent": "career_workshops",
+    "question": "Are there career workshops available?",
+    "answer": "Career Services may host workshops on topics such as resume writing, interviewing, networking, and career planning. Students should check announcements for upcoming events.",
+    "tags": ["career", "workshops"],
+    "embedding": []
+  },
+  {
+    "intent": "networking_opportunities",
+    "question": "How can I network with employers?",
+    "answer": "Students can network with employers through career fairs, events, and workshops organized by Career Services. Networking is an important part of career development.",
+    "tags": ["career", "networking"],
+    "embedding": []
+  },
+  {
+    "intent": "graduate_school_help",
+    "question": "Can Career Services help with graduate school applications?",
+    "answer": "Career Services may provide guidance on graduate school preparation, including application strategies, personal statements, and planning.",
+    "tags": ["career", "graduate school"],
+    "embedding": []
+  },
+  {
+    "intent": "career_resources",
+    "question": "What career resources are available?",
+    "answer": "Career Services offers resources such as resume templates, interview tips, job search tools, and career planning materials.",
+    "tags": ["career", "resources"],
+    "embedding": []
+  },
+  {
+    "intent": "on_campus_jobs",
+    "question": "Can Career Services help me find on-campus jobs?",
+    "answer": "Career Services may assist students in finding on-campus employment opportunities and guide them through the application process.",
+    "tags": ["career", "jobs", "on campus"],
+    "embedding": []
+  },
+  {
+    "intent": "career_center_location",
+    "question": "Where is the Career Services office located?",
+    "answer": "The Career Services office is located on campus. Students can check the official website or campus map for the exact location. Visit: https://www.pvamu.edu/careerservices/",
+    "tags": ["career", "location"],
+    "embedding": []
+  },
+  {
+    "intent": "career_services_hours",
+    "question": "What are the hours for Career Services?",
+    "answer": "Career Services hours may vary depending on the semester and university schedule. Students should check the official website for the most current hours. Visit: https://www.pvamu.edu/careerservices/",
+    "tags": ["career", "hours"],
+    "embedding": []
+  },
+  {
+    "intent": "career_services_contact",
+    "question": "How do I contact Career Services?",
+    "answer": "Students can contact Career Services through phone, email, or by visiting the office. Contact details are available on the official website. Visit: https://www.pvamu.edu/careerservices/",
+    "tags": ["career", "contact"],
+    "embedding": []
+  },
+  {
+    "intent": "career_preparation",
+    "question": "How can I prepare for my career while in school?",
+    "answer": "Students can prepare for their careers by gaining experience, attending workshops, networking, building resumes, and using Career Services resources.",
+    "tags": ["career", "preparation"],
+    "embedding": []
+  },
+  {
+    "intent": "career_success",
+    "question": "How can I increase my chances of getting a job after graduation?",
+    "answer": "Students can improve their chances by gaining experience, building strong resumes, networking, and using Career Services resources to prepare for job opportunities.",
+    "tags": ["career", "success"],
     "embedding": []
   }
 ]
