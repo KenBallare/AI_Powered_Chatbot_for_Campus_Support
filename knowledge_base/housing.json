@@ -65,7 +65,7 @@
   {
     "intent": "roommate_info",
     "question": "How do I find out who my roommate is?",
-    "answer": "Roommate information, if available, may be posted through the housing portal after assignments are finalized. Students should check the portal regularly for updates and housing details.",
+    "answer": "Roommate information, if available, may be posted through the housing portal after assignments are finalized. Students should check the portal regularly for updates and housing details. Access the portal here: https://pvplace.pvamu.edu/",
     "tags": ["housing", "roommate", "assignment"],
     "embedding": []
   },
@@ -86,7 +86,7 @@
   {
     "intent": "meal_plan_requirement",
     "question": "Do I need a meal plan if I live on campus?",
-    "answer": "Meal plan requirements may depend on housing status, student classification, and residence hall policies. Students should review housing and dining information for the most current rules.",
+    "answer": "Meal plan requirements may depend on housing status, student classification, and residence hall policies. Students should review housing and dining information for the most current rules. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "meal plan", "dining"],
     "embedding": []
   },
@@ -100,14 +100,14 @@
   {
     "intent": "move_in_requirements",
     "question": "What do I need for move-in?",
-    "answer": "Move-in requirements may include check-in documents, identification, and compliance with housing procedures. Students should review official move-in instructions before arriving on campus.",
+    "answer": "Move-in requirements may include check-in documents, identification, and compliance with housing procedures. Students should review official move-in instructions before arriving on campus. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "move in", "requirements"],
     "embedding": []
   },
   {
     "intent": "maintenance_request",
     "question": "How do I submit a maintenance request?",
-    "answer": "Students can usually submit maintenance requests through housing systems or by contacting residence hall staff. Reporting issues quickly helps ensure that room problems are addressed in a timely manner.",
+    "answer": "Students can usually submit maintenance requests through housing systems or by contacting residence hall staff. Reporting issues quickly helps ensure that room problems are addressed in a timely manner. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "maintenance", "request"],
     "embedding": []
   },
@@ -121,14 +121,14 @@
   {
     "intent": "housing_exemption",
     "question": "Can I get an exemption from living on campus?",
-    "answer": "Housing exemptions may be available for students who meet certain criteria. Approval depends on university policy and supporting documentation. Students should review exemption requirements with the housing office.",
+    "answer": "Housing exemptions may be available for students who meet certain criteria. Approval depends on university policy and supporting documentation. Students should review exemption requirements with the housing office. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "exemption", "policy"],
     "embedding": []
   },
   {
     "intent": "housing_guest_policy",
     "question": "What is the guest policy in residence halls?",
-    "answer": "Guest policies in residence halls are determined by housing rules and may vary depending on the hall and semester. Students should review official residence hall policies for current guidelines.",
+    "answer": "Guest policies in residence halls are determined by housing rules and may vary depending on the hall and semester. Students should review official residence hall policies for current guidelines. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "guest", "policy"],
     "embedding": []
   },
@@ -142,35 +142,35 @@
   {
     "intent": "laundry_info",
     "question": "Do residence halls have laundry rooms?",
-    "answer": "Residence hall amenities, including laundry access, may vary depending on the building. Students should review housing information or ask residence hall staff for specific details.",
+    "answer": "Residence hall amenities, including laundry access, may vary depending on the building. Students should review housing information or ask residence hall staff for specific details. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "laundry", "amenities"],
     "embedding": []
   },
   {
     "intent": "housing_mail",
     "question": "How do I get mail and packages in the dorms?",
-    "answer": "Mail and package procedures vary by residence hall. Students should check housing guidelines or ask residence hall staff about delivery, pickup, and package notifications.",
+    "answer": "Mail and package procedures vary by residence hall. Students should check housing guidelines or ask residence hall staff about delivery, pickup, and package notifications. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "mail", "packages"],
     "embedding": []
   },
   {
     "intent": "housing_safety",
     "question": "What safety measures are in the residence halls?",
-    "answer": "Residence hall safety measures may include staff supervision, controlled access, and campus safety support. Students should review housing information and campus safety resources for details.",
+    "answer": "Residence hall safety measures may include staff supervision, controlled access, and campus safety support. Students should review housing information and campus safety resources for details. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "safety", "residence halls"],
     "embedding": []
   },
   {
     "intent": "early_move_in",
     "question": "Can I move in early?",
-    "answer": "Early move-in availability depends on housing policy, semester scheduling, and approval processes. Students should contact the housing office to ask about early arrival options.",
+    "answer": "Early move-in availability depends on housing policy, semester scheduling, and approval processes. Students should contact the housing office to ask about early arrival options. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "early move in", "arrival"],
     "embedding": []
   },
   {
     "intent": "housing_waitlist",
     "question": "Is there a waitlist for housing?",
-    "answer": "Housing waitlist availability may depend on demand and space limitations. Students should check the housing portal or contact the housing office for the most current information.",
+    "answer": "Housing waitlist availability may depend on demand and space limitations. Students should check the housing portal or contact the housing office for the most current information. Visit: https://www.pvamu.edu/housing/",
     "tags": ["housing", "waitlist", "availability"],
     "embedding": []
   }
