@@ -1,44 +1,142 @@
 [
   {
-    "intent": "fafsa_deadline",
-    "question": "When is the FAFSA deadline for PVAMU?",
-    "answer": "Students are encouraged to complete the FAFSA as early as possible each year to maximize financial aid opportunities. FAFSA deadlines and priority dates may vary by academic year. For the most current financial aid deadlines, visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "fafsa", "deadline", "priority"],
+    "intent": "financial_aid_info",
+    "question": "What is financial aid?",
+    "answer": "Financial aid helps students pay for college through grants, scholarships, loans, and work-study programs. Students can apply by completing the FAFSA. For more information, visit: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "overview"],
     "embedding": []
   },
   {
-    "intent": "financial_aid_status",
+    "intent": "fafsa_application",
+    "question": "How do I apply for financial aid?",
+    "answer": "Students can apply for financial aid by completing the FAFSA (Free Application for Federal Student Aid). After submission, the university reviews eligibility and awards aid accordingly. Visit: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "fafsa"],
+    "embedding": []
+  },
+  {
+    "intent": "fafsa_deadline",
+    "question": "When is the FAFSA deadline?",
+    "answer": "FAFSA deadlines vary each year. Students should submit their FAFSA as early as possible to maximize eligibility for aid. Check official updates at: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "deadline"],
+    "embedding": []
+  },
+  {
+    "intent": "check_financial_aid_status",
     "question": "How do I check my financial aid status?",
-    "answer": "Students can check their financial aid status through PVPlace by logging into the financial aid section. This system allows students to review award status, missing documents, and eligibility updates. For more information, visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "status", "pvplace", "awards"],
+    "answer": "Students can check their financial aid status through PantherTracks or their student portal. This will show awards, requirements, and updates.",
+    "tags": ["financial aid", "status"],
+    "embedding": []
+  },
+  {
+    "intent": "types_of_financial_aid",
+    "question": "What types of financial aid are available?",
+    "answer": "Financial aid includes grants, scholarships, student loans, and work-study programs. Each type has different eligibility requirements and repayment conditions.",
+    "tags": ["financial aid", "types"],
+    "embedding": []
+  },
+  {
+    "intent": "scholarships_info",
+    "question": "Does PVAMU offer scholarships?",
+    "answer": "Yes, PVAMU offers scholarships based on academic performance, financial need, and other criteria. Students should check the financial aid office for available opportunities.",
+    "tags": ["financial aid", "scholarships"],
+    "embedding": []
+  },
+  {
+    "intent": "grant_info",
+    "question": "What are grants?",
+    "answer": "Grants are a type of financial aid that typically do not need to be repaid. They are usually based on financial need.",
+    "tags": ["financial aid", "grants"],
+    "embedding": []
+  },
+  {
+    "intent": "loan_info",
+    "question": "What are student loans?",
+    "answer": "Student loans are borrowed funds that must be repaid with interest. Students should review loan terms carefully before accepting them.",
+    "tags": ["financial aid", "loans"],
+    "embedding": []
+  },
+  {
+    "intent": "work_study_info",
+    "question": "What is work-study?",
+    "answer": "Work-study allows students to work part-time while attending school to help pay for educational expenses.",
+    "tags": ["financial aid", "work study"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_disbursement",
+    "question": "When will I receive my financial aid?",
+    "answer": "Financial aid is typically disbursed at the beginning of each semester after eligibility requirements are met. Students should check their portal for exact dates.",
+    "tags": ["financial aid", "disbursement"],
     "embedding": []
   },
   {
     "intent": "financial_aid_requirements",
-    "question": "What do I need to complete for financial aid?",
-    "answer": "Financial aid requirements may include submitting the FAFSA, providing requested documents, and completing verification if selected. Requirements vary by student and aid type. For the most current instructions, visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "requirements", "documents", "fafsa"],
+    "question": "What requirements do I need to complete for financial aid?",
+    "answer": "Students may need to complete FAFSA, verification documents, and other requirements before aid can be awarded or disbursed.",
+    "tags": ["financial aid", "requirements"],
     "embedding": []
   },
   {
-    "intent": "financial_aid_office_hours",
-    "question": "What are the financial aid office hours?",
-    "answer": "The Financial Aid Office is typically open Monday through Friday from 8:00 AM to 5:00 PM. Students can get help with FAFSA, scholarships, aid status, and required documents during these hours. Hours may vary during peak processing periods or holidays. For updates, visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "hours", "office", "fafsa"],
+    "intent": "verification_process",
+    "question": "What is financial aid verification?",
+    "answer": "Verification is a process where the financial aid office confirms the accuracy of FAFSA information. Students may need to submit additional documents.",
+    "tags": ["financial aid", "verification"],
+    "embedding": []
+  },
+  {
+    "intent": "sap_requirements",
+    "question": "What is SAP for financial aid?",
+    "answer": "Satisfactory Academic Progress (SAP) is a requirement to maintain financial aid eligibility. Students must meet GPA, credit hours, and completion standards.",
+    "tags": ["financial aid", "sap"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_appeal",
+    "question": "Can I appeal my financial aid?",
+    "answer": "Yes, students may submit an appeal if they do not meet eligibility requirements. Approval depends on documentation and review by the financial aid office.",
+    "tags": ["financial aid", "appeal"],
     "embedding": []
   },
   {
     "intent": "financial_aid_contact",
-    "question": "How do I contact the Financial Aid Office?",
-    "answer": "Students can contact the PVAMU Financial Aid Office for assistance with FAFSA, scholarships, eligibility, and financial aid processing. Contact information and service details are available on the official financial aid website. Visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "contact", "office", "help"],
+    "question": "How do I contact financial aid?",
+    "answer": "Students can contact the Financial Aid Office through phone, email, or by visiting in person. Contact details are available at: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "contact"],
     "embedding": []
   },
   {
-    "intent": "scholarship_info",
-    "question": "Where can I find scholarship information?",
-    "answer": "Students can find scholarship information through the PVAMU Financial Aid website, which provides details about available opportunities, application requirements, and deadlines. Scholarship availability may vary by academic year. For more information, visit: https://www.pvamu.edu/faid/",
-    "tags": ["financial aid", "scholarships", "money", "aid"],
+    "intent": "financial_aid_hours",
+    "question": "What are the financial aid office hours?",
+    "answer": "Office hours may vary by semester and holidays. Students should check the official website for current hours. Visit: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "hours"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_location",
+    "question": "Where is the financial aid office located?",
+    "answer": "The Financial Aid Office is located on campus. Students can check the official website or campus map for directions. Visit: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "location"],
+    "embedding": []
+  },
+  {
+    "intent": "fafsa_correction",
+    "question": "Can I correct my FAFSA after submitting it?",
+    "answer": "Yes, students can log back into the FAFSA website and make corrections if needed. Updated information will be sent to the university.",
+    "tags": ["financial aid", "fafsa", "corrections"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_refund",
+    "question": "Will I get a financial aid refund?",
+    "answer": "Students may receive a refund if financial aid exceeds tuition and fees. Refunds are typically issued after disbursement.",
+    "tags": ["financial aid", "refund"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_aid_help",
+    "question": "Who can help me with financial aid questions?",
+    "answer": "Students can contact the Financial Aid Office for help with applications, eligibility, and account questions. Visit: https://www.pvamu.edu/faid/",
+    "tags": ["financial aid", "help"],
     "embedding": []
   }
 ]
