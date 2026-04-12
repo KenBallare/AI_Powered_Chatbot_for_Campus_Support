@@ -7,6 +7,20 @@
     "embedding": []
   },
   {
+    "intent": "password_change",
+    "question": "How do I change my password?",
+    "answer": "Students can change their PVAMU password through the password management portal. This helps keep university accounts secure and updated. To manage your password, visit: https://mypassword.pvamu.edu/",
+    "tags": ["password", "change", "account", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "forgot_password",
+    "question": "I forgot my password, what should I do?",
+    "answer": "If you forgot your password, use the PVAMU password management system to recover or reset your account credentials. If you continue having issues, contact the IT Help Desk. Visit: https://mypassword.pvamu.edu/",
+    "tags": ["password", "forgot", "reset", "account"],
+    "embedding": []
+  },
+  {
     "intent": "account_locked",
     "question": "What do I do if my account is locked?",
     "answer": "If your account is locked, you can use the PVAMU password management system to unlock or reset your account. If the issue continues, contact the IT Help Desk for assistance. Visit: https://mypassword.pvamu.edu/",
@@ -23,8 +37,15 @@
   {
     "intent": "it_contact",
     "question": "How do I contact IT support?",
-    "answer": "Students can contact the PVAMU IT Help Desk for assistance with technical issues including accounts, Wi-Fi, and system access. Contact information and support options are available on the IT website. Visit: https://www.pvamu.edu/cite/",
+    "answer": "Students can contact the PVAMU IT Help Desk for assistance with technical issues including accounts, Wi-Fi, email, and system access. Contact information and support options are available on the IT website. Visit: https://www.pvamu.edu/cite/",
     "tags": ["it", "contact", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "it_helpdesk_hours",
+    "question": "What are the IT Help Desk hours?",
+    "answer": "The PVAMU IT Help Desk is typically available Monday through Friday from 8:00 AM to 5:00 PM. Students can receive support for technical issues such as passwords, Wi-Fi, and account access during these hours. Hours may vary during peak periods or holidays. For updates, visit: https://www.pvamu.edu/cite/",
+    "tags": ["it", "hours", "help desk"],
     "embedding": []
   },
   {
@@ -35,10 +56,87 @@
     "embedding": []
   },
   {
-    "intent": "it_helpdesk_hours",
-    "question": "What are the IT Help Desk hours?",
-    "answer": "The PVAMU IT Help Desk is typically available Monday through Friday from 8:00 AM to 5:00 PM. Students can receive support for technical issues such as passwords, Wi-Fi, and account access during these hours. Hours may vary during peak periods or holidays. For updates, visit: https://www.pvamu.edu/cite/",
-    "tags": ["it", "hours", "help desk"],
+    "intent": "wifi_connect",
+    "question": "How do I connect to campus Wi-Fi?",
+    "answer": "Students can connect to campus Wi-Fi using their PVAMU credentials and the university’s supported wireless network. Setup instructions and troubleshooting help are available through the IT website. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["wifi", "connect", "internet", "network"],
+    "embedding": []
+  },
+  {
+    "intent": "wifi_troubleshooting",
+    "question": "What should I do if campus Wi-Fi is not working?",
+    "answer": "If campus Wi-Fi is not working, students should try reconnecting, checking their credentials, or contacting the IT Help Desk for troubleshooting assistance. Support information is available at: https://www.pvamu.edu/cite/",
+    "tags": ["wifi", "troubleshooting", "internet", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "email_access",
+    "question": "How do I access my PVAMU email?",
+    "answer": "Students can access their PVAMU email through the university’s supported email platform using their campus credentials. Email access details and support information are available through the IT website. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["email", "access", "account", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "email_setup_phone",
+    "question": "How do I set up my school email on my phone?",
+    "answer": "Students can set up their PVAMU email on a phone using the university-supported email service and their campus login credentials. Setup help may be available through the IT Help Desk. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["email", "phone", "setup", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "canvas_login_help",
+    "question": "What do I do if I cannot log into Canvas?",
+    "answer": "If you cannot log into Canvas, first make sure your PVAMU credentials are working correctly. If the issue continues, contact the IT Help Desk or check supported access options through the university system. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["canvas", "login", "it", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "pvplace_help",
+    "question": "What do I do if PVPlace is not working?",
+    "answer": "If PVPlace is not working, students should try again later, clear browser cache if needed, or contact the IT Help Desk for support. System availability and troubleshooting help are available through the IT website. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["pvplace", "login", "it", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "duo_help",
+    "question": "How do I set up Duo or two-factor authentication?",
+    "answer": "Students may need to use Duo or another two-factor authentication method for secure access to university systems. Setup instructions and troubleshooting support are available through the IT Help Desk or official IT resources. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["duo", "two-factor", "authentication", "security"],
+    "embedding": []
+  },
+  {
+    "intent": "duo_troubleshooting",
+    "question": "What do I do if Duo is not working?",
+    "answer": "If Duo or two-factor authentication is not working, students should contact the IT Help Desk for troubleshooting support. Help may include device setup, login recovery, or authentication guidance. Visit: https://www.pvamu.edu/cite/",
+    "tags": ["duo", "authentication", "troubleshooting", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "software_access",
+    "question": "Does PVAMU provide software for students?",
+    "answer": "PVAMU may provide students with access to approved software, online tools, and academic technology resources. Available software can vary by department and license. For more information, visit: https://www.pvamu.edu/cite/",
+    "tags": ["software", "students", "technology", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_help",
+    "question": "Where can I print on campus?",
+    "answer": "Printing may be available in libraries, labs, or designated campus technology areas. Students should check with the library, labs, or IT resources for printing access and requirements.",
+    "tags": ["printing", "campus", "it", "labs"],
+    "embedding": []
+  },
+  {
+    "intent": "computer_lab_info",
+    "question": "Are there computer labs on campus?",
+    "answer": "Yes, students may have access to computer labs and technology spaces on campus for academic use. Lab locations and hours may vary by building or department.",
+    "tags": ["computer lab", "campus", "technology", "it"],
+    "embedding": []
+  },
+  {
+    "intent": "it_general_help",
+    "question": "Who can help me with technical problems on campus?",
+    "answer": "Students can contact the PVAMU IT Help Desk for technical assistance with passwords, accounts, Wi-Fi, email, and system access. For official support options, visit: https://www.pvamu.edu/cite/",
+    "tags": ["it", "technical", "help", "support"],
     "embedding": []
   }
 ]
