@@ -23,77 +23,77 @@
   {
     "intent": "check_financial_aid_status",
     "question": "How do I check my financial aid status?",
-    "answer": "Students can check their financial aid status through PantherTracks or their student portal. This will show awards, requirements, and updates.",
+    "answer": "Students can check their financial aid status through PantherTracks or their student portal. This will show awards, requirements, and updates. Access here: https://pvplace.pvamu.edu/",
     "tags": ["financial aid", "status"],
     "embedding": []
   },
   {
     "intent": "types_of_financial_aid",
     "question": "What types of financial aid are available?",
-    "answer": "Financial aid includes grants, scholarships, student loans, and work-study programs. Each type has different eligibility requirements and repayment conditions.",
+    "answer": "Financial aid includes grants, scholarships, student loans, and work-study programs. Each type has different eligibility requirements and repayment conditions. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "types"],
     "embedding": []
   },
   {
     "intent": "scholarships_info",
     "question": "Does PVAMU offer scholarships?",
-    "answer": "Yes, PVAMU offers scholarships based on academic performance, financial need, and other criteria. Students should check the financial aid office for available opportunities.",
+    "answer": "Yes, PVAMU offers scholarships based on academic performance, financial need, and other criteria. Students should check the financial aid office for available opportunities. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "scholarships"],
     "embedding": []
   },
   {
     "intent": "grant_info",
     "question": "What are grants?",
-    "answer": "Grants are a type of financial aid that typically do not need to be repaid. They are usually based on financial need.",
+    "answer": "Grants are a type of financial aid that typically do not need to be repaid. They are usually based on financial need. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "grants"],
     "embedding": []
   },
   {
     "intent": "loan_info",
     "question": "What are student loans?",
-    "answer": "Student loans are borrowed funds that must be repaid with interest. Students should review loan terms carefully before accepting them.",
+    "answer": "Student loans are borrowed funds that must be repaid with interest. Students should review loan terms carefully before accepting them. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "loans"],
     "embedding": []
   },
   {
     "intent": "work_study_info",
     "question": "What is work-study?",
-    "answer": "Work-study allows students to work part-time while attending school to help pay for educational expenses.",
+    "answer": "Work-study allows students to work part-time while attending school to help pay for educational expenses. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "work study"],
     "embedding": []
   },
   {
     "intent": "financial_aid_disbursement",
     "question": "When will I receive my financial aid?",
-    "answer": "Financial aid is typically disbursed at the beginning of each semester after eligibility requirements are met. Students should check their portal for exact dates.",
+    "answer": "Financial aid is typically disbursed at the beginning of each semester after eligibility requirements are met. Students should check their portal for exact dates. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "disbursement"],
     "embedding": []
   },
   {
     "intent": "financial_aid_requirements",
     "question": "What requirements do I need to complete for financial aid?",
-    "answer": "Students may need to complete FAFSA, verification documents, and other requirements before aid can be awarded or disbursed.",
+    "answer": "Students may need to complete FAFSA, verification documents, and other requirements before aid can be awarded or disbursed. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "requirements"],
     "embedding": []
   },
   {
     "intent": "verification_process",
     "question": "What is financial aid verification?",
-    "answer": "Verification is a process where the financial aid office confirms the accuracy of FAFSA information. Students may need to submit additional documents.",
+    "answer": "Verification is a process where the financial aid office confirms the accuracy of FAFSA information. Students may need to submit additional documents. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "verification"],
     "embedding": []
   },
   {
     "intent": "sap_requirements",
     "question": "What is SAP for financial aid?",
-    "answer": "Satisfactory Academic Progress (SAP) is a requirement to maintain financial aid eligibility. Students must meet GPA, credit hours, and completion standards.",
+    "answer": "Satisfactory Academic Progress (SAP) is a requirement to maintain financial aid eligibility. Students must meet GPA, credit hours, and completion standards. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "sap"],
     "embedding": []
   },
   {
     "intent": "financial_aid_appeal",
     "question": "Can I appeal my financial aid?",
-    "answer": "Yes, students may submit an appeal if they do not meet eligibility requirements. Approval depends on documentation and review by the financial aid office.",
+    "answer": "Yes, students may submit an appeal if they do not meet eligibility requirements. Approval depends on documentation and review by the financial aid office. Visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "appeal"],
     "embedding": []
   },
@@ -107,7 +107,7 @@
   {
     "intent": "financial_aid_hours",
     "question": "What are the financial aid office hours?",
-    "answer": "Office hours may vary by semester and holidays. Students should check the official website for current hours. Visit: https://www.pvamu.edu/faid/",
+    "answer": "The Financial Aid Office is typically open Monday through Friday from 8:00 AM to 5:00 PM, but hours may vary by semester and holidays. For current hours, visit: https://www.pvamu.edu/faid/",
     "tags": ["financial aid", "hours"],
     "embedding": []
   },
@@ -121,14 +121,14 @@
   {
     "intent": "fafsa_correction",
     "question": "Can I correct my FAFSA after submitting it?",
-    "answer": "Yes, students can log back into the FAFSA website and make corrections if needed. Updated information will be sent to the university.",
+    "answer": "Yes, students can log back into the FAFSA website and make corrections if needed. Updated information will be sent to the university. Visit: https://studentaid.gov/",
     "tags": ["financial aid", "fafsa", "corrections"],
     "embedding": []
   },
   {
     "intent": "financial_aid_refund",
     "question": "Will I get a financial aid refund?",
-    "answer": "Students may receive a refund if financial aid exceeds tuition and fees. Refunds are typically issued after disbursement.",
+    "answer": "Students may receive a refund if financial aid exceeds tuition and fees. Refunds are typically issued after disbursement. Students can check their account in PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["financial aid", "refund"],
     "embedding": []
   },
