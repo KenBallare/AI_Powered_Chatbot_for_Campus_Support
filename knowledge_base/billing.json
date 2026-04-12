@@ -2,36 +2,141 @@
   {
     "intent": "tuition_payment",
     "question": "How do I pay my tuition?",
-    "answer": "Students can pay tuition through PVPlace by accessing the billing or student account section. Payments can typically be made online using accepted payment methods. Deadlines may apply, and late payments could result in additional fees. For more details, visit: https://www.pvamu.edu/fmsv/treasury-services/",
-    "tags": ["billing", "tuition", "payment", "fees"],
+    "answer": "Students can pay tuition through the PVAMU payment portal available in PVPlace. The system allows students to view balances, make payments, and manage billing information. Payment options may vary. To access the portal, visit: https://pvplace.pvamu.edu/",
+    "tags": ["billing", "tuition", "payment", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "tuition_due_date",
+    "question": "When is tuition due?",
+    "answer": "Tuition due dates vary by semester and term. Students should check the academic calendar or billing portal for the most accurate payment deadlines. For updates, visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "tags": ["billing", "tuition", "due date"],
+    "embedding": []
+  },
+  {
+    "intent": "view_bill",
+    "question": "How do I view my student bill?",
+    "answer": "Students can view their bill by logging into PVPlace and accessing the billing or payment section. The system displays current balances, charges, and payment history. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["billing", "bill", "balance", "pvplace"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_contact",
+    "question": "Who do I contact about my bill?",
+    "answer": "Students can contact Treasury Services for billing questions, payment issues, and account balances. The office provides support for student financial accounts. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "tags": ["billing", "contact", "treasury"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_office_hours",
+    "question": "What are the billing office hours?",
+    "answer": "Treasury Services is typically open Monday through Friday from 8:00 AM to 5:00 PM. Students should confirm hours during holidays or peak periods. For updates, visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "tags": ["billing", "hours", "office"],
+    "embedding": []
+  },
+  {
+    "intent": "payment_methods",
+    "question": "What payment methods are accepted?",
+    "answer": "Payment methods may include online payments through the student portal and other approved methods. Accepted options can vary, so students should review the payment portal for available choices. Visit: https://pvplace.pvamu.edu/",
+    "tags": ["billing", "payment", "methods"],
+    "embedding": []
+  },
+  {
+    "intent": "payment_plan",
+    "question": "Does PVAMU offer payment plans?",
+    "answer": "Payment plan availability may vary by semester. Students should check the billing portal or Treasury Services for details about installment options and eligibility. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "tags": ["billing", "payment plan", "installments"],
+    "embedding": []
+  },
+  {
+    "intent": "late_fee",
+    "question": "What happens if I pay late?",
+    "answer": "Late payments may result in fees, account holds, or registration restrictions. Students should review payment deadlines and contact Treasury Services for assistance if they anticipate delays.",
+    "tags": ["billing", "late fee", "payment"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_hold",
+    "question": "What is a billing hold?",
+    "answer": "A billing hold is placed on a student account due to unpaid balances or financial issues. This hold may prevent registration or access to services until resolved.",
+    "tags": ["billing", "hold", "account"],
+    "embedding": []
+  },
+  {
+    "intent": "remove_billing_hold",
+    "question": "How do I remove a billing hold?",
+    "answer": "Students can remove a billing hold by resolving any outstanding balance or financial requirement. Once the issue is cleared, the hold is typically lifted.",
+    "tags": ["billing", "hold", "remove"],
     "embedding": []
   },
   {
     "intent": "account_balance",
     "question": "How do I check my account balance?",
-    "answer": "Students can check their account balance through PVPlace by logging into the billing or student account system. This allows students to view tuition charges, payments, and outstanding balances. For more information, visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "answer": "Students can check their account balance through PVPlace in the billing or payment section. The system shows current charges, payments, and remaining balances. Visit: https://pvplace.pvamu.edu/",
     "tags": ["billing", "balance", "account"],
     "embedding": []
   },
   {
-    "intent": "payment_deadline",
-    "question": "When is my tuition payment due?",
-    "answer": "Tuition payment deadlines vary by semester and are listed on the academic calendar or billing system. Students should check PVPlace or official university announcements to confirm due dates. Late payments may result in fees or holds. For updates, visit: https://www.pvamu.edu/fmsv/treasury-services/",
-    "tags": ["billing", "deadline", "tuition"],
+    "intent": "tuition_breakdown",
+    "question": "Where can I see a breakdown of my tuition charges?",
+    "answer": "Students can view a detailed breakdown of tuition and fees in the billing section of PVPlace. The system may display itemized charges for the semester.",
+    "tags": ["billing", "tuition", "breakdown"],
     "embedding": []
   },
   {
-    "intent": "billing_help",
-    "question": "Who do I contact about billing issues?",
-    "answer": "Students can contact Treasury Services for help with billing, tuition payments, and account balances. Support is available for resolving billing questions and payment issues. For contact details, visit: https://www.pvamu.edu/fmsv/treasury-services/",
-    "tags": ["billing", "help", "treasury"],
+    "intent": "refund_status",
+    "question": "How do I check my refund status?",
+    "answer": "Refund status can usually be checked through the student billing or financial aid portal. Students should monitor their account for updates on processed refunds.",
+    "tags": ["billing", "refund", "status"],
     "embedding": []
   },
   {
-    "intent": "late_fees",
-    "question": "What happens if I pay my tuition late?",
-    "answer": "If tuition is paid late, students may incur late fees or account holds that could affect registration or access to services. It is important to pay by the deadline or contact Treasury Services for assistance. For more information, visit: https://www.pvamu.edu/fmsv/treasury-services/",
-    "tags": ["billing", "late", "fees"],
+    "intent": "refund_timing",
+    "question": "When will I receive my refund?",
+    "answer": "Refund timing varies depending on processing schedules, financial aid disbursement, and account status. Students should check their portal or contact Treasury Services for updates.",
+    "tags": ["billing", "refund", "timing"],
+    "embedding": []
+  },
+  {
+    "intent": "direct_deposit",
+    "question": "How do I set up direct deposit for refunds?",
+    "answer": "Students may be able to set up direct deposit through the student financial or billing portal. This allows refunds to be deposited directly into a bank account.",
+    "tags": ["billing", "refund", "direct deposit"],
+    "embedding": []
+  },
+  {
+    "intent": "third_party_payment",
+    "question": "Can someone else pay my tuition?",
+    "answer": "Third-party payments may be allowed depending on university policies. Students should check the billing portal or contact Treasury Services for instructions on authorized payments.",
+    "tags": ["billing", "payment", "third party"],
+    "embedding": []
+  },
+  {
+    "intent": "tuition_estimate",
+    "question": "How much is tuition?",
+    "answer": "Tuition rates vary depending on residency status, course load, and program. Students should review the official tuition and fee schedule for the most accurate information. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
+    "tags": ["billing", "tuition", "cost"],
+    "embedding": []
+  },
+  {
+    "intent": "fee_charges",
+    "question": "What fees are included in my bill?",
+    "answer": "Student bills may include tuition, mandatory fees, housing charges, and other costs depending on enrollment. Students can view itemized fees in their billing portal.",
+    "tags": ["billing", "fees", "charges"],
+    "embedding": []
+  },
+  {
+    "intent": "billing_dispute",
+    "question": "What do I do if there is an error on my bill?",
+    "answer": "Students should contact Treasury Services immediately if they notice an error on their bill. The office can review charges and provide guidance on resolving discrepancies.",
+    "tags": ["billing", "error", "dispute"],
+    "embedding": []
+  },
+  {
+    "intent": "financial_responsibility",
+    "question": "Am I responsible for my tuition balance?",
+    "answer": "Students are generally responsible for paying their tuition and fees by the designated deadlines. Failure to pay may result in holds or additional charges.",
+    "tags": ["billing", "responsibility", "tuition"],
     "embedding": []
   }
 ]
