@@ -1,37 +1,142 @@
 [
   {
-    "intent": "campus_events",
-    "question": "How can I find campus events?",
-    "answer": "Students can find campus events through PVPlace or university event platforms where organizations and departments post activities, programs, and announcements. Events may include social activities, academic programs, and campus-wide celebrations. Visit: https://pvplace.pvamu.edu/dashboard",
-    "tags": ["campus life", "events", "activities"],
+    "intent": "student_organizations",
+    "question": "How do I join student organizations?",
+    "answer": "Students can join student organizations by exploring campus involvement platforms, attending organization fairs, or contacting organizations directly. Opportunities may vary by semester. For more information, visit: https://www.pvamu.edu/studentactivities/",
+    "tags": ["campus life", "organizations", "clubs"],
     "embedding": []
   },
   {
-    "intent": "student_organizations",
-    "question": "How do I join a student organization?",
-    "answer": "Students can join student organizations by browsing available clubs on PVPlace and contacting the organization directly or attending interest meetings. Student organizations provide opportunities for leadership, networking, and campus involvement. Visit: https://pvplace.pvamu.edu/dashboard",
+    "intent": "club_information",
+    "question": "What clubs are available at PVAMU?",
+    "answer": "PVAMU offers a variety of student organizations including academic, cultural, social, and professional clubs. Availability may change each semester. Students can explore options through the student activities office. Visit: https://www.pvamu.edu/studentactivities/",
     "tags": ["campus life", "clubs", "organizations"],
     "embedding": []
   },
   {
-    "intent": "campus_involvement",
-    "question": "How can I get involved on campus?",
-    "answer": "Students can get involved on campus by joining student organizations, attending events, volunteering, or participating in leadership programs. Campus involvement helps students build connections and enhance their college experience. Visit: https://pvplace.pvamu.edu/dashboard",
+    "intent": "campus_events",
+    "question": "Where can I find campus events?",
+    "answer": "Students can find campus events through student activities platforms, announcements, and campus event calendars. Events may include social, academic, and cultural activities. Visit: https://www.pvamu.edu/studentactivities/",
+    "tags": ["campus life", "events", "activities"],
+    "embedding": []
+  },
+  {
+    "intent": "homecoming_info",
+    "question": "When is homecoming?",
+    "answer": "Homecoming dates vary each year and include multiple events such as games, concerts, and celebrations. Students should check official announcements for updated schedules.",
+    "tags": ["campus life", "homecoming", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "student_center",
+    "question": "Where is the student center?",
+    "answer": "The student center is a central location on campus where students can study, attend events, and access services. Specific location details may be found on campus maps or student services resources.",
+    "tags": ["campus life", "student center", "location"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_recreation",
+    "question": "What recreational facilities are available?",
+    "answer": "PVAMU offers recreational facilities such as fitness centers, sports fields, and activity spaces. Availability may vary depending on schedules and student access. Students should check campus recreation services for details.",
+    "tags": ["campus life", "recreation", "fitness"],
+    "embedding": []
+  },
+  {
+    "intent": "gym_hours",
+    "question": "What are the gym hours?",
+    "answer": "Gym hours may vary depending on the semester, holidays, and campus events. Students should check the campus recreation department for the most current hours.",
+    "tags": ["campus life", "gym", "hours"],
+    "embedding": []
+  },
+  {
+    "intent": "intramural_sports",
+    "question": "Does PVAMU have intramural sports?",
+    "answer": "PVAMU may offer intramural sports for students interested in recreational competition. Sports and participation options may vary by semester. Students should check campus recreation services for details.",
+    "tags": ["campus life", "sports", "intramural"],
+    "embedding": []
+  },
+  {
+    "intent": "student_lounges",
+    "question": "Are there places to hang out on campus?",
+    "answer": "Students can find lounges, study spaces, and social areas across campus including the student center and academic buildings. Availability may vary based on building hours.",
+    "tags": ["campus life", "lounges", "hangout"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_dining",
+    "question": "Where can I eat on campus?",
+    "answer": "Students can access dining facilities and food options across campus. Dining locations and hours may vary by semester and meal plan. Students should check campus dining services for details.",
+    "tags": ["campus life", "dining", "food"],
+    "embedding": []
+  },
+  {
+    "intent": "meal_plans",
+    "question": "How do meal plans work?",
+    "answer": "Meal plans allow students to access campus dining services. Plan options and usage may vary based on housing status and selected plan. Students should review dining services information for details.",
+    "tags": ["campus life", "meal plan", "dining"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_jobs",
+    "question": "Are there jobs on campus?",
+    "answer": "Students may be able to find on-campus jobs through student employment services or department postings. Job availability varies by semester and funding.",
+    "tags": ["campus life", "jobs", "employment"],
+    "embedding": []
+  },
+  {
+    "intent": "student_activities_office",
+    "question": "What does the student activities office do?",
+    "answer": "The student activities office supports campus events, student organizations, and leadership opportunities. It helps students stay involved and engaged on campus.",
+    "tags": ["campus life", "activities", "office"],
+    "embedding": []
+  },
+  {
+    "intent": "leadership_opportunities",
+    "question": "Are there leadership opportunities for students?",
+    "answer": "Students may participate in leadership programs, student government, and organization roles to develop leadership skills. Opportunities vary by semester and organization.",
+    "tags": ["campus life", "leadership", "organizations"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_traditions",
+    "question": "What traditions does PVAMU have?",
+    "answer": "PVAMU has various campus traditions including homecoming, student events, and cultural celebrations. Traditions may vary each year and are often announced through campus channels.",
+    "tags": ["campus life", "traditions", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "greek_life",
+    "question": "Does PVAMU have Greek life?",
+    "answer": "PVAMU offers Greek life organizations for students interested in fraternities and sororities. Participation requirements and processes vary by organization.",
+    "tags": ["campus life", "greek life", "organizations"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_resources",
+    "question": "What resources are available for students on campus?",
+    "answer": "Students have access to various campus resources including academic support, counseling services, recreation, and student engagement programs.",
+    "tags": ["campus life", "resources", "support"],
+    "embedding": []
+  },
+  {
+    "intent": "campus_announcements",
+    "question": "Where do I find campus announcements?",
+    "answer": "Students can find campus announcements through official emails, campus websites, and student activity platforms.",
+    "tags": ["campus life", "announcements", "updates"],
+    "embedding": []
+  },
+  {
+    "intent": "weekend_activities",
+    "question": "Are there activities on weekends?",
+    "answer": "Weekend activities may include campus events, social gatherings, and student organization activities. Students should check campus event listings for current options.",
+    "tags": ["campus life", "weekend", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "student_engagement",
+    "question": "How can I get more involved on campus?",
+    "answer": "Students can get involved by joining organizations, attending events, participating in leadership programs, and engaging with campus activities.",
     "tags": ["campus life", "involvement", "activities"],
-    "embedding": []
-  },
-  {
-    "intent": "campus_activities",
-    "question": "What activities are available on campus?",
-    "answer": "PVAMU offers a variety of campus activities including student organizations, social events, academic programs, and recreational opportunities. Activities vary throughout the semester. Students can explore opportunities through PVPlace. Visit: https://pvplace.pvamu.edu/dashboard",
-    "tags": ["campus life", "activities", "events"],
-    "embedding": []
-  },
-  {
-    "intent": "campus_life_help",
-    "question": "Who do I contact about campus life activities?",
-    "answer": "Students can contact student engagement or campus life offices for information about events, organizations, and involvement opportunities. These offices help students connect with campus activities. Visit: https://pvplace.pvamu.edu/dashboard",
-    "tags": ["campus life", "help", "engagement"],
     "embedding": []
   }
 ]
