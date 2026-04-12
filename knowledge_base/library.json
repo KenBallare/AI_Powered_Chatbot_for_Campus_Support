@@ -1,58 +1,142 @@
 [
   {
-    "intent": "library_hours",
-    "question": "What are the library hours?",
-    "answer": "The John B. Coleman Library is typically open Monday through Thursday from 7:00 AM to 12:00 AM, Friday from 7:00 AM to 6:00 PM, Saturday from 10:00 AM to 6:00 PM, and Sunday from 2:00 PM to 12:00 AM. Students can access study spaces, computers, and research support during these hours. Hours may vary during holidays or exam periods. For the most current schedule, visit: https://www.pvamu.edu/library/about-the-library/hours-2/",
-    "tags": ["library", "hours", "open", "close", "coleman"],
-    "embedding": []
-  },
-  {
-    "intent": "library_close_time",
-    "question": "What time does the library close?",
-    "answer": "The John B. Coleman Library closing time depends on the day of the week. It is typically open Monday through Thursday until 12:00 AM, Friday until 6:00 PM, Saturday until 6:00 PM, and Sunday until 12:00 AM. Hours may vary during holidays, special events, or exam periods. For updated hours, visit: https://www.pvamu.edu/library/about-the-library/hours-2/",
-    "tags": ["library", "close", "hours", "time"],
-    "embedding": []
-  },
-  {
     "intent": "library_location",
     "question": "Where is the library located?",
-    "answer": "The John B. Coleman Library is located on the PVAMU campus and serves as a central resource for study, research, and academic support. Students can use the library for books, computers, research help, and study spaces. For maps and details, visit: https://www.pvamu.edu/library/",
-    "tags": ["library", "location", "campus", "coleman"],
+    "answer": "The John B. Coleman Library is located on the PVAMU campus and provides study spaces, research materials, and academic resources for students. For directions and more information, visit: https://www.pvamu.edu/library/",
+    "tags": ["library", "location"],
     "embedding": []
   },
   {
-    "intent": "library_study_rooms",
-    "question": "Does the library have study rooms?",
-    "answer": "Yes, the John B. Coleman Library offers study rooms and study spaces for students. These spaces are useful for individual and group study sessions. Availability may vary depending on demand and reservations. For details, visit: https://www.pvamu.edu/library/",
-    "tags": ["library", "study rooms", "rooms", "study"],
+    "intent": "library_hours",
+    "question": "What are the library hours?",
+    "answer": "Library hours may vary depending on the semester, holidays, and special schedules. Students should check the official library website for the most up-to-date hours. Visit: https://www.pvamu.edu/library/about-the-library/hours-2/",
+    "tags": ["library", "hours"],
     "embedding": []
   },
   {
-    "intent": "library_reserve_study_room",
-    "question": "How do I reserve a study room?",
-    "answer": "Students can reserve a study room through the PVAMU Library reservation system. Study rooms are intended for academic work and may require advance booking depending on availability. For more information or to reserve a room, visit: https://www.pvamu.edu/library/reserve-a-room/",
-    "tags": ["library", "reserve", "study room", "booking"],
+    "intent": "library_weekend_hours",
+    "question": "Is the library open on weekends?",
+    "answer": "The library may be open on weekends, but hours can vary depending on the semester and university schedule. Students should check the official hours page for details.",
+    "tags": ["library", "weekend", "hours"],
     "embedding": []
   },
   {
-    "intent": "library_online_resources",
-    "question": "How do I access online library resources?",
-    "answer": "Students can access online library resources through the PVAMU Library website. These resources include research databases, journals, e-books, and other academic materials. Access may require your PVAMU login credentials. Visit: https://www.pvamu.edu/library/",
-    "tags": ["library", "online", "resources", "databases"],
+    "intent": "study_rooms",
+    "question": "Can I reserve a study room?",
+    "answer": "Yes, students may be able to reserve study rooms in the library for group or individual study. Availability may vary, and reservations are typically made online. Visit: https://www.pvamu.edu/library/reserve-a-room/",
+    "tags": ["library", "study rooms", "reserve"],
     "embedding": []
   },
   {
-    "intent": "library_research_help",
-    "question": "How can I get help with research or finding sources?",
-    "answer": "The PVAMU Library provides research assistance for students who need help finding sources, using databases, or improving academic research skills. Students can receive support from library staff and research services. For more information, visit: https://www.pvamu.edu/library/",
-    "tags": ["library", "research", "help", "sources"],
+    "intent": "study_spaces",
+    "question": "Are there quiet places to study?",
+    "answer": "Yes, the library offers quiet study areas, group study rooms, and open seating spaces for students. Availability may vary depending on time and demand.",
+    "tags": ["library", "study", "quiet"],
+    "embedding": []
+  },
+  {
+    "intent": "library_books",
+    "question": "How do I find books in the library?",
+    "answer": "Students can search for books using the library catalog system available through the PVAMU Library website. Library staff can also assist with locating materials.",
+    "tags": ["library", "books", "catalog"],
+    "embedding": []
+  },
+  {
+    "intent": "library_databases",
+    "question": "Does the library have online databases?",
+    "answer": "Yes, the PVAMU Library provides access to online academic databases, journals, and research tools for students. Access is typically available through the library website.",
+    "tags": ["library", "databases", "research"],
+    "embedding": []
+  },
+  {
+    "intent": "library_help",
+    "question": "Can librarians help me with research?",
+    "answer": "Yes, librarians can help students with research, finding sources, and using databases. Students can visit the library or contact staff for assistance.",
+    "tags": ["library", "research", "help"],
+    "embedding": []
+  },
+  {
+    "intent": "printing_library",
+    "question": "Can I print at the library?",
+    "answer": "Yes, printing services may be available at the library. Students should check printing policies and costs with library staff or posted guidelines.",
+    "tags": ["library", "printing"],
+    "embedding": []
+  },
+  {
+    "intent": "library_computers",
+    "question": "Are there computers in the library?",
+    "answer": "Yes, the library provides computer access for students to complete assignments, research, and academic work.",
+    "tags": ["library", "computers"],
+    "embedding": []
+  },
+  {
+    "intent": "library_wifi",
+    "question": "Does the library have Wi-Fi?",
+    "answer": "Yes, students can access campus Wi-Fi in the library using their PVAMU login credentials.",
+    "tags": ["library", "wifi"],
+    "embedding": []
+  },
+  {
+    "intent": "library_borrow_books",
+    "question": "Can I check out books from the library?",
+    "answer": "Yes, students can borrow books and other materials from the library. Loan periods and policies may vary depending on the item.",
+    "tags": ["library", "borrow"],
+    "embedding": []
+  },
+  {
+    "intent": "library_return_books",
+    "question": "How do I return library books?",
+    "answer": "Books can typically be returned at the library circulation desk or designated return areas. Students should follow due dates to avoid fees.",
+    "tags": ["library", "return"],
+    "embedding": []
+  },
+  {
+    "intent": "library_fines",
+    "question": "Are there late fees for library books?",
+    "answer": "Late fees may apply if library materials are not returned on time. Students should check library policies for details.",
+    "tags": ["library", "fees"],
+    "embedding": []
+  },
+  {
+    "intent": "library_events",
+    "question": "Does the library host events or workshops?",
+    "answer": "The library may host workshops, research sessions, and academic support events throughout the semester. Students should check announcements for upcoming events.",
+    "tags": ["library", "events"],
+    "embedding": []
+  },
+  {
+    "intent": "library_floor_access",
+    "question": "Are all floors of the library open to students?",
+    "answer": "Most areas of the library are open to students, but access to certain floors or rooms may depend on hours, reservations, or special use areas.",
+    "tags": ["library", "access"],
+    "embedding": []
+  },
+  {
+    "intent": "library_group_study",
+    "question": "Can I study with friends in the library?",
+    "answer": "Yes, the library provides group study spaces and rooms where students can work together.",
+    "tags": ["library", "group study"],
     "embedding": []
   },
   {
     "intent": "library_contact",
     "question": "How do I contact the library?",
-    "answer": "Students can contact the John B. Coleman Library for help with research, study spaces, and library services. Contact information and service details are available on the official PVAMU Library website. Visit: https://www.pvamu.edu/library/",
-    "tags": ["library", "contact", "help", "services"],
+    "answer": "Students can contact the PVAMU Library through phone, email, or by visiting in person. Contact details are available on the official website. Visit: https://www.pvamu.edu/library/",
+    "tags": ["library", "contact"],
+    "embedding": []
+  },
+  {
+    "intent": "library_services",
+    "question": "What services does the library offer?",
+    "answer": "The library offers services such as research assistance, study spaces, printing, computer access, and access to academic resources.",
+    "tags": ["library", "services"],
+    "embedding": []
+  },
+  {
+    "intent": "library_general_help",
+    "question": "Who can help me at the library?",
+    "answer": "Library staff and librarians are available to help students with research, locating materials, and using library resources.",
+    "tags": ["library", "help"],
     "embedding": []
   }
 ]
