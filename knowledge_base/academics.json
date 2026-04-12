@@ -58,7 +58,7 @@
   {
     "intent": "waitlist_info",
     "question": "Does PVAMU have a class waitlist?",
-    "answer": "Waitlist availability depends on the course and registration system settings for a given term. Students should check PantherTracks or contact their academic advisor for the most accurate information. Visit: https://pvplace.pvamu.edu/",
+    "answer": "Waitlist availability depends on the course and registration system settings for a given term. Students should check PantherTracks or contact their academic advisor for the most accurate information. Visit: https://pvplace.pvamu.edu/ and advisor information is available here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["classes", "waitlist", "registration"],
     "embedding": []
   },
@@ -79,7 +79,7 @@
   {
     "intent": "degree_audit",
     "question": "How do I check my degree progress?",
-    "answer": "Students can review their academic progress using degree evaluation tools in PantherTracks, if available for their program. Academic advisors can also help explain remaining requirements. Access PantherTracks here: https://pvplace.pvamu.edu/",
+    "answer": "Students can review their academic progress using degree evaluation tools in PantherTracks, if available for their program. Academic advisors can also help explain remaining requirements. Access PantherTracks here: https://pvplace.pvamu.edu/ and advisor information here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["academics", "degree", "progress", "panthertracks"],
     "embedding": []
   },
@@ -107,7 +107,7 @@
   {
     "intent": "course_prerequisites",
     "question": "How do I check prerequisites for a class?",
-    "answer": "Students can review course prerequisites through the course listing in PantherTracks or by consulting the academic catalog for program requirements. Academic advisors can also help confirm eligibility. Visit: https://pvplace.pvamu.edu/",
+    "answer": "Students can review course prerequisites through the course listing in PantherTracks or by consulting the academic catalog for program requirements. Academic advisors can also help confirm eligibility. Visit: https://pvplace.pvamu.edu/ and advisor information here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["classes", "prerequisites", "courses"],
     "embedding": []
   },
@@ -128,14 +128,14 @@
   {
     "intent": "attendance_policy",
     "question": "What is the attendance policy for classes?",
-    "answer": "Attendance policies may vary by instructor and course, so students should review the course syllabus carefully. Instructors may include attendance as part of the course grade or participation requirements. Students should contact their instructor for course-specific policies.",
+    "answer": "Attendance policies may vary by instructor and course, so students should review the course syllabus carefully. Instructors may include attendance as part of the course grade or participation requirements. Students should contact their instructor for course-specific policies and check Canvas or PVPlace for course materials: https://pvplace.pvamu.edu/",
     "tags": ["classes", "attendance", "policy", "syllabus"],
     "embedding": []
   },
   {
     "intent": "syllabus_access",
     "question": "Where can I find my course syllabus?",
-    "answer": "Students can usually find course syllabi in Canvas or through course materials provided by the instructor. If the syllabus is not posted, students should contact the instructor directly. Canvas access is typically available through PVPlace.",
+    "answer": "Students can usually find course syllabi in Canvas or through course materials provided by the instructor. If the syllabus is not posted, students should contact the instructor directly. Canvas access is typically available through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["classes", "syllabus", "canvas", "instructor"],
     "embedding": []
   },
@@ -149,14 +149,14 @@
   {
     "intent": "academic_help",
     "question": "Where can I get academic help for my classes?",
-    "answer": "Students can get academic help through tutoring, academic support services, instructors, and academic advisors. Support options may vary by subject and department. Students should also check with their college or academic success resources for assistance.",
+    "answer": "Students can get academic help through tutoring, academic support services, instructors, and academic advisors. Support options may vary by subject and department. Students should also check with their college or academic success resources for assistance. Advisor information is available here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["academics", "help", "tutoring", "support"],
     "embedding": []
   },
   {
     "intent": "full_time_status",
     "question": "How many hours do I need to be full-time?",
-    "answer": "Full-time enrollment requirements may vary by student level and program, but many undergraduate students are considered full-time at 12 credit hours. Students should confirm enrollment requirements with their advisor or registrar. Visit: https://www.pvamu.edu/registrar/",
+    "answer": "Full-time enrollment requirements may vary by student level and program, but many undergraduate students are considered full-time at 12 credit hours. Students should confirm enrollment requirements with their advisor or registrar. Visit: https://www.pvamu.edu/registrar/ and advisor information here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["academics", "full time", "hours", "credits"],
     "embedding": []
   },
