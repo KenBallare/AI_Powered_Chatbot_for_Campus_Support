@@ -16,14 +16,14 @@
   {
     "intent": "forgot_password",
     "question": "I forgot my password, what should I do?",
-    "answer": "If you forgot your password, use the PVAMU password management system to recover or reset your account credentials. If you continue having issues, contact the IT Help Desk. Visit: https://mypassword.pvamu.edu/",
+    "answer": "If you forgot your password, use the PVAMU password management system to recover or reset your account credentials. If you continue having issues, contact the IT Help Desk. Visit: https://mypassword.pvamu.edu/ or https://www.pvamu.edu/cite/",
     "tags": ["password", "forgot", "reset", "account"],
     "embedding": []
   },
   {
     "intent": "account_locked",
     "question": "What do I do if my account is locked?",
-    "answer": "If your account is locked, you can use the PVAMU password management system to unlock or reset your account. If the issue continues, contact the IT Help Desk for assistance. Visit: https://mypassword.pvamu.edu/",
+    "answer": "If your account is locked, you can use the PVAMU password management system to unlock or reset your account. If the issue continues, contact the IT Help Desk for assistance. Visit: https://mypassword.pvamu.edu/ or https://www.pvamu.edu/cite/",
     "tags": ["account", "locked", "login", "it"],
     "embedding": []
   },
@@ -86,14 +86,14 @@
   {
     "intent": "canvas_login_help",
     "question": "What do I do if I cannot log into Canvas?",
-    "answer": "If you cannot log into Canvas, first make sure your PVAMU credentials are working correctly. If the issue continues, contact the IT Help Desk or check supported access options through the university system. Visit: https://www.pvamu.edu/cite/",
+    "answer": "If you cannot log into Canvas, first make sure your PVAMU credentials are working correctly. If the issue continues, contact the IT Help Desk or check supported access options through the university system. Visit: https://www.pvamu.edu/cite/ and access PVPlace here: https://pvplace.pvamu.edu/",
     "tags": ["canvas", "login", "it", "support"],
     "embedding": []
   },
   {
     "intent": "pvplace_help",
     "question": "What do I do if PVPlace is not working?",
-    "answer": "If PVPlace is not working, students should try again later, clear browser cache if needed, or contact the IT Help Desk for support. System availability and troubleshooting help are available through the IT website. Visit: https://www.pvamu.edu/cite/",
+    "answer": "If PVPlace is not working, students should try again later, clear browser cache if needed, or contact the IT Help Desk for support. System availability and troubleshooting help are available through the IT website. Visit: https://www.pvamu.edu/cite/ or try PVPlace again here: https://pvplace.pvamu.edu/",
     "tags": ["pvplace", "login", "it", "support"],
     "embedding": []
   },
@@ -121,14 +121,14 @@
   {
     "intent": "printing_help",
     "question": "Where can I print on campus?",
-    "answer": "Printing may be available in libraries, labs, or designated campus technology areas. Students should check with the library, labs, or IT resources for printing access and requirements.",
+    "answer": "Printing may be available in libraries, labs, or designated campus technology areas. Students should check with the library, labs, or IT resources for printing access and requirements. Visit: https://www.pvamu.edu/cite/",
     "tags": ["printing", "campus", "it", "labs"],
     "embedding": []
   },
   {
     "intent": "computer_lab_info",
     "question": "Are there computer labs on campus?",
-    "answer": "Yes, students may have access to computer labs and technology spaces on campus for academic use. Lab locations and hours may vary by building or department.",
+    "answer": "Yes, students may have access to computer labs and technology spaces on campus for academic use. Lab locations and hours may vary by building or department. Visit: https://www.pvamu.edu/cite/",
     "tags": ["computer lab", "campus", "technology", "it"],
     "embedding": []
   },
