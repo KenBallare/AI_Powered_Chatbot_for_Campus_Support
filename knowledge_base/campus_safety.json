@@ -23,7 +23,7 @@
   {
     "intent": "campus_alerts",
     "question": "How do I receive campus safety alerts?",
-    "answer": "Campus safety alerts are typically sent through university communication systems such as email, text alerts, or campus notification services. Students should make sure their contact information is up to date to receive emergency notifications.",
+    "answer": "Campus safety alerts are typically sent through university communication systems such as email, text alerts, or campus notification services. Students should make sure their contact information is up to date to receive emergency notifications. For campus safety information, visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "alerts", "notifications"],
     "embedding": []
   },
@@ -37,14 +37,14 @@
   {
     "intent": "escort_services",
     "question": "Does campus police provide escort services?",
-    "answer": "Escort service availability may vary depending on campus police policies and staffing. Students should contact Campus Police directly to ask about available safety escort options.",
+    "answer": "Escort service availability may vary depending on campus police policies and staffing. Students should contact Campus Police directly to ask about available safety escort options. Visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "escort", "police"],
     "embedding": []
   },
   {
     "intent": "lost_and_found",
     "question": "Where is lost and found on campus?",
-    "answer": "Lost and found services may be handled by Campus Police or specific campus offices depending on the item and location. Students should contact Campus Police or the office closest to where the item was lost.",
+    "answer": "Lost and found services may be handled by Campus Police or specific campus offices depending on the item and location. Students should contact Campus Police or the office closest to where the item was lost. Visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "lost and found", "items"],
     "embedding": []
   },
@@ -58,21 +58,21 @@
   {
     "intent": "report_suspicious_activity",
     "question": "Who do I call if I see suspicious activity?",
-    "answer": "Students should contact Campus Police if they observe suspicious activity or anything that may threaten campus safety. Campus Police can assess the situation and respond as needed.",
+    "answer": "Students should contact Campus Police if they observe suspicious activity or anything that may threaten campus safety. Campus Police can assess the situation and respond as needed. Visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "suspicious activity", "police"],
     "embedding": []
   },
   {
     "intent": "building_lockdown",
     "question": "What should I do during a campus lockdown?",
-    "answer": "During a campus lockdown, students should follow official university safety instructions, remain in a secure location, and monitor campus alerts for updates. Emergency directions may vary depending on the situation.",
+    "answer": "During a campus lockdown, students should follow official university safety instructions, remain in a secure location, and monitor campus alerts for updates. Emergency directions may vary depending on the situation. For campus safety information, visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "lockdown", "emergency"],
     "embedding": []
   },
   {
     "intent": "weather_emergency",
     "question": "How will I know if there is a weather emergency?",
-    "answer": "Weather emergency information is usually shared through university alerts, emails, or campus notification systems. Students should monitor official communications for severe weather instructions and updates.",
+    "answer": "Weather emergency information is usually shared through university alerts, emails, or campus notification systems. Students should monitor official communications for severe weather instructions and updates. For campus safety information, visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "weather", "emergency", "alerts"],
     "embedding": []
   },
@@ -86,14 +86,14 @@
   {
     "intent": "parking_lot_safety",
     "question": "Who do I contact if I feel unsafe in a parking lot?",
-    "answer": "Students who feel unsafe in a parking lot should contact Campus Police for assistance. Campus Police can respond to safety concerns and provide support when needed.",
+    "answer": "Students who feel unsafe in a parking lot should contact Campus Police for assistance. Campus Police can respond to safety concerns and provide support when needed. Visit: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "parking lot", "unsafe", "police"],
     "embedding": []
   },
   {
     "intent": "residence_hall_safety",
     "question": "Who do I contact about safety in my residence hall?",
-    "answer": "Students with safety concerns in residence halls should contact Campus Police or residence hall staff depending on the situation. Emergency concerns should be reported immediately.",
+    "answer": "Students with safety concerns in residence halls should contact Campus Police or residence hall staff depending on the situation. Emergency concerns should be reported immediately. Campus Police information is available here: https://www.pvamu.edu/police/",
     "tags": ["campus safety", "residence hall", "housing", "police"],
     "embedding": []
   },
