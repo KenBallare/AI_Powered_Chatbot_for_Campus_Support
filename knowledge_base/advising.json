@@ -1,44 +1,142 @@
 [
   {
-    "intent": "advising_appointment",
+    "intent": "advisor_contact",
+    "question": "How do I find my academic advisor?",
+    "answer": "Students can find their academic advisor through the PVAMU advising directory or student success services. Advisors are assigned based on major and classification. For advisor information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
+    "tags": ["advising", "advisor", "contact"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_contact_methods",
+    "question": "How can I contact my advisor?",
+    "answer": "Students can contact their advisor through email, phone, or scheduled appointments. Advisor contact information is typically listed in the advising directory or provided through student success services. Visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
+    "tags": ["advising", "advisor", "contact", "email"],
+    "embedding": []
+  },
+  {
+    "intent": "schedule_advising",
     "question": "How do I schedule an advising appointment?",
-    "answer": "Students can schedule an advising appointment by contacting their assigned academic advisor or using the advising system provided by their department. Advising helps with course selection, degree planning, and academic progress. Appointment availability may vary by department and advisor schedule. To find your advisor, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "appointment", "schedule", "advisor", "meeting"],
+    "answer": "Students can schedule advising appointments through their assigned advisor or the advising office. Appointment methods may include online scheduling systems, email requests, or office visits. For more details, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
+    "tags": ["advising", "appointment", "schedule"],
     "embedding": []
   },
   {
-    "intent": "find_advisor",
-    "question": "Where can I find my academic advisor?",
-    "answer": "Students can find their academic advisor through the PVAMU academic advisors directory. Advisors help with degree plans, course selection, and academic progress. Advisor assignments and contact information may vary by college or department. View the directory here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "advisor", "find", "directory"],
+    "intent": "walk_in_advising",
+    "question": "Can I do walk-in advising?",
+    "answer": "Walk-in advising availability may vary depending on the advising office and time of semester. Some departments may offer walk-in hours, while others require scheduled appointments. Students should check with their advisor or advising office for availability.",
+    "tags": ["advising", "walk-in", "appointment"],
     "embedding": []
   },
   {
-    "intent": "advising_hours",
-    "question": "What are the advising office hours?",
-    "answer": "Advising office hours vary by department, but many advising offices typically operate Monday through Friday from 8:00 AM to 5:00 PM. Students should confirm hours directly with their assigned advisor or department. For advisor contact information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "hours", "office", "advisor"],
+    "intent": "advisor_help",
+    "question": "What does an academic advisor help with?",
+    "answer": "Academic advisors assist students with course selection, degree planning, academic progress, and graduation requirements. They also help students stay on track and understand university policies related to academics.",
+    "tags": ["advising", "advisor", "help", "degree"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_hold",
+    "question": "What is an advising hold?",
+    "answer": "An advising hold is a restriction placed on a student’s account that prevents registration until the student meets with an advisor. This ensures that students receive guidance before selecting courses.",
+    "tags": ["advising", "hold", "registration"],
+    "embedding": []
+  },
+  {
+    "intent": "remove_advising_hold",
+    "question": "How do I remove an advising hold?",
+    "answer": "Students can remove an advising hold by meeting with their assigned academic advisor. After the advising session is completed, the hold is typically lifted to allow registration.",
+    "tags": ["advising", "hold", "remove"],
     "embedding": []
   },
   {
     "intent": "degree_plan_help",
-    "question": "Who do I contact about my degree plan?",
-    "answer": "Students should contact their academic advisor for help with their degree plan. Advisors assist with course sequencing, graduation requirements, and academic progress. For advisor information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "degree plan", "advisor", "graduation"],
+    "question": "Who helps me plan my degree?",
+    "answer": "Academic advisors help students create and maintain a degree plan based on program requirements. Advisors ensure students are taking the correct courses for graduation.",
+    "tags": ["advising", "degree plan", "advisor"],
     "embedding": []
   },
   {
-    "intent": "change_major_advising",
-    "question": "How do I change my major?",
-    "answer": "Students who want to change their major should first contact their academic advisor or the department for the new major. The process may require advising approval and department forms before being submitted for record updates. For advisor information, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "major", "change", "advisor"],
+    "intent": "graduation_requirements_help",
+    "question": "Who can explain my graduation requirements?",
+    "answer": "Students should meet with their academic advisor to review graduation requirements and confirm that all degree requirements are being met.",
+    "tags": ["advising", "graduation", "requirements"],
     "embedding": []
   },
   {
-    "intent": "advising_help_location",
-    "question": "Where can I go to get help with advising?",
-    "answer": "Students can get help with advising by contacting their assigned academic advisor or their department’s advising office. Advising support includes course planning, degree requirements, and registration guidance. To find the correct advising contact, visit: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
-    "tags": ["advising", "help", "location", "advisor", "support"],
+    "intent": "course_selection_help",
+    "question": "Who helps me choose classes?",
+    "answer": "Academic advisors help students choose classes that align with their degree plan and academic goals. They ensure students meet prerequisites and stay on track.",
+    "tags": ["advising", "classes", "course selection"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_change",
+    "question": "Can I change my advisor?",
+    "answer": "Advisor changes may be possible depending on department policies. Students should contact their advising office to request information about changing advisors.",
+    "tags": ["advising", "advisor", "change"],
+    "embedding": []
+  },
+  {
+    "intent": "major_change_advising",
+    "question": "Do I need an advisor to change my major?",
+    "answer": "Yes, students should work with an academic advisor when changing their major to ensure proper documentation and updated degree planning.",
+    "tags": ["advising", "major", "change"],
+    "embedding": []
+  },
+  {
+    "intent": "minor_advising",
+    "question": "Who helps me add a minor?",
+    "answer": "Students should consult their academic advisor or the department offering the minor to complete the process of adding or changing a minor.",
+    "tags": ["advising", "minor", "advisor"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_email_response",
+    "question": "How long does it take for an advisor to respond?",
+    "answer": "Response times may vary depending on advisor workload and time of semester. Students are encouraged to follow up if they do not receive a response within a reasonable time.",
+    "tags": ["advising", "advisor", "response"],
+    "embedding": []
+  },
+  {
+    "intent": "missed_advising",
+    "question": "What happens if I miss my advising appointment?",
+    "answer": "If a student misses an advising appointment, they may need to reschedule. Some advising offices may require advance notice or have policies regarding missed appointments.",
+    "tags": ["advising", "appointment", "missed"],
+    "embedding": []
+  },
+  {
+    "intent": "advising_before_registration",
+    "question": "Do I need advising before registering?",
+    "answer": "Many students are required to meet with an advisor before registering for classes. This ensures proper course selection and removal of any advising holds.",
+    "tags": ["advising", "registration", "hold"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_location",
+    "question": "Where is the advising office located?",
+    "answer": "Advising office locations vary by college and department. Students should check the advising directory or contact their academic department for location details.",
+    "tags": ["advising", "location", "office"],
+    "embedding": []
+  },
+  {
+    "intent": "advisor_hours",
+    "question": "What are advising office hours?",
+    "answer": "Advising offices are typically open Monday through Friday from 8:00 AM to 5:00 PM, though hours may vary. Students should confirm hours with their advising office.",
+    "tags": ["advising", "hours", "office"],
+    "embedding": []
+  },
+  {
+    "intent": "academic_probation_help",
+    "question": "Who helps if I am on academic probation?",
+    "answer": "Students on academic probation should meet with their academic advisor to create a plan for improving academic performance and meeting university requirements.",
+    "tags": ["advising", "probation", "academic"],
+    "embedding": []
+  },
+  {
+    "intent": "graduation_application_help",
+    "question": "Who helps me apply for graduation?",
+    "answer": "Students should work with their academic advisor when preparing to apply for graduation to ensure all degree requirements are completed.",
+    "tags": ["advising", "graduation", "application"],
     "embedding": []
   }
 ]
