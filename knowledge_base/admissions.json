@@ -7,10 +7,38 @@
     "embedding": []
   },
   {
+    "intent": "application_steps",
+    "question": "What are the steps to apply to PVAMU?",
+    "answer": "The admissions process generally includes completing the application, submitting required documents, and monitoring your application status. Steps may vary by applicant type and program. For official instructions, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "steps", "application", "apply"],
+    "embedding": []
+  },
+  {
     "intent": "admissions_requirements",
     "question": "What are the admission requirements?",
     "answer": "Admission requirements at PVAMU vary depending on the applicant type, such as freshman, transfer, or graduate students. Requirements may include transcripts, test scores, and other documents. For a full list of requirements, visit: https://www.pvamu.edu/admissions/",
     "tags": ["admissions", "requirements", "apply"],
+    "embedding": []
+  },
+  {
+    "intent": "freshman_requirements",
+    "question": "What do freshmen need to apply?",
+    "answer": "Freshman applicants may need to submit items such as an admissions application, high school transcripts, and any additional required materials. Exact requirements may vary by year and program. For details, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "freshman", "requirements", "high school"],
+    "embedding": []
+  },
+  {
+    "intent": "transfer_requirements",
+    "question": "What do transfer students need to apply?",
+    "answer": "Transfer applicants may need to submit official college transcripts and meet transfer admission requirements established by the university. Requirements can vary depending on prior coursework and program choice. For more information, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "transfer", "requirements", "transcripts"],
+    "embedding": []
+  },
+  {
+    "intent": "graduate_requirements",
+    "question": "What do graduate students need to apply?",
+    "answer": "Graduate admission requirements may include an application, college transcripts, and other program-specific materials such as recommendations or test scores. Requirements vary by graduate program. For details, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "graduate", "requirements", "program"],
     "embedding": []
   },
   {
@@ -21,10 +49,38 @@
     "embedding": []
   },
   {
+    "intent": "fall_application_deadline",
+    "question": "When is the fall application deadline?",
+    "answer": "Fall application deadlines may change by academic year and applicant type. Students should check the admissions website for the official fall deadline and any priority submission dates. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "fall", "deadline", "application"],
+    "embedding": []
+  },
+  {
+    "intent": "spring_application_deadline",
+    "question": "When is the spring application deadline?",
+    "answer": "Spring application deadlines vary by year and may differ for undergraduate and graduate applicants. Students should verify the most current spring deadline on the admissions website. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "spring", "deadline", "application"],
+    "embedding": []
+  },
+  {
+    "intent": "summer_application_deadline",
+    "question": "When is the summer application deadline?",
+    "answer": "Summer application deadlines may vary depending on the term and applicant type. Students should review the admissions website for official summer submission dates. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "summer", "deadline", "application"],
+    "embedding": []
+  },
+  {
     "intent": "admissions_contact",
     "question": "Who do I contact in admissions?",
     "answer": "Students can contact the PVAMU Admissions Office for help with applications, requirements, and enrollment questions. Contact information and office details are available on the admissions website. Visit: https://www.pvamu.edu/admissions/",
     "tags": ["admissions", "contact", "office"],
+    "embedding": []
+  },
+  {
+    "intent": "admissions_office_hours",
+    "question": "What are the admissions office hours?",
+    "answer": "The PVAMU Admissions Office is typically open Monday through Friday from 8:00 AM to 5:00 PM. Students can receive help with applications, requirements, and enrollment questions during these hours. Hours may vary during peak periods or holidays. For updates, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "hours", "office", "contact"],
     "embedding": []
   },
   {
@@ -35,6 +91,20 @@
     "embedding": []
   },
   {
+    "intent": "transcript_submission",
+    "question": "How do I send my transcripts to admissions?",
+    "answer": "Transcript submission procedures vary depending on whether you are sending high school or college records. Students should follow the official admissions instructions for transcript delivery and approved document methods. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "transcripts", "documents", "submit"],
+    "embedding": []
+  },
+  {
+    "intent": "test_scores_submission",
+    "question": "How do I submit my test scores?",
+    "answer": "If test scores are required, students should follow the admissions process for official score submission. Requirements may vary by applicant type, term, and policy changes. For official guidance, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "test scores", "documents", "submit"],
+    "embedding": []
+  },
+  {
     "intent": "application_status",
     "question": "How can I check my application status?",
     "answer": "Students can check their application status by logging into the admissions portal or the PVAMU application system. The portal allows applicants to track submitted documents and application progress. Access the system here: https://www.pvamu.edu/admissions/",
@@ -42,10 +112,66 @@
     "embedding": []
   },
   {
+    "intent": "missing_documents",
+    "question": "How do I know if admissions is missing documents?",
+    "answer": "Students can usually check for missing admissions documents through the application portal or status system. The portal may list required materials that have not yet been received. For more information, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "missing documents", "status", "application"],
+    "embedding": []
+  },
+  {
     "intent": "admissions_decision_time",
     "question": "How long does it take to get an admission decision?",
     "answer": "Admission decision timelines at PVAMU may vary depending on the application volume and semester. Students are encouraged to regularly check their application portal for updates. For more information, visit: https://www.pvamu.edu/admissions/",
     "tags": ["admissions", "decision", "time"],
+    "embedding": []
+  },
+  {
+    "intent": "accepted_next_steps",
+    "question": "What do I do after I get accepted?",
+    "answer": "After acceptance, students should follow the next-step instructions provided by the university, which may include confirming enrollment, completing orientation requirements, and preparing for registration. Steps vary by student type. For details, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "accepted", "next steps", "enrollment"],
+    "embedding": []
+  },
+  {
+    "intent": "orientation_info",
+    "question": "Do I need orientation after being admitted?",
+    "answer": "Orientation requirements may apply to new students and can vary depending on classification and program. Students should review admissions or new student information for official orientation details. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "orientation", "new students"],
+    "embedding": []
+  },
+  {
+    "intent": "residency_question",
+    "question": "How do I fix my residency status for admissions?",
+    "answer": "Residency and classification questions should be directed to the appropriate admissions or records office, depending on the issue. Students may need to provide documentation to support residency review. For more information, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "residency", "classification", "documents"],
+    "embedding": []
+  },
+  {
+    "intent": "international_admissions",
+    "question": "Where can international students find admissions information?",
+    "answer": "International students should review the admissions website for application requirements, documents, and procedures specific to international applicants. Requirements may differ from domestic admissions. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "international", "students", "requirements"],
+    "embedding": []
+  },
+  {
+    "intent": "readmission_info",
+    "question": "How do I apply if I used to attend PVAMU?",
+    "answer": "Students returning to PVAMU after previous enrollment may need to follow a readmission or returning student process. Requirements and steps vary depending on academic history. For guidance, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "readmission", "returning student"],
+    "embedding": []
+  },
+  {
+    "intent": "application_fee_info",
+    "question": "Is there an application fee?",
+    "answer": "Application fee requirements may vary depending on applicant type, fee waivers, or university policy. Students should review the admissions website for the most current fee information. Visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "application fee", "payment"],
+    "embedding": []
+  },
+  {
+    "intent": "admissions_help_general",
+    "question": "Where can I get help with my application?",
+    "answer": "Students can get help with their application by contacting the PVAMU Admissions Office. The office can assist with application steps, document submission, and status questions. For official support, visit: https://www.pvamu.edu/admissions/",
+    "tags": ["admissions", "help", "application", "support"],
     "embedding": []
   }
 ]
