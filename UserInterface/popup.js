@@ -4,10 +4,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const sendBtn = document.getElementById("send-btn");
     const quickButtons = document.querySelectorAll(".quick-btn");
 
+    // 🔥 Convert URLs into clickable links
+    function makeLinksClickable(text) {
+        return text.replace(
+            /(https?:\/\/[^\s]+)/g,
+            '<a href="$1" target="_blank" style="color:#6C5CE7; text-decoration:underline;">$1</a>'
+        );
+    }
+
     // Add message to chat window
     function addMessage(text, sender) {
         const bubble = document.createElement("div");
-        bubble.textContent = text;
+
+        // 👇 THIS makes links clickable
+        bubble.innerHTML = makeLinksClickable(text);
 
         if (sender === "user") {
             bubble.classList.add("user-message");
