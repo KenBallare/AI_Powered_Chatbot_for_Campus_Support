@@ -51,21 +51,21 @@
   {
     "intent": "late_fee",
     "question": "What happens if I pay late?",
-    "answer": "Late payments may result in fees, account holds, or registration restrictions. Students should review payment deadlines and contact Treasury Services for assistance if they anticipate delays.",
+    "answer": "Late payments may result in fees, account holds, or registration restrictions. Students should review payment deadlines and contact Treasury Services for assistance if they anticipate delays. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "late fee", "payment"],
     "embedding": []
   },
   {
     "intent": "billing_hold",
     "question": "What is a billing hold?",
-    "answer": "A billing hold is placed on a student account due to unpaid balances or financial issues. This hold may prevent registration or access to services until resolved.",
+    "answer": "A billing hold is placed on a student account due to unpaid balances or financial issues. This hold may prevent registration or access to services until resolved. For assistance, visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "hold", "account"],
     "embedding": []
   },
   {
     "intent": "remove_billing_hold",
     "question": "How do I remove a billing hold?",
-    "answer": "Students can remove a billing hold by resolving any outstanding balance or financial requirement. Once the issue is cleared, the hold is typically lifted.",
+    "answer": "Students can remove a billing hold by resolving any outstanding balance or financial requirement. Once the issue is cleared, the hold is typically lifted. For help, visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "hold", "remove"],
     "embedding": []
   },
@@ -79,35 +79,35 @@
   {
     "intent": "tuition_breakdown",
     "question": "Where can I see a breakdown of my tuition charges?",
-    "answer": "Students can view a detailed breakdown of tuition and fees in the billing section of PVPlace. The system may display itemized charges for the semester.",
+    "answer": "Students can view a detailed breakdown of tuition and fees in the billing section of PVPlace. The system may display itemized charges for the semester. Visit: https://pvplace.pvamu.edu/",
     "tags": ["billing", "tuition", "breakdown"],
     "embedding": []
   },
   {
     "intent": "refund_status",
     "question": "How do I check my refund status?",
-    "answer": "Refund status can usually be checked through the student billing or financial aid portal. Students should monitor their account for updates on processed refunds.",
+    "answer": "Refund status can usually be checked through the student billing or financial aid portal. Students should monitor their account for updates on processed refunds. Visit: https://pvplace.pvamu.edu/",
     "tags": ["billing", "refund", "status"],
     "embedding": []
   },
   {
     "intent": "refund_timing",
     "question": "When will I receive my refund?",
-    "answer": "Refund timing varies depending on processing schedules, financial aid disbursement, and account status. Students should check their portal or contact Treasury Services for updates.",
+    "answer": "Refund timing varies depending on processing schedules, financial aid disbursement, and account status. Students should check their portal or contact Treasury Services for updates. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "refund", "timing"],
     "embedding": []
   },
   {
     "intent": "direct_deposit",
     "question": "How do I set up direct deposit for refunds?",
-    "answer": "Students may be able to set up direct deposit through the student financial or billing portal. This allows refunds to be deposited directly into a bank account.",
+    "answer": "Students may be able to set up direct deposit through the student financial or billing portal. This allows refunds to be deposited directly into a bank account. Visit: https://pvplace.pvamu.edu/",
     "tags": ["billing", "refund", "direct deposit"],
     "embedding": []
   },
   {
     "intent": "third_party_payment",
     "question": "Can someone else pay my tuition?",
-    "answer": "Third-party payments may be allowed depending on university policies. Students should check the billing portal or contact Treasury Services for instructions on authorized payments.",
+    "answer": "Third-party payments may be allowed depending on university policies. Students should check the billing portal or contact Treasury Services for instructions on authorized payments. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "payment", "third party"],
     "embedding": []
   },
@@ -121,21 +121,21 @@
   {
     "intent": "fee_charges",
     "question": "What fees are included in my bill?",
-    "answer": "Student bills may include tuition, mandatory fees, housing charges, and other costs depending on enrollment. Students can view itemized fees in their billing portal.",
+    "answer": "Student bills may include tuition, mandatory fees, housing charges, and other costs depending on enrollment. Students can view itemized fees in their billing portal. Visit: https://pvplace.pvamu.edu/",
     "tags": ["billing", "fees", "charges"],
     "embedding": []
   },
   {
     "intent": "billing_dispute",
     "question": "What do I do if there is an error on my bill?",
-    "answer": "Students should contact Treasury Services immediately if they notice an error on their bill. The office can review charges and provide guidance on resolving discrepancies.",
+    "answer": "Students should contact Treasury Services immediately if they notice an error on their bill. The office can review charges and provide guidance on resolving discrepancies. Visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "error", "dispute"],
     "embedding": []
   },
   {
     "intent": "financial_responsibility",
     "question": "Am I responsible for my tuition balance?",
-    "answer": "Students are generally responsible for paying their tuition and fees by the designated deadlines. Failure to pay may result in holds or additional charges.",
+    "answer": "Students are generally responsible for paying their tuition and fees by the designated deadlines. Failure to pay may result in holds or additional charges. For more information, visit: https://www.pvamu.edu/fmsv/treasury-services/",
     "tags": ["billing", "responsibility", "tuition"],
     "embedding": []
   }
