@@ -16,7 +16,7 @@
   {
     "intent": "library_weekend_hours",
     "question": "Is the library open on weekends?",
-    "answer": "The library may be open on weekends, but hours can vary depending on the semester and university schedule. Students should check the official hours page for details.",
+    "answer": "The library may be open on weekends, but hours can vary depending on the semester and university schedule. Students should check the official hours page for details: https://www.pvamu.edu/library/about-the-library/hours-2/",
     "tags": ["library", "weekend", "hours"],
     "embedding": []
   },
@@ -30,91 +30,91 @@
   {
     "intent": "study_spaces",
     "question": "Are there quiet places to study?",
-    "answer": "Yes, the library offers quiet study areas, group study rooms, and open seating spaces for students. Availability may vary depending on time and demand.",
+    "answer": "Yes, the library offers quiet study areas, group study rooms, and open seating spaces for students. Availability may vary depending on time and demand. For more information, visit: https://www.pvamu.edu/library/",
     "tags": ["library", "study", "quiet"],
     "embedding": []
   },
   {
     "intent": "library_books",
     "question": "How do I find books in the library?",
-    "answer": "Students can search for books using the library catalog system available through the PVAMU Library website. Library staff can also assist with locating materials.",
+    "answer": "Students can search for books using the library catalog system available through the PVAMU Library website. Library staff can also assist with locating materials. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "books", "catalog"],
     "embedding": []
   },
   {
     "intent": "library_databases",
     "question": "Does the library have online databases?",
-    "answer": "Yes, the PVAMU Library provides access to online academic databases, journals, and research tools for students. Access is typically available through the library website.",
+    "answer": "Yes, the PVAMU Library provides access to online academic databases, journals, and research tools for students. Access is typically available through the library website: https://www.pvamu.edu/library/",
     "tags": ["library", "databases", "research"],
     "embedding": []
   },
   {
     "intent": "library_help",
     "question": "Can librarians help me with research?",
-    "answer": "Yes, librarians can help students with research, finding sources, and using databases. Students can visit the library or contact staff for assistance.",
+    "answer": "Yes, librarians can help students with research, finding sources, and using databases. Students can visit the library or contact staff for assistance. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "research", "help"],
     "embedding": []
   },
   {
     "intent": "printing_library",
     "question": "Can I print at the library?",
-    "answer": "Yes, printing services may be available at the library. Students should check printing policies and costs with library staff or posted guidelines.",
+    "answer": "Yes, printing services may be available at the library. Students should check printing policies and costs with library staff or posted guidelines. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "printing"],
     "embedding": []
   },
   {
     "intent": "library_computers",
     "question": "Are there computers in the library?",
-    "answer": "Yes, the library provides computer access for students to complete assignments, research, and academic work.",
+    "answer": "Yes, the library provides computer access for students to complete assignments, research, and academic work. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "computers"],
     "embedding": []
   },
   {
     "intent": "library_wifi",
     "question": "Does the library have Wi-Fi?",
-    "answer": "Yes, students can access campus Wi-Fi in the library using their PVAMU login credentials.",
+    "answer": "Yes, students can access campus Wi-Fi in the library using their PVAMU login credentials. For library information, visit: https://www.pvamu.edu/library/",
     "tags": ["library", "wifi"],
     "embedding": []
   },
   {
     "intent": "library_borrow_books",
     "question": "Can I check out books from the library?",
-    "answer": "Yes, students can borrow books and other materials from the library. Loan periods and policies may vary depending on the item.",
+    "answer": "Yes, students can borrow books and other materials from the library. Loan periods and policies may vary depending on the item. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "borrow"],
     "embedding": []
   },
   {
     "intent": "library_return_books",
     "question": "How do I return library books?",
-    "answer": "Books can typically be returned at the library circulation desk or designated return areas. Students should follow due dates to avoid fees.",
+    "answer": "Books can typically be returned at the library circulation desk or designated return areas. Students should follow due dates to avoid fees. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "return"],
     "embedding": []
   },
   {
     "intent": "library_fines",
     "question": "Are there late fees for library books?",
-    "answer": "Late fees may apply if library materials are not returned on time. Students should check library policies for details.",
+    "answer": "Late fees may apply if library materials are not returned on time. Students should check library policies for details. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "fees"],
     "embedding": []
   },
   {
     "intent": "library_events",
     "question": "Does the library host events or workshops?",
-    "answer": "The library may host workshops, research sessions, and academic support events throughout the semester. Students should check announcements for upcoming events.",
+    "answer": "The library may host workshops, research sessions, and academic support events throughout the semester. Students should check announcements for upcoming events. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "events"],
     "embedding": []
   },
   {
     "intent": "library_floor_access",
     "question": "Are all floors of the library open to students?",
-    "answer": "Most areas of the library are open to students, but access to certain floors or rooms may depend on hours, reservations, or special use areas.",
+    "answer": "Most areas of the library are open to students, but access to certain floors or rooms may depend on hours, reservations, or special use areas. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "access"],
     "embedding": []
   },
   {
     "intent": "library_group_study",
     "question": "Can I study with friends in the library?",
-    "answer": "Yes, the library provides group study spaces and rooms where students can work together.",
+    "answer": "Yes, the library provides group study spaces and rooms where students can work together. For study room details, visit: https://www.pvamu.edu/library/reserve-a-room/",
     "tags": ["library", "group study"],
     "embedding": []
   },
@@ -128,14 +128,14 @@
   {
     "intent": "library_services",
     "question": "What services does the library offer?",
-    "answer": "The library offers services such as research assistance, study spaces, printing, computer access, and access to academic resources.",
+    "answer": "The library offers services such as research assistance, study spaces, printing, computer access, and access to academic resources. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "services"],
     "embedding": []
   },
   {
     "intent": "library_general_help",
     "question": "Who can help me at the library?",
-    "answer": "Library staff and librarians are available to help students with research, locating materials, and using library resources.",
+    "answer": "Library staff and librarians are available to help students with research, locating materials, and using library resources. Visit: https://www.pvamu.edu/library/",
     "tags": ["library", "help"],
     "embedding": []
   }
