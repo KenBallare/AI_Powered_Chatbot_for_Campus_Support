@@ -23,56 +23,56 @@
   {
     "intent": "parking_locations",
     "question": "Where can I park on campus?",
-    "answer": "Students can park in designated student parking areas based on their permit type. Parking zones and availability may vary across campus.",
+    "answer": "Students can park in designated student parking areas based on their permit type. Parking zones and availability may vary across campus. For maps and parking details, visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "locations"],
     "embedding": []
   },
   {
     "intent": "parking_rules",
     "question": "What are the parking rules on campus?",
-    "answer": "Parking rules include having a valid permit, parking in designated areas, and following posted regulations. Violations may result in fines or penalties.",
+    "answer": "Parking rules include having a valid permit, parking in designated areas, and following posted regulations. Violations may result in fines or penalties. For official parking rules, visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "rules"],
     "embedding": []
   },
   {
     "intent": "parking_ticket",
     "question": "What happens if I get a parking ticket?",
-    "answer": "Students who receive a parking ticket may be required to pay a fine or follow the appeals process. Details about violations and payments are available through Parking Services.",
+    "answer": "Students who receive a parking ticket may be required to pay a fine or follow the appeals process. Details about violations and payments are available through Parking Services. Visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "ticket"],
     "embedding": []
   },
   {
     "intent": "parking_appeal",
     "question": "Can I appeal a parking ticket?",
-    "answer": "Yes, students may be able to appeal parking tickets depending on university policy. The appeals process is typically handled through Parking Services.",
+    "answer": "Yes, students may be able to appeal parking tickets depending on university policy. The appeals process is typically handled through Parking Services. Visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "appeal"],
     "embedding": []
   },
   {
     "intent": "visitor_parking",
     "question": "Where can visitors park?",
-    "answer": "Visitors may park in designated visitor parking areas. Availability and requirements may vary depending on campus events and policies.",
+    "answer": "Visitors may park in designated visitor parking areas. Availability and requirements may vary depending on campus events and policies. For more information, visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "visitor"],
     "embedding": []
   },
   {
     "intent": "parking_hours",
     "question": "Are parking rules enforced at night?",
-    "answer": "Parking enforcement hours may vary depending on campus policy. Students should check official parking guidelines for specific enforcement times.",
+    "answer": "Parking enforcement hours may vary depending on campus policy. Students should check official parking guidelines for specific enforcement times. Visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "hours"],
     "embedding": []
   },
   {
     "intent": "parking_fines",
     "question": "How much are parking fines?",
-    "answer": "Parking fines vary depending on the violation. Students should review the parking services website for detailed information about fees and penalties.",
+    "answer": "Parking fines vary depending on the violation. Students should review the parking services website for detailed information about fees and penalties. Visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "fines"],
     "embedding": []
   },
   {
     "intent": "vehicle_registration",
     "question": "Do I need to register my vehicle?",
-    "answer": "Yes, students usually need to register their vehicle when obtaining a parking permit. This helps ensure proper parking authorization on campus.",
+    "answer": "Yes, students usually need to register their vehicle when obtaining a parking permit. This helps ensure proper parking authorization on campus. For parking registration details, visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "vehicle"],
     "embedding": []
   },
@@ -86,7 +86,7 @@
   {
     "intent": "disabled_parking",
     "question": "Is there parking for students with disabilities?",
-    "answer": "Yes, designated accessible parking spaces are available for students with proper permits. Students should follow campus guidelines for accessible parking.",
+    "answer": "Yes, designated accessible parking spaces are available for students with proper permits. Students should follow campus guidelines for accessible parking. For more information, visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "accessible"],
     "embedding": []
   },
@@ -100,7 +100,7 @@
   {
     "intent": "parking_help",
     "question": "Who can help me with parking issues?",
-    "answer": "Parking Services can assist students with permits, violations, and parking concerns. Students should contact the office for support.",
+    "answer": "Parking Services can assist students with permits, violations, and parking concerns. Students should contact the office for support. Visit: https://www.pvamu.edu/parking/",
     "tags": ["parking", "help"],
     "embedding": []
   }
