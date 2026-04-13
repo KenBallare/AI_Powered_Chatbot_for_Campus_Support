@@ -9,42 +9,42 @@
   {
     "intent": "register_classes",
     "question": "How do I register for classes?",
-    "answer": "Students can register for classes through PantherTracks during their assigned registration period. It is important to check your registration time and ensure there are no holds on your account.",
+    "answer": "Students can register for classes through PantherTracks during their assigned registration period. It is important to check your registration time and ensure there are no holds on your account. Access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "registration", "classes"],
     "embedding": []
   },
   {
     "intent": "registration_time",
     "question": "When can I register for classes?",
-    "answer": "Registration times are assigned based on classification and academic status. Students should check PantherTracks for their specific registration date and time.",
+    "answer": "Registration times are assigned based on classification and academic status. Students should check PantherTracks for their specific registration date and time. Access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "registration", "time"],
     "embedding": []
   },
   {
     "intent": "registration_hold",
     "question": "What does a hold on my account mean?",
-    "answer": "A hold prevents students from registering for classes or accessing certain services. Holds may be related to financial, academic, or administrative issues and must be resolved before registration.",
+    "answer": "A hold prevents students from registering for classes or accessing certain services. Holds may be related to financial, academic, or administrative issues and must be resolved before registration. For more information, visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "hold"],
     "embedding": []
   },
   {
     "intent": "remove_hold",
     "question": "How do I remove a hold?",
-    "answer": "Students must contact the department responsible for the hold (such as financial aid or advising) to resolve the issue. Once cleared, the hold will be removed from the account.",
+    "answer": "Students must contact the department responsible for the hold, such as financial aid or advising, to resolve the issue. Once cleared, the hold will be removed from the account. For registrar information, visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "hold", "remove"],
     "embedding": []
   },
   {
     "intent": "add_drop_classes",
     "question": "How do I add or drop a class?",
-    "answer": "Students can add or drop classes through PantherTracks during the add/drop period. Deadlines are listed in the academic calendar.",
+    "answer": "Students can add or drop classes through PantherTracks during the add/drop period. Deadlines are listed in the academic calendar. Visit: https://www.pvamu.edu/registrar/academic-calendars/ and access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "add drop"],
     "embedding": []
   },
   {
     "intent": "withdraw_class",
     "question": "How do I withdraw from a class?",
-    "answer": "Students can withdraw from classes before the withdrawal deadline listed in the academic calendar. Withdrawals may affect financial aid and academic standing.",
+    "answer": "Students can withdraw from classes before the withdrawal deadline listed in the academic calendar. Withdrawals may affect financial aid and academic standing. Visit: https://www.pvamu.edu/registrar/academic-calendars/",
     "tags": ["registrar", "withdraw"],
     "embedding": []
   },
@@ -65,56 +65,56 @@
   {
     "intent": "unofficial_transcript",
     "question": "How do I view my unofficial transcript?",
-    "answer": "Students can view their unofficial transcript through PantherTracks under their academic records section.",
+    "answer": "Students can view their unofficial transcript through PantherTracks under their academic records section. Access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "transcript"],
     "embedding": []
   },
   {
     "intent": "enrollment_verification",
     "question": "How do I get enrollment verification?",
-    "answer": "Enrollment verification can be requested through the Registrar’s Office or online systems. This document confirms a student’s enrollment status.",
+    "answer": "Enrollment verification can be requested through the Registrar’s Office or online systems. This document confirms a student’s enrollment status. For more information, visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "verification"],
     "embedding": []
   },
   {
     "intent": "change_major",
     "question": "How do I change my major?",
-    "answer": "Students typically need to work with their academic advisor and complete required forms to change their major. Approval may depend on department policies.",
+    "answer": "Students typically need to work with their academic advisor and complete required forms to change their major. Approval may depend on department policies. For registrar information, visit: https://www.pvamu.edu/registrar/ and advisor information here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["registrar", "major"],
     "embedding": []
   },
   {
     "intent": "change_name",
     "question": "How do I update my name in university records?",
-    "answer": "Students can update their name by submitting official documentation to the Registrar’s Office. Requirements may vary depending on the request.",
+    "answer": "Students can update their name by submitting official documentation to the Registrar’s Office. Requirements may vary depending on the request. Visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "name"],
     "embedding": []
   },
   {
     "intent": "graduation_application",
     "question": "How do I apply for graduation?",
-    "answer": "Students must apply for graduation through the Registrar’s Office during their final semester. Deadlines and application steps are available on the registrar website.",
+    "answer": "Students must apply for graduation through the Registrar’s Office during their final semester. Deadlines and application steps are available on the registrar website. Visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "graduation"],
     "embedding": []
   },
   {
     "intent": "graduation_status",
     "question": "How do I check my graduation status?",
-    "answer": "Students can check graduation status through their academic advisor or PantherTracks. The Registrar’s Office also processes graduation approvals.",
+    "answer": "Students can check graduation status through their academic advisor or PantherTracks. The Registrar’s Office also processes graduation approvals. Access PantherTracks through PVPlace: https://pvplace.pvamu.edu/ and registrar information here: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "graduation"],
     "embedding": []
   },
   {
     "intent": "class_schedule",
     "question": "Where can I view the class schedule?",
-    "answer": "Students can view course schedules through PantherTracks or the course catalog system before registering for classes.",
+    "answer": "Students can view course schedules through PantherTracks or the course catalog system before registering for classes. Access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "schedule"],
     "embedding": []
   },
   {
     "intent": "course_catalog",
     "question": "Where can I find the course catalog?",
-    "answer": "The course catalog lists available classes, descriptions, and requirements. Students can access it through the university website or PantherTracks.",
+    "answer": "The course catalog lists available classes, descriptions, and requirements. Students can access it through the university website or PantherTracks. Visit: https://www.pvamu.edu/registrar/ and access PantherTracks through PVPlace: https://pvplace.pvamu.edu/",
     "tags": ["registrar", "catalog"],
     "embedding": []
   },
@@ -128,14 +128,14 @@
   {
     "intent": "registrar_hours",
     "question": "What are the registrar office hours?",
-    "answer": "Registrar office hours are typically Monday through Friday from 8:00 AM to 5:00 PM. Hours may vary during holidays or peak periods.",
+    "answer": "Registrar office hours are typically Monday through Friday from 8:00 AM to 5:00 PM. Hours may vary during holidays or peak periods. For updates, visit: https://www.pvamu.edu/registrar/",
     "tags": ["registrar", "hours"],
     "embedding": []
   },
   {
     "intent": "registrar_help",
     "question": "Who can help me with registration issues?",
-    "answer": "Students can contact the Registrar’s Office or their academic advisor for help with registration, course selection, and academic records.",
+    "answer": "Students can contact the Registrar’s Office or their academic advisor for help with registration, course selection, and academic records. Visit: https://www.pvamu.edu/registrar/ and advisor information here: https://www.pvamu.edu/student-success/pv-cares/academic-advisors/",
     "tags": ["registrar", "help"],
     "embedding": []
   }
