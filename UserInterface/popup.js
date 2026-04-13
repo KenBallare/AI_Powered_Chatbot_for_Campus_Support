@@ -4,11 +4,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const sendBtn = document.getElementById("send-btn");
     const quickButtons = document.querySelectorAll(".quick-btn");
 
-    // 🔥 Convert URLs into clickable links
+    // 🔥 Convert URLs into BUTTONS instead of plain links
     function makeLinksClickable(text) {
         return text.replace(
             /(https?:\/\/[^\s]+)/g,
-            '<a href="$1" target="_blank" style="color:#6C5CE7; text-decoration:underline;">$1</a>'
+            (url) => {
+                let label = "Open Link";
+
+                // 👇 Smart labels based on link
+                if (url.includes("mypassword")) {
+                    label = "Reset Password";
+                } else if (url.includes("registrar")) {
+                    label = "Registrar Page";
+                } else if (url.includes("financial")) {
+                    label = "Financial Aid";
+                } else if (url.includes("library")) {
+                    label = "Library Info";
+                } else if (url.includes("pvamu.edu")) {
+                    label = "Visit Website";
+                }
+
+                return `
+                    <a href="${url}" target="_blank" class="link-btn">
+                        ${label}
+                    </a>
+                `;
+            }
         );
     }
 
@@ -16,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function addMessage(text, sender) {
         const bubble = document.createElement("div");
 
-        // 👇 THIS makes links clickable
+        // 👇 Convert links to buttons
         bubble.innerHTML = makeLinksClickable(text);
 
         if (sender === "user") {
@@ -27,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         chatWindow.appendChild(bubble);
 
-        // Auto-scroll to bottom
+        // Auto-scroll
         chatWindow.scrollTop = chatWindow.scrollHeight;
     }
 
@@ -57,14 +78,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // Send button click
     sendBtn.addEventListener("click", sendMessage);
 
-    // Enter key sends message
+    // Enter key
     userInput.addEventListener("keypress", (e) => {
         if (e.key === "Enter") {
             sendMessage();
         }
     });
 
-    // Quick action buttons
+    // Quick buttons
     quickButtons.forEach(btn => {
         btn.addEventListener("click", () => {
             const msg = btn.getAttribute("data-msg");
